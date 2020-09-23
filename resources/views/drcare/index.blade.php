@@ -780,12 +780,12 @@
                                     <div class="select-wrap">
                                         <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                                         <select name="" id="" class="form-control">
-                                            <option value="">Select Your Services</option>
-                                            <option value="">Neurology</option>
-                                            <option value="">Cardiology</option>
-                                            <option value="">Dental</option>
-                                            <option value="">Ophthalmology</option>
-                                            <option value="">Other Services</option>
+                                            <option class="text-dark" value="">Select Your Services</option>
+                                            <option class="text-dark" value="">Neurology</option>
+                                            <option class="text-dark" value="">Cardiology</option>
+                                            <option class="text-dark" value="">Dental</option>
+                                            <option class="text-dark" value="">Ophthalmology</option>
+                                            <option class="text-dark" value="">Other Services</option>
                                         </select>
                                     </div>
                                 </div>
