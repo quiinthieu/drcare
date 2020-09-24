@@ -1,31 +1,23 @@
-@extends('layouts.drcare')
-@section('content')
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');"
-             data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row no-gutters slider-text align-items-center justify-content-center">
-                <div class="col-md-9 ftco-animate text-center">
-                    <h1 class="mb-2 bread">Pricing</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="{{route('index')}}">Home <i
-                                    class="ion-ios-arrow-forward"></i></a></span> <span>Pricing <i
-                                class="ion-ios-arrow-forward"></i></span></p>
-                </div>
+<!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
+<section class="ftco-section ftco-no-pt ftc-no-pb">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/about.jpg);">
             </div>
-        </div>
-    </section>
-    <section class="ftco-section ftco-departments bg-light">
-        <div class="container">
-            <div class="row departments p-5 mb-5 bg-white">
-                <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-                    <div class="img d-flex align-self-stretch" style="background-image: url(images/dept-3.jpg);"></div>
+            <div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
+                <div class="heading-section mb-5">
+                    <div class="pl-md-5 ml-md-5">
+                        <span class="subheading">About Dr.care</span>
+                        <h2 class="mb-4" style="font-size: 28px;">Medical specialty concerned with the care of
+                            acutely
+                            ill hospitalized patients</h2>
+                    </div>
                 </div>
-                <div class="col-md-8">
-                    <h2>Dental Deparments</h2>
+                <div class="pl-md-5 ml-md-5 mb-5">
                     <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
-                        would
-                        have been rewritten a thousand times and everything that was left from its origin would be the
-                        word.</p>
+                        would have been rewritten a thousand times and everything that was left from its origin
+                        would be
+                        the word.</p>
                     <div class="row mt-5 pt-2">
                         <div class="col-lg-6">
                             <div class="services-2 d-flex">
@@ -70,10 +62,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center my-5 pb-2">
-                <x-pricing-header />
-            </div>
-            <x-pricing-packages />
         </div>
-    </section>
-@endsection
+    </div>
+</section>
