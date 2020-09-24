@@ -17,14 +17,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff1be8f6-f2e2-498c-acab-463071554297.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff1be8f6-f2e2-498c-acab-463071554297.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/drcare/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drcare/appointment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/appointment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drcare/blog-single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/blog-single.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/drcare/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drcare/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/drcare/department.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/department.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drcare/doctor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/doctor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/drcare/pricing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/pricing.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +245,8 @@
       <workItem from="1600844842350" duration="134000" />
       <workItem from="1600844990912" duration="4084000" />
       <workItem from="1600849135708" duration="21111000" />
-      <workItem from="1600926180842" duration="5720000" />
+      <workItem from="1600926180842" duration="6196000" />
+      <workItem from="1600949150630" duration="5099000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600881666628</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version 1.1.4">
+      <created>1600932001433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600932001433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +318,8 @@
     <MESSAGE value="Version 1.1.1" />
     <MESSAGE value="Version 1.1.2" />
     <MESSAGE value="Version 1.1.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1.3" />
+    <MESSAGE value="Version 1.1.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="46" key="#PHP" timestamp="1600927058229">
@@ -329,26 +338,26 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1600931808101" />
-    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1600881665586">
+    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1600931999732">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1600881665586" />
-    <state width="1481" height="250" key="GridCell.Tab.0.bottom" timestamp="1600926988298">
+    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1600931999732" />
+    <state width="1481" height="250" key="GridCell.Tab.0.bottom" timestamp="1600949624889">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1600926988298" />
-    <state width="1481" height="250" key="GridCell.Tab.0.center" timestamp="1600926988298">
+    <state width="1481" height="250" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1600949624889" />
+    <state width="1481" height="250" key="GridCell.Tab.0.center" timestamp="1600949624889">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1600926988298" />
-    <state width="1481" height="250" key="GridCell.Tab.0.left" timestamp="1600926988297">
+    <state width="1481" height="250" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1600949624889" />
+    <state width="1481" height="250" key="GridCell.Tab.0.left" timestamp="1600949624888">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1600926988297" />
-    <state width="1481" height="250" key="GridCell.Tab.0.right" timestamp="1600926988298">
+    <state width="1481" height="250" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1600949624888" />
+    <state width="1481" height="250" key="GridCell.Tab.0.right" timestamp="1600949624889">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1600926988298" />
+    <state width="1481" height="250" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1600949624889" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1600867856088">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
