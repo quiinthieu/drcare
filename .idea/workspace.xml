@@ -17,15 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff1be8f6-f2e2-498c-acab-463071554297.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff1be8f6-f2e2-498c-acab-463071554297.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/drcare/appointment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/appointment.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/blog-single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/blog-single.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/contact.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/department.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/department.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/doctor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/doctor.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/pricing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/pricing.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/drcare" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newspaper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -188,7 +184,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -246,7 +242,7 @@
       <workItem from="1600844990912" duration="4084000" />
       <workItem from="1600849135708" duration="21111000" />
       <workItem from="1600926180842" duration="6196000" />
-      <workItem from="1600949150630" duration="5099000" />
+      <workItem from="1600949150630" duration="9639000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -283,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600932001433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version 1.1.5">
+      <created>1600965297096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600965297096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +322,8 @@
     <MESSAGE value="Version 1.1.2" />
     <MESSAGE value="Version 1.1.3" />
     <MESSAGE value="Version 1.1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1.4" />
+    <MESSAGE value="Version 1.1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1.5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="46" key="#PHP" timestamp="1600927058229">
@@ -330,18 +334,26 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="527" y="184" key="#Web_Browsers/0.0.1500.960@0.0.1500.960" timestamp="1600844188042" />
-    <state x="343" y="138" width="1086" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600926985574">
+    <state x="343" y="138" width="1086" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601031154652">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="138" width="1086" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1600926985574" />
+    <state x="343" y="138" width="1086" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1601031154652" />
+    <state x="406" y="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601005254583">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="406" y="275" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1601005254583" />
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600931808101">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1600931808101" />
-    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1600931999732">
+    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1600965295678">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1600931999732" />
+    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1600965295678" />
+    <state x="528" y="235" key="FileChooserDialogImpl" timestamp="1601023944858">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1601023944858" />
     <state width="1481" height="250" key="GridCell.Tab.0.bottom" timestamp="1600949624889">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -366,10 +378,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1600868814271" />
-    <state x="0" y="254" width="1500" height="706" key="SettingsEditor" timestamp="1600875749298">
+    <state x="0" y="254" width="1500" height="706" key="SettingsEditor" timestamp="1601005299875">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="254" width="1500" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1600875749298" />
+    <state x="0" y="254" width="1500" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1601005299875" />
     <state x="645" y="353" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600926788631">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
