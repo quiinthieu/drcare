@@ -50,3 +50,6 @@ Route::get('/index', function() {
 Route::get('pricing', function() {
     return view('drcare.pricing');
 })->name('pricing');
+Route::get('/diseases/{id}', function($id) {
+    return view('drcare.diseases', ['id' => $id]);
+})->name('diseases');

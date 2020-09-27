@@ -41,7 +41,7 @@
                             <div class="row departments">
                                 <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                     <div class="img d-flex align-self-stretch"
-                                         style="background-image: url(images/dept-1.jpg);"></div>
+                                         style="background-image: url({{asset('images/dept-1.jpg')}});"></div>
                                 </div>
                                 <div class="col-lg-8">
                                     <h2>Neurological Deparments</h2>
@@ -113,7 +113,7 @@
                             <div class="row departments">
                                 <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                     <div class="img d-flex align-self-stretch"
-                                         style="background-image: url(images/dept-2.jpg);"></div>
+                                         style="background-image: url({{asset('images/dept-2.jpg')}});"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <h2>Surgical Deparments</h2>
@@ -184,7 +184,7 @@
                             <div class="row departments">
                                 <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                     <div class="img d-flex align-self-stretch"
-                                         style="background-image: url(images/dept-3.jpg);"></div>
+                                         style="background-image: url({{asset('images/dept-3.jpg')}});"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <h2>Dental Deparments</h2>
@@ -256,7 +256,7 @@
                             <div class="row departments">
                                 <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                     <div class="img d-flex align-self-stretch"
-                                         style="background-image: url(images/dept-4.jpg);"></div>
+                                         style="background-image: url({{asset('images/dept-4.jpg')}});"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <h2>Ophthalmology Deparments</h2>
@@ -328,7 +328,7 @@
                             <div class="row departments">
                                 <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
                                     <div class="img d-flex align-self-stretch"
-                                         style="background-image: url(images/dept-5.jpg);"></div>
+                                         style="background-image: url({{asset('images/dept-5.jpg')}});"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <h2>Cardiology Deparments</h2>

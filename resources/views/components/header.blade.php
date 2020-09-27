@@ -44,6 +44,19 @@
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'pricing' ? "active" : ""}}"><a href="{{route('pricing')}}" class="nav-link">Pricing</a></li>
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'blog' ? "active" : ""}}"><a href="{{route('blog')}}" class="nav-link">Blog</a></li>
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'contact' ? "active" : ""}}"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>
+
+                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Patient Education
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        @foreach(App\Models\DiseaseType::all() as $diseaseType)
+                            <a class="dropdown-item" href="{{route('diseases', ['id' => $diseaseType->id])}}">{{$diseaseType->name}}</a>
+                        @endforeach
+                    </div>
+                </li>
+
+
             </ul>
         </div>
     </div>
