@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
 Route::get('/about', function () {
@@ -44,7 +44,7 @@ Route::get('/department', function() {
 Route::get('/doctor', function() {
     return view('drcare.doctor');
 })->name('doctor');
-Route::get('/index', function() {
+Route::get('/', function() {
     return view('drcare.index');
 })->name('index');
 Route::get('pricing', function() {

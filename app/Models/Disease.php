@@ -9,7 +9,7 @@ class Disease extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'info'];
+    protected $fillable = ['name', 'description', 'statistics', 'causes', 'symptoms', 'preventions'];
 
     public function diseaseType() {
         return $this->belongsTo(DiseaseType::class);

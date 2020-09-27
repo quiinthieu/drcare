@@ -22,7 +22,8 @@ class DiseaseTypeFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->unique()->word(),
+            'name' => $this->faker->unique()->randomElement(['Oral Diseases', 'Dental Diseases']),
+            'description' => $this->faker->paragraph
         ];
     }
 }

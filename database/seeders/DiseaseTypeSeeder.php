@@ -15,8 +15,8 @@ class DiseaseTypeSeeder extends Seeder
      */
     public function run()
     {
-        DiseaseType::factory(3)->create()->each(function ($diseaseType) {
-            Disease::factory(3)->create(['disease_type_id' => $diseaseType->id]);
+        DiseaseType::factory(2)->create()->each(function ($diseaseType) {
+            Disease::factory(4)->create(['disease_type_id' => $diseaseType->id]);
         });
     }
 }

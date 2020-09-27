@@ -22,7 +22,20 @@ class TestingFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->words(2, true),
+            'description' => $this->faker->text,
+            'causes' => json_encode([
+                'name' => $this->faker->name,
+                'address' => $this->faker->address
+            ]),
+            'symptoms' => json_encode([
+                'name' => $this->faker->name,
+                'address' => $this->faker->address
+            ]),
+            'preventions' => json_encode([
+                'name' => $this->faker->name,
+                'address' => $this->faker->address
+            ])
         ];
     }
 }

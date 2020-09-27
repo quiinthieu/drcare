@@ -6,8 +6,7 @@
             <div class="col-md-8 text-center heading-section ftco-animate">
                 <span class="subheading">Diseases</span>
                 <h2 class="mb-4">{{\App\Models\DiseaseType::find($id)->name}}</h2>
-                <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
-                    necessary regelialia. It is a paradisematic country</p>
+                <p>{{\App\Models\DiseaseType::find($id)->description}}</p>
             </div>
         </div>
         <div class="ftco-departments">
@@ -36,7 +35,7 @@
                                     </div>
                                     <div class="col-lg-8">
                                         <h2>{{$disease['name']}}</h2>
-                                        <p>{{$disease['info']}}</p>
+                                        <p>{{$disease['description']}}</p>
                                         <div class="row mt-5 pt-2">
                                             <div class="col-lg-6">
                                                 <div class="services-2 d-flex">
@@ -44,10 +43,8 @@
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
                                                         <span class="flaticon-first-aid-kit"></span></div>
                                                     <div class="text">
-                                                        <h3>Primary Care</h3>
-                                                        <p>Far far away, behind the word mountains, far from the
-                                                            countries
-                                                            Vokalia.</p>
+                                                        <h3>Statistics</h3>
+                                                        <p>{{$disease['statistics']}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -57,10 +54,8 @@
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
                                                         <span class="flaticon-dropper"></span></div>
                                                     <div class="text">
-                                                        <h3>Lab Test</h3>
-                                                        <p>Far far away, behind the word mountains, far from the
-                                                            countries
-                                                            Vokalia.</p>
+                                                        <h3>Causes</h3>
+                                                        <p>{{$disease['causes']}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -70,10 +65,8 @@
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
                                                         <span class="flaticon-experiment-results"></span></div>
                                                     <div class="text">
-                                                        <h3>Symptom Check</h3>
-                                                        <p>Far far away, behind the word mountains, far from the
-                                                            countries
-                                                            Vokalia.</p>
+                                                        <h3>Symptoms</h3>
+                                                        <p>{{$disease['symptoms']}}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -83,10 +76,8 @@
                                                         class="icon mt-2 mr-3 d-flex justify-content-center align-items-center">
                                                         <span class="flaticon-heart-rate"></span></div>
                                                     <div class="text">
-                                                        <h3>Heart Rate</h3>
-                                                        <p>Far far away, behind the word mountains, far from the
-                                                            countries
-                                                            Vokalia.</p>
+                                                        <h3>Preventions</h3>
+                                                        <p>{{$disease['preventions']}}</p>
                                                     </div>
                                                 </div>
                                             </div>

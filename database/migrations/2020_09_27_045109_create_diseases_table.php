@@ -17,7 +17,11 @@ class CreateDiseasesTable extends Migration
             $table->id();
             $table->foreignId('disease_type_id')->constrained();
             $table->string('name', 255);
-            $table->text('info');
+            $table->text('description');
+            $table->text('statistics');
+            $table->text('causes');
+            $table->text('symptoms');
+            $table->text('preventions');
             $table->timestamps();
         });
     }

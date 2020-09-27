@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Testing extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'description',
+        'causes',
+        'symptoms',
+        'preventions'
+    ];
 }

@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\DiseaseType;
+use Database\Factories\TestingFactory;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,6 +19,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UserSeeder::class,
             DiseaseTypeSeeder::class,
+            TestingSeeder::class
         ]);
     }
 }
