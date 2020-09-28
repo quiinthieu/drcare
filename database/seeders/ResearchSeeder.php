@@ -2,10 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\Disease;
 use Illuminate\Database\Seeder;
 
-class DiseaseSeeder extends Seeder
+class ResearchSeeder extends Seeder
 {
     /**
      * Run the database seeds.

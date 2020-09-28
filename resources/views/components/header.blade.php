@@ -37,13 +37,13 @@
                                                        class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'index' ? "active" : ""}}"><a href="{{route('index')}}" class="nav-link pl-0">Home</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}"><a href="{{route('about')}}" class="nav-link">About</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'doctor' ? "active" : ""}}"><a href="{{route('doctor')}}" class="nav-link">Doctor</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'pricing' ? "active" : ""}}"><a href="{{route('pricing')}}" class="nav-link">Pricing</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'blog' ? "active" : ""}}"><a href="{{route('blog')}}" class="nav-link">Blog</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'contact' ? "active" : ""}}"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'index' ? "active" : ""}}"><a href="{{route('index')}}" class="nav-link pl-0">Home</a></li>--}}
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}"><a href="{{route('about')}}" class="nav-link">About</a></li>--}}
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'doctor' ? "active" : ""}}"><a href="{{route('doctor')}}" class="nav-link">Doctor</a></li>--}}
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>--}}
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'pricing' ? "active" : ""}}"><a href="{{route('pricing')}}" class="nav-link">Pricing</a></li>--}}
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'blog' ? "active" : ""}}"><a href="{{route('blog')}}" class="nav-link">Blog</a></li>--}}
+{{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'contact' ? "active" : ""}}"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>--}}
 
                 <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,6 +55,8 @@
                         @endforeach
                     </div>
                 </li>
+
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'research' ? "active" : ""}}"><a href="{{route('research')}}" class="nav-link">Research</a></li>
 
 
             </ul>

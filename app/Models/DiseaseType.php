@@ -13,4 +13,7 @@ class DiseaseType extends Model
     public function diseases() {
         $this->hasMany(Disease::class);
     }
+    public function research() {
+        $this->hasMany(Research::class);
+    }
 }

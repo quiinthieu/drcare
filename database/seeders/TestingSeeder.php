@@ -14,6 +14,6 @@ class TestingSeeder extends Seeder
      */
     public function run()
     {
-        Testing::factory(4)->create();
+        //
     }
 }

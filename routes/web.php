@@ -53,3 +53,4 @@ Route::get('pricing', function() {
 Route::get('/diseases/{id}', function($id) {
     return view('drcare.diseases', ['id' => $id]);
 })->name('diseases');
+Route::get('/research', [\App\Http\Controllers\DrCareController::class, 'research'])->name('research');

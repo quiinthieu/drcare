@@ -17,21 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/drcare/research.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/pagination/pagination-section.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Disease.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Disease.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/DiseaseType.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/DiseaseType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Testing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Testing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/DiseaseTypeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DiseaseTypeFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/TestingFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/TestingFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_27_040134_create_disease_types_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_040134_create_disease_types_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_27_045109_create_diseases_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_045109_create_diseases_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_27_100456_create_testings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_27_100456_create_testings_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DiseaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DiseaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DiseaseTypeSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DiseaseTypeSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/disease-listing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/disease-listing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/TestingSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/TestingSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +252,7 @@
       <workItem from="1600849135708" duration="21111000" />
       <workItem from="1600926180842" duration="6196000" />
       <workItem from="1600949150630" duration="9639000" />
-      <workItem from="1601122019146" duration="27162000" />
+      <workItem from="1601122019146" duration="39652000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -312,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601201127698</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Version 1.1.8">
+      <created>1601207181332</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601207181332</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +356,8 @@
     <MESSAGE value="Version 1.1.5" />
     <MESSAGE value="Version 1.1.6" />
     <MESSAGE value="Version 1.1.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1.7" />
+    <MESSAGE value="Version 1.1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1.8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="46" key="#PHP" timestamp="1600927058229">
@@ -374,38 +380,38 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1600931808101" />
-    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1601201126789">
+    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1601207180088">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601201126789" />
+    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601207180088" />
     <state x="528" y="235" key="FileChooserDialogImpl" timestamp="1601023944858">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1601023944858" />
-    <state width="1481" height="250" key="GridCell.Tab.0.bottom" timestamp="1601195072942">
+    <state width="1481" height="250" key="GridCell.Tab.0.bottom" timestamp="1601267518230">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1601195072942" />
-    <state width="1481" height="250" key="GridCell.Tab.0.center" timestamp="1601195072942">
+    <state width="1481" height="250" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1601267518230" />
+    <state width="1481" height="250" key="GridCell.Tab.0.center" timestamp="1601267518229">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1601195072942" />
-    <state width="1481" height="250" key="GridCell.Tab.0.left" timestamp="1601195072942">
+    <state width="1481" height="250" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1601267518229" />
+    <state width="1481" height="250" key="GridCell.Tab.0.left" timestamp="1601267518229">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1601195072942" />
-    <state width="1481" height="250" key="GridCell.Tab.0.right" timestamp="1601195072942">
+    <state width="1481" height="250" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1601267518229" />
+    <state width="1481" height="250" key="GridCell.Tab.0.right" timestamp="1601267518229">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="250" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1601195072942" />
+    <state width="1481" height="250" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1601267518229" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1600867856088">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="309" height="539" key="HiddenNamespacesPopup/0.0.1500.960@0.0.1500.960" timestamp="1600867856088" />
-    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1601192501333">
+    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1601264648120">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1601192501333" />
+    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1601264648120" />
     <state x="0" y="254" width="1500" height="706" key="SettingsEditor" timestamp="1601005299875">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -414,9 +420,13 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="645" y="353" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1500.960@0.0.1500.960" timestamp="1600926788631" />
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1601182600646">
+    <state x="0" y="0" width="1068" height="920" maximized="true" key="dock-window-1" timestamp="1601208306396">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1601182600646" />
+    <state x="0" y="0" width="1068" height="920" maximized="true" key="dock-window-1/0.0.1500.960@0.0.1500.960" timestamp="1601208306396" />
+    <state x="414" y="207" width="672" height="678" key="search.everywhere.popup" timestamp="1601209420745">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="414" y="207" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1601209420745" />
   </component>
 </project>

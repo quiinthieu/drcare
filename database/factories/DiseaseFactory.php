@@ -26,7 +26,7 @@ class DiseaseFactory extends Factory
             'disease_type_id' => function() {
                 return DiseaseType::factory()->create();
             },
-            'name' => ucwords($this->faker->unique()->words(2, true)),
+            'name' => ucwords($this->faker->words(2, true)),
             'description' => $this->faker->paragraph,
             'statistics' => $this->faker->sentence,
             'causes' => $this->faker->sentence,
