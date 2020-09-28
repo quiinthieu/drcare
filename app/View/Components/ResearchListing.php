@@ -6,15 +6,15 @@ use Illuminate\View\Component;
 
 class ResearchListing extends Component
 {
-    public $results;
+    public $articles;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($results)
+    public function __construct($articles)
     {
-        $this->results = $results;
+        $this->articles = $articles;
     }
 
     /**

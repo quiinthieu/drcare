@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Research;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Storage;
 
 class ResearchFactory extends Factory
 {
@@ -22,6 +23,7 @@ class ResearchFactory extends Factory
     public function definition()
     {
         return [
+            'thumbnail' => Storage::url('public/images/' . random_int(1, 30) . '.png'),
             'title' => ucwords($this->faker->words(6, true)),
             'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.',
             'author' => $this->faker->lastName,

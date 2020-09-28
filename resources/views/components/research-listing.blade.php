@@ -2,11 +2,11 @@
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row">
-            @foreach($results as $research)
-                <div class="col-md-4 ftco-animate">
-                    <div class="blog-entry">
+            @foreach($articles as $article)
+                <div class="col-md-4 ftco-animate d-flex align-items-stretch">
+                    <div class="blog-entry shadow d-flex flex-column">
                         <a href="{{route('blog-single')}}" class="block-20"
-                           style="background-image: url('images/image_1.jpg');">
+                           style="background-image: url('{{$article->thumbnail}}');">
                             <div class="meta-date text-center p-2">
                                 <span class="day">23</span>
                                 <span class="mos">January</span>
@@ -14,13 +14,13 @@
                             </div>
                         </a>
                         <div class="text bg-white p-4">
-                            <h3 class="heading"><a href="#">{{$research->title}}</a></h3>
-                            <p>{{$research->subtitle}}</p>
+                            <h3 class="heading"><a href="#">{{$article->title}}</a></h3>
+                            <p>{{$article->subtitle}}</p>
                             <div class="d-flex align-items-center mt-4">
                                 <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span
                                             class="ion-ios-arrow-round-forward"></span></a></p>
                                 <p class="ml-auto mb-0">
-                                    <a href="#" class="mr-2">{{$research->author}}</a>
+                                    <a href="#" class="mr-2">{{$article->author}}</a>
                                     <a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
                                 </p>
                             </div>
@@ -29,7 +29,7 @@
                 </div>
             @endforeach
         </div>
-        {{$results->links()}}
+        {{$articles->links()}}
 {{--        <div class="row no-gutters my-5">--}}
 {{--            <div class="col text-center">--}}
 {{--                <div class="block-27">--}}
