@@ -64,6 +64,18 @@
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'research' || Illuminate\Support\Facades\Route::currentRouteName() === 'research-single' ? "active" : ""}}">
                     <a href="{{route('research')}}" class="nav-link">Research</a></li>
 
+                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'product' ? "active" : ""}}">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        @foreach(App\Models\Category::all() as $category)
+                            <a class="dropdown-item"
+                               href="{{route('diseases', ['id' => $category->id])}}">{{$category->name}}</a>
+                        @endforeach
+                    </div>
+                </li>
 
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>--}}
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'pricing' ? "active" : ""}}"><a href="{{route('pricing')}}" class="nav-link">Pricing</a></li>--}}

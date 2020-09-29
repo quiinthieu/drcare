@@ -19,14 +19,9 @@
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrCareController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrCareController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/DoctorListing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/DoctorListing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/doctor-listing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/doctor-listing.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/research-listing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/research-listing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/doctor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/doctor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +248,7 @@
       <workItem from="1600926180842" duration="6196000" />
       <workItem from="1600949150630" duration="9639000" />
       <workItem from="1601122019146" duration="39652000" />
-      <workItem from="1601348782718" duration="28941000" />
+      <workItem from="1601348782718" duration="29841000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -346,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601370484829</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Version 1.2.3">
+      <created>1601383775846</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601383775846</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +392,8 @@
     <MESSAGE value="Version 1.2.0" />
     <MESSAGE value="Version 1.2.1" />
     <MESSAGE value="Version 1.2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.2.2" />
+    <MESSAGE value="Version 1.2.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.2.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="46" key="#PHP" timestamp="1600927058229">
@@ -417,10 +420,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="235" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1500.960@0.0.1500.960" timestamp="1601382383595" />
-    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1601370483701">
+    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1601383774107">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601370483701" />
+    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601383774107" />
     <state x="528" y="235" key="FileChooserDialogImpl" timestamp="1601023944858">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

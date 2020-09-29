@@ -32,8 +32,10 @@ Route::get('/research', [DrCareController::class, 'research'])->name('research')
 Route::get('/research/{id}', function ($id) {
     return view('drcare.research-single', ['id' => $id]);
 })->name('research-single');
-
 Route::get('/doctor',[DrCareController::class, 'doctor'])->name('doctor');
+Route::get('/products', function() {
+    return view('drcare.pricing');
+});
 
 
 
