@@ -27,7 +27,8 @@ class ResearchFactory extends Factory
             'title' => ucwords($this->faker->words(6, true)),
             'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.',
             'author' => $this->faker->lastName,
-            'content' => json_encode($this->faker->paragraphs(5))
+            'content' => json_encode($this->faker->paragraphs(5)),
+            'published_at' => $this->faker->dateTimeBetween('-5 years', 'now')
         ];
     }
 }

@@ -14,7 +14,8 @@ class Research extends Model
         'title',
         'subtitle',
         'author',
-        'content'
+        'content',
+        'published_at'
     ];
 
     public function diseaseType() {
