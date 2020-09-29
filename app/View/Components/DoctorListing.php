@@ -6,14 +6,15 @@ use Illuminate\View\Component;
 
 class DoctorListing extends Component
 {
+    public $doctors;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($doctors)
     {
-        //
+        $this->doctors = $doctors;
     }
 
     /**

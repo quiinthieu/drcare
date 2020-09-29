@@ -33,6 +33,9 @@ Route::get('/research/{id}', function ($id) {
     return view('drcare.research-single', ['id' => $id]);
 })->name('research-single');
 
+Route::get('/doctor',[DrCareController::class, 'doctor'])->name('doctor');
+
+
 
 Route::get('/appointment', function() {
     return view('drcare.appointment');
@@ -49,9 +52,6 @@ Route::get('/contact', function() {
 Route::get('/department', function() {
     return view('drcare.department');
 })->name('department');
-Route::get('/doctor', function() {
-    return view('drcare.doctor');
-})->name('doctor');
 
 Route::get('pricing', function() {
     return view('drcare.pricing');
