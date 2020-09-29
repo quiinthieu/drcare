@@ -56,7 +56,7 @@
                     </div>
                 </li>
 
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'research' ? "active" : ""}}"><a href="{{route('research')}}" class="nav-link">Research</a></li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'research' || Illuminate\Support\Facades\Route::currentRouteName() === 'research-single' ? "active" : ""}}"><a href="{{route('research')}}" class="nav-link">Research</a></li>
 
 
             </ul>

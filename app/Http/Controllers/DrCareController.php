@@ -8,6 +8,12 @@ use Illuminate\Support\Facades\DB;
 
 class DrCareController extends Controller
 {
+    public function index() {
+        return view('drcare.index');
+    }
+    public function about() {
+        return view('drcare.about');
+    }
     public function research() {
         $articles = DB::table('research')->orderBy('published_at', 'desc')->paginate(6);
 

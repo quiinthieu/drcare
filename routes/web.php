@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DrCareController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,10 +23,17 @@ Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/', [DrCareController::class, 'index'])->name('index');
+Route::get('/about', [DrCareController::class, 'about'])->name('about');
+Route::get('/diseases/{id}', function($id) {
+    return view('drcare.diseases', ['id' => $id]);
+})->name('diseases');
+Route::get('/research', [DrCareController::class, 'research'])->name('research');
+Route::get('/research/{id}', function ($id) {
+    return view('drcare.research-single', ['id' => $id]);
+})->name('research-single');
 
-Route::get('/about', function () {
-    return view('drcare.about');
-})->name('about');
+
 Route::get('/appointment', function() {
     return view('drcare.appointment');
 })->name('appointment');
@@ -44,13 +52,9 @@ Route::get('/department', function() {
 Route::get('/doctor', function() {
     return view('drcare.doctor');
 })->name('doctor');
-Route::get('/', function() {
-    return view('drcare.index');
-})->name('index');
+
 Route::get('pricing', function() {
     return view('drcare.pricing');
 })->name('pricing');
-Route::get('/diseases/{id}', function($id) {
-    return view('drcare.diseases', ['id' => $id]);
-})->name('diseases');
-Route::get('/research', [\App\Http\Controllers\DrCareController::class, 'research'])->name('research');
+
+
