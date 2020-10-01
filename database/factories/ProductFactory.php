@@ -5,6 +5,7 @@ namespace Database\Factories;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Storage;
 
 class ProductFactory extends Factory
 {
@@ -29,6 +30,10 @@ class ProductFactory extends Factory
             'name' => ucwords($this->faker->word),
             'description' => $this->faker->sentence,
             'price' => $this->faker->randomFloat(2, 0, 100),
+            'photos' => json_encode([
+                Storage::url('public/products/' . random_int(1, 20) . '.png'),
+                Storage::url('public/products/' . random_int(1, 20) . '.png')
+            ]),
         ];
     }
 }

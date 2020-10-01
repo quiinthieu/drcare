@@ -2,20 +2,20 @@
 
 namespace App\View\Components;
 
-use App\Models\Doctor;
+use App\Models\Research;
 use Illuminate\View\Component;
 
-class OurQualifiedDoctors extends Component
+class RecentResearch extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public $doctors;
+    public $articles;
     public function __construct()
     {
-        $this->doctors = Doctor::all()->take(4);
+        $this->articles = Research::all()->sortByDesc('published_at')->take(3);
     }
 
     /**
@@ -25,6 +25,6 @@ class OurQualifiedDoctors extends Component
      */
     public function render()
     {
-        return view('components.our-qualified-doctors');
+        return view('components.recent-research');
     }
 }

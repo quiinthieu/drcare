@@ -22,11 +22,12 @@ class ResearchFactory extends Factory
      */
     public function definition()
     {
+        static $id = 1;
         return [
-            'thumbnail' => Storage::url('public/images/' . random_int(1, 30) . '.png'),
-            'title' => ucwords($this->faker->words(6, true)),
-            'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nib.',
-            'author' => $this->faker->lastName,
+            'thumbnail' => Storage::url('public/research/' . $id++ . '.png'),
+            'title' => $this->faker->realText(15),
+            'subtitle' => $this->faker->realText(60),
+            'author' => $this->faker->firstName . ' ' . $this->faker->lastName ,
             'content' => json_encode($this->faker->paragraphs(20)),
             'published_at' => $this->faker->dateTimeBetween('-5 years', 'now')
         ];

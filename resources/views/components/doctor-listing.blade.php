@@ -27,7 +27,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-1.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Lloyd Wilson</h3>--}}
@@ -47,7 +47,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-2.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Rachel Parker</h3>--}}
@@ -67,7 +67,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-3.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Ian Smith</h3>--}}
@@ -87,7 +87,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-4.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Alicia Henderson</h3>--}}
@@ -108,7 +108,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-5.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-5.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Lloyd Wilson</h3>--}}
@@ -128,7 +128,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-6.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-6.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Rachel Parker</h3>--}}
@@ -148,7 +148,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-7.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-7.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Ian Smith</h3>--}}
@@ -168,7 +168,7 @@
 {{--            <div class="col-md-6 col-lg-3 ftco-animate">--}}
 {{--                <div class="staff">--}}
 {{--                    <div class="img-wrap d-flex align-items-stretch">--}}
-{{--                        <div class="img align-self-stretch" style="background-image: url(images/doc-8.jpg);"></div>--}}
+{{--                        <div class="img align-self-stretch" style="background-image: url(research/doc-8.jpg);"></div>--}}
 {{--                    </div>--}}
 {{--                    <div class="text pt-3 text-center">--}}
 {{--                        <h3>Dr. Alicia Henderson</h3>--}}

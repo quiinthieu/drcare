@@ -36,7 +36,7 @@ Route::get('/doctor',[DrCareController::class, 'doctor'])->name('doctor');
 Route::get('/products', function() {
     return view('drcare.pricing');
 });
-
+Route::get('/products', [DrCareController::class, 'product'])->name('product');
 
 
 Route::get('/appointment', function() {

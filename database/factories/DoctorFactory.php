@@ -9,26 +9,17 @@ use Illuminate\Support\Facades\Storage;
 
 class DoctorFactory extends Factory
 {
-    /**
-     * The name of the factory's corresponding model.
-     *
-     * @var string
-     */
     protected $model = Doctor::class;
 
-    /**
-     * Define the model's default state.
-     *
-     * @return array
-     */
     public function definition()
     {
+        static $id = 1;
         return [
             'doctor_type_id' => function() {
                 return DoctorType::factory()->create()->id;
             },
             'name' => $this->faker->firstName . ' ' . $this->faker->lastName,
-            'photo' => Storage::url('public/images/' . random_int(31, 44) . '.png'),
+            'photo' => Storage::url('public/doctors/' . $id++ .'.png'),
         ];
     }
 }

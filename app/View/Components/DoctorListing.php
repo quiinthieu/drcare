@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use App\Models\Doctor;
 use Illuminate\View\Component;
 
 class DoctorListing extends Component
@@ -12,9 +13,9 @@ class DoctorListing extends Component
      *
      * @return void
      */
-    public function __construct($doctors)
+    public function __construct()
     {
-        $this->doctors = $doctors;
+        $this->doctors = Doctor::all();
     }
 
     /**

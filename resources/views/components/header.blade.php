@@ -39,15 +39,8 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'index' ? "active" : ""}}">
                     <a href="{{route('index')}}" class="nav-link pl-0">Home</a></li>
-                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' || \Illuminate\Support\Facades\Route::currentRouteName() === 'doctor' ? "active" : ""}}">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        About Us
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item"
-                           href="{{route('doctor')}}">Our Doctors</a>
-                    </div>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}">
+                    <a href="{{route('about')}}" class="nav-link pl-0">About Us</a></li>
                 </li>
                 <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -72,7 +65,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         @foreach(App\Models\Category::all() as $category)
                             <a class="dropdown-item"
-                               href="{{route('diseases', ['id' => $category->id])}}">{{$category->name}}</a>
+                               href="{{route('product')}}">{{$category->name}}</a>
                         @endforeach
                     </div>
                 </li>

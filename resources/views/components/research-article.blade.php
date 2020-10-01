@@ -23,7 +23,7 @@
 
                 <div class="about-author d-flex p-4 bg-light">
                     <div class="bio mr-5">
-                        <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder" class="img-fluid mb-4">
+                        <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder" class="img-fluid mb-4">
                     </div>
                     <div class="desc">
                         <h3>George Washington</h3>
@@ -40,7 +40,7 @@
                     <ul class="comment-list">
                         <li class="comment">
                             <div class="vcard bio">
-                                <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder">
+                                <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder">
                             </div>
                             <div class="comment-body">
                                 <h3>John Doe</h3>
@@ -55,7 +55,7 @@
 
                         <li class="comment">
                             <div class="vcard bio">
-                                <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder">
+                                <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder">
                             </div>
                             <div class="comment-body">
                                 <h3>John Doe</h3>
@@ -70,7 +70,7 @@
                             <ul class="children">
                                 <li class="comment">
                                     <div class="vcard bio">
-                                        <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder">
+                                        <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder">
                                     </div>
                                     <div class="comment-body">
                                         <h3>John Doe</h3>
@@ -87,7 +87,7 @@
                                     <ul class="children">
                                         <li class="comment">
                                             <div class="vcard bio">
-                                                <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder">
+                                                <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder">
                                             </div>
                                             <div class="comment-body">
                                                 <h3>John Doe</h3>
@@ -104,7 +104,7 @@
                                             <ul class="children">
                                                 <li class="comment">
                                                     <div class="vcard bio">
-                                                        <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder">
+                                                        <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder">
                                                     </div>
                                                     <div class="comment-body">
                                                         <h3>John Doe</h3>
@@ -127,7 +127,7 @@
 
                         <li class="comment">
                             <div class="vcard bio">
-                                <img src="{{asset('images/person_1.jpg')}}" alt="Image placeholder">
+                                <img src="{{asset('research/person_1.jpg')}}" alt="Image placeholder">
                             </div>
                             <div class="comment-body">
                                 <h3>John Doe</h3>
@@ -194,7 +194,7 @@
                 <div class="sidebar-box ftco-animate">
                     <h3>Popular Articles</h3>
                     <div class="block-21 mb-4 d-flex">
-                        <a class="blog-img mr-4" style="background-image: url({{asset('images/image_1.jpg')}});"></a>
+                        <a class="blog-img mr-4" style="background-image: url({{asset('research/image_1.jpg')}});"></a>
                         <div class="text">
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
                                     blind texts</a></h3>
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                     <div class="block-21 mb-4 d-flex">
-                        <a class="blog-img mr-4" style="background-image: url({{asset('images/image_2.jpg')}});"></a>
+                        <a class="blog-img mr-4" style="background-image: url({{asset('research/image_2.jpg')}});"></a>
                         <div class="text">
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
                                     blind texts</a></h3>
@@ -218,7 +218,7 @@
                         </div>
                     </div>
                     <div class="block-21 mb-4 d-flex">
-                        <a class="blog-img mr-4" style="background-image: url({{asset('images/image_3.jpg')}});"></a>
+                        <a class="blog-img mr-4" style="background-image: url({{asset('research/image_3.jpg')}});"></a>
                         <div class="text">
                             <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the
                                     blind texts</a></h3>

@@ -24,4 +24,7 @@ class DrCareController extends Controller
         $doctors = Doctor::all();
         return view('drcare.doctor', ['doctors' => $doctors]);
     }
+    public function product() {
+        return view('drcare.product');
+    }
 }

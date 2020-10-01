@@ -9,7 +9,7 @@
                 <p></p>
             </div>
             <div class="col-md-3 d-flex align-items-center">
-                <p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Free Consutation</a></p>
+                <p class="mb-0"><a href="{{route('appointment')}}" class="btn btn-secondary px-4 py-3">Free Consutation</a></p>
             </div>
         </div>
     </div>
