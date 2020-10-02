@@ -13,9 +13,9 @@ class ProductListing extends Component
      * @return void
      */
     public $products;
-    public function __construct()
+    public function __construct($id)
     {
-        $this->products = Product::all();
+        $this->products = Product::all()->where('category_id', $id);
     }
 
     /**

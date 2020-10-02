@@ -23,16 +23,17 @@ class ProductFactory extends Factory
      */
     public function definition()
     {
+        static $id = 1;
         return [
             'category_id' => function() {
                 return Category::factory()->create()->id;
             },
-            'name' => ucwords($this->faker->word),
-            'description' => $this->faker->sentence,
+            'name' => $this->faker->realText(30),
+            'description' => $this->faker->realText(60),
             'price' => $this->faker->randomFloat(2, 0, 100),
             'photos' => json_encode([
-                Storage::url('public/products/' . random_int(1, 20) . '.png'),
-                Storage::url('public/products/' . random_int(1, 20) . '.png')
+                Storage::url('public/products/' . $id++ . '.png'),
+                Storage::url('public/products/' . $id++ . '.png')
             ]),
         ];
     }
