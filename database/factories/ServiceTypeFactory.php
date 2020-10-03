@@ -22,15 +22,16 @@ class ServiceTypeFactory extends Factory
     public function definition()
     {
         $serviceTypes = [
-            1 => 'General',
-            2 => 'Cosmetic',
-            3 => 'Surgical',
-            4 => 'Complete Health'
+            1 => array('General', 300),
+            2 => array('Cosmetic', 500),
+            3 => array('Surgical', 700),
+            4 => array('Complete Health', 1000)
         ];
         static $id = 1;
         return [
-            'name' => $serviceTypes[$id++],
-            'description' => $this->faker->realText(60)
+            'name' => $serviceTypes[$id][0],
+            'description' => $this->faker->realText(60),
+            'price' => $serviceTypes[$id++][1],
         ];
     }
 }

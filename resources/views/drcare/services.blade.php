@@ -21,7 +21,7 @@
                                     <div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span
                                             class="flaticon-first-aid-kit"></span></div>
                                     <div class="text">
-                                        <h3>{{$serviceType->name}}</h3>
+                                        <h3 style="font-size: medium;">{{$serviceType->name . ' Dentistry'}}</h3>
                                         <p>{{$serviceType->description}}</p>
                                     </div>
                                 </div>
