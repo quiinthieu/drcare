@@ -25,6 +25,9 @@ Auth::routes();
 
 Route::get('/', [DrCareController::class, 'index'])->name('index');
 Route::get('/about', [DrCareController::class, 'about'])->name('about');
+Route::get('pricing', function() {
+    return view('drcare.services');
+})->name('services');
 Route::get('/diseases/{id}', function($id) {
     return view('drcare.diseases', ['id' => $id]);
 })->name('diseases');
@@ -37,6 +40,9 @@ Route::get('/products', function() {
     return view('drcare.pricing');
 });
 Route::get('/products/{id}', [DrCareController::class, 'product'])->name('product');
+Route::get('/testing', function () {
+    return view('drcare.testing');
+})->name('testing');
 
 
 Route::get('/appointment', function() {
@@ -55,8 +61,6 @@ Route::get('/department', function() {
     return view('drcare.department');
 })->name('department');
 
-Route::get('pricing', function() {
-    return view('drcare.pricing');
-})->name('pricing');
+
 
 

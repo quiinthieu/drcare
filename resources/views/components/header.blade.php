@@ -40,8 +40,9 @@
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'index' ? "active" : ""}}">
                     <a href="{{route('index')}}" class="nav-link pl-0">Home</a></li>
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}">
-                    <a href="{{route('about')}}" class="nav-link pl-0">About Us</a></li>
+                    <a href="{{route('about')}}" class="nav-link pl-0">About Us</a>
                 </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'services' ? "active" : ""}}"><a href="{{route('services')}}" class="nav-link">Services</a></li>
                 <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
@@ -70,8 +71,13 @@
                     </div>
                 </li>
 
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'testing' ? "active" : ""}}">
+                    <a href="{{route('testing')}}" class="nav-link pl-0">Testing</a>
+                </li>
+
+
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>--}}
-                {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'pricing' ? "active" : ""}}"><a href="{{route('pricing')}}" class="nav-link">Pricing</a></li>--}}
+
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'blog' ? "active" : ""}}"><a href="{{route('blog')}}" class="nav-link">Blog</a></li>--}}
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'contact' ? "active" : ""}}"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>--}}
             </ul>
