@@ -32,8 +32,8 @@ class ProductFactory extends Factory
             'description' => $this->faker->realText(60),
             'price' => $this->faker->randomFloat(2, 0, 100),
             'photos' => json_encode([
-                Storage::url('public/products/' . $id++ . '.png'),
-                Storage::url('public/products/' . $id++ . '.png')
+                'storage/drcare/products/' . $id++ . '.png',
+                'storage/drcare/products/' . $id++ . '.png'
             ]),
         ];
     }

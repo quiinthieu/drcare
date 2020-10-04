@@ -24,7 +24,7 @@ class ResearchFactory extends Factory
     {
         static $id = 1;
         return [
-            'thumbnail' => Storage::url('public/research/' . $id++ . '.png'),
+            'thumbnail' => 'storage/drcare/research/' . $id++ . '.png',
             'title' => $this->faker->realText(15),
             'subtitle' => $this->faker->realText(60),
             'author' => $this->faker->firstName . ' ' . $this->faker->lastName ,

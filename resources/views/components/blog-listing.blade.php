@@ -5,7 +5,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="{{route('blog-single')}}" class="block-20"
-                       style="background-image: url('images/image_1.jpg');">
+                       style="background-image: url('storage/drcare/images/image_1.jpg');">
                         <div class="meta-date text-center p-2">
                             <span class="day">23</span>
                             <span class="mos">January</span>
@@ -30,7 +30,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="{{route('blog-single')}}" class="block-20"
-                       style="background-image: url('images/image_2.jpg');">
+                       style="background-image: url('storage/drcare/images/image_2.jpg');">
                         <div class="meta-date text-center p-2">
                             <span class="day">23</span>
                             <span class="mos">January</span>
@@ -55,7 +55,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="{{route('blog-single')}}" class="block-20"
-                       style="background-image: url('images/image_3.jpg');">
+                       style="background-image: url('storage/drcare/images/image_3.jpg');">
                         <div class="meta-date text-center p-2">
                             <span class="day">23</span>
                             <span class="mos">January</span>
@@ -80,7 +80,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="{{route('blog-single')}}" class="block-20"
-                       style="background-image: url('images/image_4.jpg');">
+                       style="background-image: url('storage/drcare/images/image_4.jpg');">
                         <div class="meta-date text-center p-2">
                             <span class="day">23</span>
                             <span class="mos">January</span>
@@ -105,7 +105,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="{{route('blog-single')}}" class="block-20"
-                       style="background-image: url('images/image_5.jpg');">
+                       style="background-image: url('storage/drcare/images/image_5.jpg');">
                         <div class="meta-date text-center p-2">
                             <span class="day">23</span>
                             <span class="mos">January</span>
@@ -130,7 +130,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
                     <a href="{{route('blog-single')}}" class="block-20"
-                       style="background-image: url('images/image_6.jpg');">
+                       style="background-image: url('storage/drcare/images/image_6.jpg');">
                         <span class="day">23</span>
                         <div class="meta-date text-center p-2">
                             <span class="mos">January</span>

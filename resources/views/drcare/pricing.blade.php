@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row departments p-5 mb-5 bg-white">
                 <div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-                    <div class="img d-flex align-self-stretch" style="background-image: url(images/dept-3.jpg);"></div>
+                    <div class="img d-flex align-self-stretch" style="background-image: url('storage/drcare/images/dept-3.jpg');"></div>
                 </div>
                 <div class="col-md-8">
                     <h2>Dental Deparments</h2>

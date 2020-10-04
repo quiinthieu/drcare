@@ -19,7 +19,7 @@ class DoctorFactory extends Factory
                 return DoctorType::factory()->create()->id;
             },
             'name' => $this->faker->firstName . ' ' . $this->faker->lastName,
-            'photo' => Storage::url('public/doctors/' . $id++ .'.png'),
+            'photo' => 'storage/drcare/doctors/' . $id++ .'.png',
         ];
     }
 }

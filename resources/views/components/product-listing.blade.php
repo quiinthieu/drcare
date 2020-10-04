@@ -12,10 +12,10 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="{{json_decode($product->photos)[0]}}" alt="First slide">
+                                    <img class="d-block w-100" src="{{asset(json_decode($product->photos)[0])}}" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="{{json_decode($product->photos)[1]}}" alt="Second slide">
+                                    <img class="d-block w-100" src="{{asset(json_decode($product->photos)[1])}}" alt="Second slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="{{'#carousel' . $product->id}}" role="button" data-slide="prev">

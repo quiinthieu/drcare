@@ -17,7 +17,310 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/DoctorFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DoctorFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ResearchFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ResearchFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/aos.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/aos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-datepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/bootstrap-datepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/css/mixins/_text-hide.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/css/mixins/_text-hide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/icomoon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/icomoon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/jquery.timepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/jquery.timepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/open-iconic-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/owl.theme.default.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/backup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/backup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/Flaticon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/Flaticon.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/Flaticon.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/_flaticon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/font/flaticon.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/flaticon/license/license.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/icomoon/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/css/_ionicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/css/_ionicons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons/fonts/ionicons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/ionicons/fonts/ionicons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-iconic/open-iconic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/open-iconic/open-iconic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-iconic/open-iconic.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/open-iconic/open-iconic.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-iconic/open-iconic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/open-iconic/open-iconic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-iconic/open-iconic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/open-iconic/open-iconic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/open-iconic/open-iconic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/fonts/open-iconic/open-iconic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/bg_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/bg_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/bg_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dept-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/dept-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dept-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/dept-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dept-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/dept-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dept-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/dept-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dept-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/dept-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/doc-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/doc-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/image_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/image_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/image_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/image_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/image_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/image_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/image_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/loc.png" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/loc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/person_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/person_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/person_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/person_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/person_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/person_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/person_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/person_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/staff-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/staff-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/staff-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/staff-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/staff-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/staff-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/staff-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/images/staff-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/google-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/google-map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery-migrate-3.0.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.animateNumber.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.animateNumber.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.easing.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.stellar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.stellar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.timepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.timepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/jquery.waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/scrollax.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/js/scrollax.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/drcare/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/about-dr-care.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/about-dr-care.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/blog-listing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/blog-listing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/clinic-departments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/clinic-departments.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/disease-listing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/disease-listing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/home-owl-carousel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/home-owl-carousel.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drcare/pricing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/pricing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/drcare/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/drcare.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/drcare.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/banners/banner_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/banners/banner_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/doctors/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/favicons/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/products/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/research/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/thumbnails/about_us.png" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/thumbnails/about_us.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +343,11 @@
       <list>
         <option value="Billie" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sitemap" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -153,6 +461,18 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/nicmart/tree" />
+      <path value="$PROJECT_DIR$/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/vendor/league/glide" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
+      <path value="$PROJECT_DIR$/vendor/spatie/image" />
+      <path value="$PROJECT_DIR$/vendor/spatie/image-optimizer" />
+      <path value="$PROJECT_DIR$/vendor/spatie/crawler" />
+      <path value="$PROJECT_DIR$/vendor/spatie/robots-txt" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-sitemap" />
+      <path value="$PROJECT_DIR$/vendor/spatie/browsershot" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
     </include_path>
   </component>
   <component name="ProjectId" id="1htvxPNBEjPnVsHp1zF2vg0bn0H" />
@@ -185,17 +505,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\thumbnails" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\favicons" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\images" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\favicons" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\banners" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\storage\drcare" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare\scss" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare\js" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -227,6 +549,8 @@
       <list>
         <item itemvalue="npm.watch" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +577,7 @@
       <workItem from="1601651475171" duration="1442000" />
       <workItem from="1601653127587" duration="1148000" />
       <workItem from="1601698082850" duration="6052000" />
+      <workItem from="1601783592550" duration="2647000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -429,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601709204731</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Version 1.3.5">
+      <created>1601709327786</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601709327786</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +792,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.1.0" />
     <MESSAGE value="Version 1.1.1" />
     <MESSAGE value="Version 1.1.2" />
     <MESSAGE value="Version 1.1.3" />
@@ -485,7 +816,8 @@
     <MESSAGE value="Version 1.3.2" />
     <MESSAGE value="Version 1.3.3" />
     <MESSAGE value="Version 1.3.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.4" />
+    <MESSAGE value="Version 1.3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="402" y="46" key="#PHP" timestamp="1600927058229">
@@ -512,30 +844,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="235" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1500.960@0.0.1500.960" timestamp="1601382383595" />
-    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1601709203946">
+    <state x="115" y="0" key="CommitChangelistDialog2" timestamp="1601709327095">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601709203946" />
+    <state x="115" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601709327095" />
     <state x="528" y="235" key="FileChooserDialogImpl" timestamp="1601023944858">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1601023944858" />
-    <state width="1481" height="248" key="GridCell.Tab.0.bottom" timestamp="1601698612359">
+    <state width="1481" height="248" key="GridCell.Tab.0.bottom" timestamp="1601784145444">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="248" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1601698612359" />
-    <state width="1481" height="248" key="GridCell.Tab.0.center" timestamp="1601698612358">
+    <state width="1481" height="248" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1601784145444" />
+    <state width="1481" height="248" key="GridCell.Tab.0.center" timestamp="1601784145444">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="248" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1601698612358" />
-    <state width="1481" height="248" key="GridCell.Tab.0.left" timestamp="1601698612358">
+    <state width="1481" height="248" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1601784145444" />
+    <state width="1481" height="248" key="GridCell.Tab.0.left" timestamp="1601784145444">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="248" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1601698612358" />
-    <state width="1481" height="248" key="GridCell.Tab.0.right" timestamp="1601698612358">
+    <state width="1481" height="248" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1601784145444" />
+    <state width="1481" height="248" key="GridCell.Tab.0.right" timestamp="1601784145444">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="248" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1601698612358" />
+    <state width="1481" height="248" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1601784145444" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1600867856088">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -548,10 +880,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="0" y="254" width="1500" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1601005299875" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1601709207850">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1601709335549">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1601709207850" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1601709335549" />
     <state x="645" y="353" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600926788631">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
