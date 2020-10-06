@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DrCareController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -61,6 +62,12 @@ Route::get('/department', function() {
     return view('drcare.department');
 })->name('department');
 
+Route::get('/login', function() {
+    return view('admin.login');
+})->name('login');
+Route::get('/register', function() {
+    return view('admin.register');
+})->name('register');
 
 
-
+Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
