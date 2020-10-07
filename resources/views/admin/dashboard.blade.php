@@ -213,7 +213,7 @@
                                         </label>
                                     </div>
                                     <div class="d-inline-block align-middle">
-                                        <img src="../../storage/app/public/admin/images/user/avatar-4.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                        <img src="{{asset('storage/admin/images/user/avatar-4.jpg')}}" alt="user image" class="img-radius wid-40 align-top m-r-15">
                                         <div class="d-inline-block">
                                             <h6>John Deo</h6>
                                             <p class="text-muted m-b-0">Graphics Designer</p>
@@ -233,7 +233,7 @@
                                         </label>
                                     </div>
                                     <div class="d-inline-block align-middle">
-                                        <img src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                        <img src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="user image" class="img-radius wid-40 align-top m-r-15">
                                         <div class="d-inline-block">
                                             <h6>Jenifer Vintage</h6>
                                             <p class="text-muted m-b-0">Web Designer</p>
@@ -253,7 +253,7 @@
                                         </label>
                                     </div>
                                     <div class="d-inline-block align-middle">
-                                        <img src="../../storage/app/public/admin/images/user/avatar-3.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                        <img src="{{asset('storage/admin/images/user/avatar-3.jpg')}}" alt="user image" class="img-radius wid-40 align-top m-r-15">
                                         <div class="d-inline-block">
                                             <h6>William Jem</h6>
                                             <p class="text-muted m-b-0">Developer</p>
@@ -273,7 +273,7 @@
                                         </label>
                                     </div>
                                     <div class="d-inline-block align-middle">
-                                        <img src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                        <img src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="user image" class="img-radius wid-40 align-top m-r-15">
                                         <div class="d-inline-block">
                                             <h6>David Jones</h6>
                                             <p class="text-muted m-b-0">Developer</p>
@@ -349,7 +349,7 @@
                                         <tr>
                                             <td class="b-none">
                                                 <a href="#!" class="align-middle">
-                                                    <img src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40 align-top m-r-15">
+                                                    <img src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="user image" class="img-radius wid-40 align-top m-r-15">
                                                     <div class="d-inline-block">
                                                         <h6>Jeny William</h6>
                                                         <p class="text-muted m-b-0">Graphic Designer</p>
@@ -440,7 +440,7 @@
                     <div class="review-block">
                         <div class="row">
                             <div class="col-sm-auto p-r-0">
-                                <img src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="user image" class="img-radius profile-img cust-img m-b-15">
+                                <img src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="user image" class="img-radius profile-img cust-img m-b-15">
                             </div>
                             <div class="col">
                                 <h6 class="m-b-15">John Deo <span class="float-right f-13 text-muted"> a week ago</span></h6>
@@ -459,7 +459,7 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-auto p-r-0">
-                                <img src="../../storage/app/public/admin/images/user/avatar-4.jpg" alt="user image" class="img-radius profile-img cust-img m-b-15">
+                                <img src="{{asset('storage/admin/images/user/avatar-4.jpg')}}" alt="user image" class="img-radius profile-img cust-img m-b-15">
                             </div>
                             <div class="col">
                                 <h6 class="m-b-15">Allina D’croze <span class="float-right f-13 text-muted"> a week ago</span></h6>
@@ -557,7 +557,7 @@
                 <div class="card-body">
                     <div class="row m-b-20 received-chat">
                         <div class="col-auto p-r-0">
-                            <img src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40">
+                            <img src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="user image" class="img-radius wid-40">
                         </div>
                         <div class="col">
                             <div class="msg">
@@ -574,18 +574,18 @@
                             <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>10:20am</p>
                         </div>
                         <div class="col-auto p-l-0">
-                            <img src="../../storage/app/public/admin/images/user/avatar-3.jpg" alt="user image" class="img-radius wid-40">
+                            <img src="{{asset('storage/admin/images/user/avatar-3.jpg')}}" alt="user image" class="img-radius wid-40">
                         </div>
                     </div>
                     <div class="row m-b-20 received-chat">
                         <div class="col-auto p-r-0">
-                            <img src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="user image" class="img-radius wid-40">
+                            <img src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="user image" class="img-radius wid-40">
                         </div>
                         <div class="col">
                             <div class="msg">
                                 <p class="m-b-0">Nice to meet you!</p>
-                                <img src="../../storage/app/public/admin/images/widget/dashborad-1.jpg" alt="">
-                                <img src="../../storage/app/public/admin/images/widget/dashborad-3.jpg" alt="">
+                                <img src="{{asset('storage/admin/images/user/avatar-1.jpg')}}" alt="">
+                                <img src="{{asset('storage/admin/images/user/avatar-3.jpg')}}" alt="">
                             </div>
                             <p class="text-muted m-b-0"><i class="fa fa-clock-o m-r-10"></i>10:20am</p>
                         </div>

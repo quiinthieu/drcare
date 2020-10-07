@@ -46,9 +46,7 @@ Route::get('/testing', function () {
 })->name('testing');
 
 
-Route::get('/appointment', function() {
-    return view('drcare.appointment');
-})->name('appointment');
+
 Route::get('/blog', function() {
     return view('drcare.blog');
 })->name('blog');
@@ -63,11 +61,19 @@ Route::get('/department', function() {
 })->name('department');
 
 Route::get('/login', function() {
-    return view('admin.login');
+    return view('auth.login');
 })->name('login');
 Route::get('/register', function() {
-    return view('admin.register');
+    return view('auth.register');
 })->name('register');
 
 
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+
+Route::get('/appointment', function() {
+    return view('drcare.appointment');
+})->name('appointment');
+//Route::get('/appointment/create', function() {
+//
+//});
+Route::post('/appointment', [\App\Http\Controllers\TestingController::class, 'store']);

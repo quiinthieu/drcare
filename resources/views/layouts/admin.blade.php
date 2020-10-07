@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Ablepro v8.0 bootstrap admin template by Phoenixcoded</title>
+    <title>Admin</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -13,14 +13,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="">
-    <meta name="author" content="Phoenixcoded" />
     <!-- Favicon icon -->
-    <link rel="icon" href="../../storage/app/public/admin/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('storage/admin/images/favicon.png')}}" type="image/png">
 
     <!-- vendor css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
 
 
 
@@ -37,29 +34,12 @@
 <nav class="pcoded-navbar menu-light ">
     <div class="navbar-wrapper  ">
         <div class="navbar-content scroll-div " >
-
-            <div class="">
-                <div class="main-menu-header">
-                    <img class="img-radius" src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="User-Profile-Image">
-                    <div class="user-details">
-                        <div id="more-details">UX Designer <i class="fa fa-caret-down"></i></div>
-                    </div>
-                </div>
-                <div class="collapse" id="nav-user-link">
-                    <ul class="list-unstyled">
-                        <li class="list-group-item"><a href="user-profile.html"><i class="feather icon-user m-r-5"></i>View Profile</a></li>
-                        <li class="list-group-item"><a href="#!"><i class="feather icon-settings m-r-5"></i>Settings</a></li>
-                        <li class="list-group-item"><a href="auth-normal-sign-in.html"><i class="feather icon-log-out m-r-5"></i>Logout</a></li>
-                    </ul>
-                </div>
-            </div>
-
             <ul class="nav pcoded-inner-navbar ">
                 <li class="nav-item pcoded-menu-caption">
                     <label>Navigation</label>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
+                    <a href="{{route('dashboard')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
                 </li>
                 <li class="nav-item pcoded-hasmenu">
                     <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Page layouts</span></a>
@@ -123,17 +103,6 @@
                 <li class="nav-item"><a href="sample-page.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>
 
             </ul>
-
-            <div class="card text-center">
-                <div class="card-block">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <i class="feather icon-sunset f-40"></i>
-                    <h6 class="mt-3">Download Pro</h6>
-                    <p>Getting more features with pro version</p>
-                    <a href="https://1.envato.market/qG0m5" target="_blank" class="btn btn-primary btn-sm text-white m-0">Upgrade Now</a>
-                </div>
-            </div>
-
         </div>
     </div>
 </nav>
@@ -146,8 +115,8 @@
         <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
         <a href="#!" class="b-brand">
             <!-- ========   change your logo hear   ============ -->
-            <img src="../../storage/app/public/admin/images/logo.png" alt="" class="logo">
-            <img src="../../storage/app/public/admin/images/logo-icon.png" alt="" class="logo-thumb">
+            <img src="{{asset('storage/admin/images/logo.png')}}" alt="" class="logo">
+            <img src="{{asset('storage/admin/images/logo-icon.png')}}" alt="" class="logo-thumb">
         </a>
         <a href="#!" class="mob-toggler">
             <i class="feather icon-more-vertical"></i>
@@ -183,7 +152,7 @@
                             </li>
                             <li class="notification">
                                 <div class="media">
-                                    <img class="img-radius" src="../../storage/app/public/admin/images/user/avatar-1.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="{{asset('storage/admin/images/user/avatar-1.jpg')}}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <p><strong>John Doe</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>5 min</span></p>
                                         <p>New ticket Added</p>
@@ -195,7 +164,7 @@
                             </li>
                             <li class="notification">
                                 <div class="media">
-                                    <img class="img-radius" src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
                                         <p>Prchace New Theme and make payment</p>
@@ -204,7 +173,7 @@
                             </li>
                             <li class="notification">
                                 <div class="media">
-                                    <img class="img-radius" src="../../storage/app/public/admin/images/user/avatar-1.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="{{asset('storage/admin/images/user/avatar-1.jpg')}}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <p><strong>Sara Soudein</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>12 min</span></p>
                                         <p>currently login</p>
@@ -213,7 +182,7 @@
                             </li>
                             <li class="notification">
                                 <div class="media">
-                                    <img class="img-radius" src="../../storage/app/public/admin/images/user/avatar-2.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="{{asset('storage/admin/images/user/avatar-2.jpg')}}" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <p><strong>Joseph William</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>30 min</span></p>
                                         <p>Prchace New Theme and make payment</p>
@@ -234,11 +203,14 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right profile-notification">
                         <div class="pro-head">
-                            <img src="../../storage/app/public/admin/images/user/avatar-1.jpg" class="img-radius" alt="User-Profile-Image">
+                            <img src="{{asset('storage/admin/images/user/avatar-1.jpg')}}" class="img-radius" alt="User-Profile-Image">
                             <span>John Doe</span>
-                            <a href="auth-signin.html" class="dud-logout" title="Logout">
+                            <a href="{{asset('logout')}}" class="dud-logout" title="Logout" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 <i class="feather icon-log-out"></i>
                             </a>
+                            <form id="logout-form" action="{{route('logout')}}" method="POST" class="d-none">
+                                @csrf
+                            </form>
                         </div>
                         <ul class="pro-body">
                             <li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i> Profile</a></li>
@@ -269,8 +241,8 @@
                             <h5 class="m-b-10">Dashboard Analytics</h5>
                         </div>
                         <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#!">Dashboard Analytics</a></li>
+                            <li class="breadcrumb-item"><a href="{{route('dashboard')}}"><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#">Dashboard Analytics</a></li>
                         </ul>
                     </div>
                 </div>
@@ -295,31 +267,31 @@
         <ul class="iew-download">
             <li>
                 <a href="http://www.google.com/chrome/">
-                    <img src="../../storage/app/public/admin/images/browser/chrome.png" alt="Chrome">
+                    <img src="{{asset('storage/admin/images/browser/chrome.png')}}" alt="Chrome">
                     <div>Chrome</div>
                 </a>
             </li>
             <li>
                 <a href="https://www.mozilla.org/en-US/firefox/new/">
-                    <img src="../../storage/app/public/admin/images/browser/firefox.png" alt="Firefox">
+                    <img src="{{asset('storage/admin/images/browser/firefox.png')}}" alt="Firefox">
                     <div>Firefox</div>
                 </a>
             </li>
             <li>
                 <a href="http://www.opera.com">
-                    <img src="../../storage/app/public/admin/images/browser/opera.png" alt="Opera">
+                    <img src="{{asset('storage/admin/images/browser/opera.png')}}" alt="Opera">
                     <div>Opera</div>
                 </a>
             </li>
             <li>
                 <a href="https://www.apple.com/safari/">
-                    <img src="../../storage/app/public/admin/images/browser/safari.png" alt="Safari">
+                    <img src="{{asset('storage/admin/images/browser/safari.png')}}" alt="Safari">
                     <div>Safari</div>
                 </a>
             </li>
             <li>
                 <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-                    <img src="../../storage/app/public/admin/images/browser/ie.png" alt="">
+                    <img src="{{asset('storage/admin/images/browser/ie.png')}}" alt="">
                     <div>IE (11 & above)</div>
                 </a>
             </li>
@@ -331,17 +303,17 @@
 <!-- Warning Section Ends -->
 
 <!-- Required Js -->
-<script src="js/vendor-all.min.js"></script>
-<script src="js/plugins/bootstrap.min.js"></script>
-<script src="js/ripple.js"></script>
-<script src="js/pcoded.min.js"></script>
+<script src="{{asset('admin/js/vendor-all.min.js')}}"></script>
+<script src="{{asset('admin/js/plugins/bootstrap.min.js')}}"></script>
+<script src="{{asset('admin/js/ripple.js')}}"></script>
+<script src="{{asset('admin/js/pcoded.min.js')}}"></script>
 
 <!-- Apex Chart -->
-<script src="js/plugins/apexcharts.min.js"></script>
+<script src="{{asset('admin/js/plugins/apexcharts.min.js')}}"></script>
 
 
 <!-- custom-chart js -->
-<script src="js/pages/dashboard-main.js"></script>
+<script src="{{asset('admin/js/pages/dashboard-main.js')}}"></script>
 </body>
 
 </html>

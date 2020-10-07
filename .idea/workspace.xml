@@ -17,239 +17,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/admin/auth-signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/auth-signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_badges.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_breadcrumb-pagination.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_collapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_extra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_modal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_spinner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_tabs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_toasts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_tooltip-popover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/bc_typography.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/chart-apex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/css/plugins/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/css/plugins/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/css/plugins/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/css/plugins/prism-coy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/Flaticon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/Flaticon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/Flaticon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/Flaticon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/Flaticon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/feather.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/feather.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/feather.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/feather.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFUZ0bbck.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFVZ0b.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFVp0bbck.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFW50bbck.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFWJ0bbck.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFWZ0bbck.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/opensans/mem8YaGs126MiZpBA-UFWp0bbck.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/pct.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/pct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/pct.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/fonts/pct.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/form_elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/analytics.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/horizontal-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/menu-setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/menu-setting.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/ac-alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/ac-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/ac-lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/ac-notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/ac-rangeslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/ac-rating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/chart-apex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/chart-chart-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/chart-highchart-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/chart-morris-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/chart-peity-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/dashboard-analytics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/dashboard-crm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/dashboard-help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/dashboard-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/dashboard-project.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/dashboard-sale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-advance-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-api-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-autofill-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-basic-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-buttons-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-column-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-export-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-header-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-key-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-plugin-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-reorder-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-responsive-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-row-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-scroller-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-select-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-source-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-styling-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/data-table-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/editable-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/form-advance-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/form-masking-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/form-picker-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/form-select-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/form-validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/google-maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/invoice-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/jquery.knob-custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/jquery.wavify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/map-api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/notify-event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/page-croper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/task-board.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pages/widget-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pcoded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/pcoded.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/apexcharts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/prism.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/ripple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/uikit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/uikit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/vendor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/vendor-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/js/waves.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/layout-horizontal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/layout-vertical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/map-google.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/sample-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin/tbl_bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/auth/auth-logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/auth/auth-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/browser/chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/browser/firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/browser/ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/browser/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/browser/safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/cd-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/complete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/img-grd-gal-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/img-grd-gal-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/img-grd-gal-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/img-grd-gal-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/img-grd-gal-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/img-grd-gal-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/gallery-grid/masonry-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo-docs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo-old.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo-thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/slider/img-slide-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/avatar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/avatar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/avatar-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/img-avatar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/img-avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/user/img-avatar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/AUSTRALIA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/BRAZIL.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/GERMANY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/PHONE1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/PHONE2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/PHONE3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/PHONE4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/UK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/USA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/dashborad-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/dashborad-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/dashborad-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/dashborad-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/dashborad-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/emoticon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/img-round1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/p4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/profile-person1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/slider5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/slider6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/slider7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/widget/user-blur-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/admin/images/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/FreeConsultationForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/FreeConsultationForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/register.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/free-consultation-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/free-consultation-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/admin/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/admin/images/logo-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/admin/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/admin/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/drcare/favicons/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/drcare/favicons/favicon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,6 +65,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/public/admin/css/style.css" root0="SKIP_INSPECTION" />
   </component>
   <component name="IlluminatedCloudWorkspaceSettings">
     <option name="projectWorkspaceSettings">
@@ -447,7 +236,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/admin/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -458,23 +247,23 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\storage\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare\scss" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\images" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\favicons" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -536,7 +325,8 @@
       <workItem from="1601698082850" duration="6052000" />
       <workItem from="1601783592550" duration="3160000" />
       <workItem from="1601786875545" duration="723000" />
-      <workItem from="1601896154855" duration="15811000" />
+      <workItem from="1601896154855" duration="16006000" />
+      <workItem from="1602038674284" duration="21304000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -727,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601786633755</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Version 1.3.7">
+      <created>1602000237181</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602000237181</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,7 +555,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.1.2" />
     <MESSAGE value="Version 1.1.3" />
     <MESSAGE value="Version 1.1.4" />
     <MESSAGE value="Version 1.1.5" />
@@ -783,9 +579,14 @@
     <MESSAGE value="Version 1.3.4" />
     <MESSAGE value="Version 1.3.5" />
     <MESSAGE value="Version 1.3.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.6" />
+    <MESSAGE value="Version 1.3.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.3.7" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="300" key="#Notifications" timestamp="1602038748001">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="437" y="300" key="#Notifications/0.0.1500.960@0.0.1500.960" timestamp="1602038748001" />
     <state x="402" y="46" key="#PHP" timestamp="1600927058229">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -806,34 +607,38 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1600931808101" />
+    <state x="481" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602048324288">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="481" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602048324288" />
     <state x="481" y="235" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601382383595">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="235" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1500.960@0.0.1500.960" timestamp="1601382383595" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601786629526">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1602000235133">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1601786629526" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1602000235133" />
     <state x="528" y="235" key="FileChooserDialogImpl" timestamp="1601023944858">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1601023944858" />
-    <state width="1481" height="246" key="GridCell.Tab.0.bottom" timestamp="1602000100489">
+    <state width="1481" height="246" key="GridCell.Tab.0.bottom" timestamp="1602055706176">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="246" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602000100489" />
-    <state width="1481" height="246" key="GridCell.Tab.0.center" timestamp="1602000100489">
+    <state width="1481" height="246" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602055706176" />
+    <state width="1481" height="246" key="GridCell.Tab.0.center" timestamp="1602055706175">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="246" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602000100489" />
-    <state width="1481" height="246" key="GridCell.Tab.0.left" timestamp="1602000100488">
+    <state width="1481" height="246" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602055706175" />
+    <state width="1481" height="246" key="GridCell.Tab.0.left" timestamp="1602055706175">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="246" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602000100488" />
-    <state width="1481" height="246" key="GridCell.Tab.0.right" timestamp="1602000100489">
+    <state width="1481" height="246" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602055706175" />
+    <state width="1481" height="246" key="GridCell.Tab.0.right" timestamp="1602055706175">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1481" height="246" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602000100489" />
+    <state width="1481" height="246" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602055706175" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1600867856088">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -842,14 +647,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1601997333257" />
-    <state x="-7" y="121" width="1472" height="706" key="SettingsEditor" timestamp="1601994435082">
+    <state x="-7" y="121" width="1472" height="706" key="SettingsEditor" timestamp="1602039820407">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="-7" y="121" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1601994435082" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1601786642290">
+    <state x="-7" y="121" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1602039820407" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602000245422">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1601786642290" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602000245422" />
+    <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="435" y="324" key="cloudConfig.PluginsDialog/0.0.1500.960@0.0.1500.960" timestamp="1602038761973" />
+    <state x="575" y="324" key="cloudConfig.SelfSettingsDialog" timestamp="1602038780703">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="575" y="324" key="cloudConfig.SelfSettingsDialog/0.0.1500.960@0.0.1500.960" timestamp="1602038780703" />
     <state x="645" y="353" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1600926788631">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

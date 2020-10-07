@@ -34,6 +34,7 @@
                         <li><a href="{{route('index')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
                         <li><a href="{{route('about')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
                         <li><a href="{{route('research')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Research</a></li>
+                        <li><a href="{{route('dashboard')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Dashboard Analytics</a></li>
 {{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>--}}
 {{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>--}}
 {{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>--}}
