@@ -21,8 +21,10 @@ class CategoryFactory extends Factory
      */
     public function definition()
     {
+        $categories = ['Tooth Pastes', 'Tooth Brushes', 'For Kids', 'Electrical Accessories'];
+        static $i = 0;
         return [
-            'name' => $this->faker->unique()->randomElement(['Tooth Pastes', 'Tooth Brushes', 'For Kids', 'Electrical Accessories'])
+            'name' => $categories[$i++]
         ];
     }
 }
