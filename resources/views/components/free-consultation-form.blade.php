@@ -31,7 +31,7 @@
                                             Select Your Service
                                         </option>
                                         @foreach($serviceTypes as $serviceType)
-                                            <option value="{{$serviceType->id}}" class="text-dark">
+                                            <option value="{{$serviceType->id}}"  class="text-dark">
                                                 {{$serviceType->name}}
                                             </option>
                                         @endforeach

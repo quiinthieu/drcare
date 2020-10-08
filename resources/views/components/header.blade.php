@@ -73,9 +73,7 @@
                     </div>
                 </li>
 
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'testing' ? "active" : ""}}">
-                    <a href="{{route('testing')}}" class="nav-link pl-0">Testing</a>
-                </li>
+
 
 
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>--}}

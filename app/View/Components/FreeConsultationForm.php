@@ -9,10 +9,10 @@ use Illuminate\View\Component;
 class FreeConsultationForm extends Component
 {
     public $serviceTypes;
+
     /**
      * Create a new component instance.
      *
-     * @return void
      */
     public function __construct()
     {
