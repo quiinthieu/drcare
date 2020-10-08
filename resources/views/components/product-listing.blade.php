@@ -5,7 +5,7 @@
             @foreach($products as $product)
                 <div class="col-md-4 ftco-animate">
                     <div class="blog-entry shadow d-flex flex-column">
-                        <div id="{{'carousel' . $product->id}}" class="carousel slide" data-ride="carousel">
+                        <div id="{{'carousel' . $product->id}}" class="carousel slide" data-ride="carousel" data-interval="false">
                             <ol class="carousel-indicators">
                                 <li data-target="{{'#carousel' . $product->id}}" data-slide-to="0" class="active text-dark" style="background-color: rgba(0, 0, 0, 0.5);"></li>
                                 <li data-target="{{ '#carousel' . $product->id}}" data-slide-to="1" style="background-color: rgba(0, 0, 0, 0.5);"></li>
@@ -33,7 +33,7 @@
                             <div class="d-flex align-items-center mt-4">
                                 <p class="mb-0"><a href="#" class="btn btn-primary">Add to Cart <span
                                             class="ion-ios-arrow-round-forward"></span></a></p>
-                                <p class="ml-auto mb-0 lead">
+                                <p class="ml-auto mb-0 font-weight-bold lead">
                                     <span class="mr-2">${{number_format($product->price, 2)}}</span>
                                     {{--                                    <span class="meta-chat">{{$product->price}}</span>--}}
                                 </p>
