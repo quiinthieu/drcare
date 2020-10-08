@@ -2,10 +2,13 @@
 
 namespace App\View\Components;
 
+use App\Models\Service;
+use App\Models\ServiceType;
 use Illuminate\View\Component;
 
 class FreeConsultationForm extends Component
 {
+    public $serviceTypes;
     /**
      * Create a new component instance.
      *
@@ -13,7 +16,7 @@ class FreeConsultationForm extends Component
      */
     public function __construct()
     {
-        //
+        $this->serviceTypes = ServiceType::all();
     }
 
 

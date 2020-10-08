@@ -70,10 +70,13 @@ Route::get('/register', function() {
 
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
 
-Route::get('/appointment', function() {
-    return view('drcare.appointment');
-})->name('appointment');
+//Route::get('/appointment', function() {
+//    return view('drcare.appointment');
+//})->name('appointment');
 //Route::get('/appointment/create', function() {
 //
 //});
-Route::post('/appointment', [\App\Http\Controllers\TestingController::class, 'store']);
+//Route::post('/appointment', [\App\Http\Controllers\TestingController::class, 'store']);
+
+Route::resource('appointments', \App\Http\Controllers\AppointmentController::class);
+Route::resource('testings', \App\Http\Controllers\TestingController::class);

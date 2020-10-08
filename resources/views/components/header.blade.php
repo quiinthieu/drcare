@@ -33,8 +33,9 @@
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
-        <p class="button-custom order-lg-last mb-0"><a href="{{route('appointment')}}"
-                                                       class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
+        <p class="button-custom order-lg-last mb-0">
+            <a href="{{route('appointments.create')}}" class="btn btn-secondary py-2 px-3">Make An Appointment</a>
+        </p>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'index' ? "active" : ""}}">
@@ -42,7 +43,8 @@
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}">
                     <a href="{{route('about')}}" class="nav-link pl-0">About Us</a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'services' ? "active" : ""}}"><a href="{{route('services')}}" class="nav-link">Services</a></li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'services' ? "active" : ""}}">
+                    <a href="{{route('services')}}" class="nav-link">Services</a></li>
                 <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">

@@ -12,7 +12,7 @@
                         <li>{{$service->name}}</li>
                     @endforeach
                 </ul>
-                <p class="button text-center"><a href="{{route('appointment')}}" class="btn btn-primary px-4 py-3">Book Service</a></p>
+                <p class="button text-center"><a href="{{route('appointments.create')}}" class="btn btn-primary px-4 py-3">Book Service</a></p>
             </div>
         </div>
     @endforeach

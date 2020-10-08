@@ -11,14 +11,14 @@
                         there
                         live the blind texts.</p>
                 </div>
-                <form method="POST" action="/appointment" class="appointment-form ftco-animate">
+                <form method="POST" action="/appointments" class="appointment-form ftco-animate" autocomplete="off">
                     @csrf
                     <div class="d-md-flex">
                         <div class="form-group">
-                            <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+                            <input type="text" name="first_name" class="form-control" placeholder="First Name" required autocomplete="new-first-name">
                         </div>
                         <div class="form-group ml-md-4">
-                            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+                            <input type="text" name="last_name" class="form-control" placeholder="Last Name" required autocomplete="new-last-name">
                         </div>
                     </div>
                     <div class="d-md-flex">
@@ -26,32 +26,34 @@
                             <div class="form-field">
                                 <div class="select-wrap">
                                     <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                    <select name="service" id="" class="form-control" required>
-                                        <option value="val1" class="text-dark">Select Your Services</option>
-                                        <option value="val2" class="text-dark">Neurology</option>
-                                        <option value="val3" class="text-dark">Cardiology</option>
-                                        <option value="val4" class="text-dark">Dental</option>
-                                        <option value="val5" class="text-dark">Ophthalmology</option>
-                                        <option value="val6" class="text-dark">Other Services</option>
+                                    <select name="service_type_id" id="" class="form-control" required>
+                                        <option value="" disabled class="text-dark" selected>
+                                            Select Your Service
+                                        </option>
+                                        @foreach($serviceTypes as $serviceType)
+                                            <option value="{{$serviceType->id}}" class="text-dark">
+                                                {{$serviceType->name}}
+                                            </option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group ml-md-4">
-                            <input required name="phone" type="text" class="form-control" placeholder="Phone">
+                            <input required name="phone" type="tel" class="form-control" placeholder="Phone" autocomplete="new-phone">
                         </div>
                     </div>
                     <div class="d-md-flex">
                         <div class="form-group">
                             <div class="input-wrap">
                                 <div class="icon"><span class="ion-md-calendar"></span></div>
-                                <input name="date" required type="text" class="form-control appointment_date" placeholder="Date">
+                                <input name="date" required type="text" class="form-control appointment_date" placeholder="Date" autocomplete="off">
                             </div>
                         </div>
                         <div class="form-group ml-md-4">
                             <div class="input-wrap">
                                 <div class="icon"><span class="ion-ios-clock"></span></div>
-                                <input name="time" required type="text" class="form-control appointment_time" placeholder="Time">
+                                <input name="time" required type="text" class="form-control appointment_time" placeholder="Time" autocomplete="off">
                             </div>
                         </div>
                     </div>

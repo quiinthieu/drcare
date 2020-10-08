@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Appointment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 
 class AppointmentController extends Controller
 {
@@ -20,22 +23,35 @@ class AppointmentController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
      */
     public function create()
     {
-        //
+        return view('drcare.appointment');
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
      */
+
     public function store(Request $request)
     {
-        //
+//        dd($request->get('date'));
+        $appointment = new Appointment();
+        $appointment->first_name = $request->get('first_name');
+        $appointment->last_name = $request->get('last_name');
+        $appointment->setServiceTypeId($request->get('service_type_id'));
+        $appointment->phone = $request->get('phone');
+        $appointment->setDate($request->get('date'));
+        $appointment->setTime($request->get('time'));
+        $appointment->message = $request->get('message');
+//        dd($appointment);
+        $appointment->save();
+//        return Redirect::back();
+        return view('drcare.booking-result', ['appointment' => $appointment]);
     }
 
     /**
