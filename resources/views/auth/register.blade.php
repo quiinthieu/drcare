@@ -1,12 +1,12 @@
 @extends('layouts.auth')
 @section('content')
-    <form method="POST" action="{{route('register')}}">
+    <form method="POST" action="{{route('register')}}" autocomplete="off">
         @csrf
         <img src="../../storage/app/public/admin/images/logo-dark.png" alt="" class="img-fluid mb-4">
         <h4 class="mb-3 f-w-400">{{__('Register')}}</h4>
         <div class="form-group mb-3">
             <label class="floating-label" for="name">{{__('Name')}}</label>
-            <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" value="{{old('name')}}" required autocomplete="name" autofocus placeholder="">
+            <input type="text" class="form-control @error('name') is-invalid @enderror" id="name" name="name" required autocomplete="new-name" placeholder="">
             @error('name')
             <span class="invalid-feedback" role="alert">
                     <strong>{{$message}}</strong>
@@ -15,7 +15,7 @@
         </div>
         <div class="form-group mb-3">
             <label class="floating-label" for="email">{{__('E-Mail Address')}}</label>
-            <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{old('email')}}" required autocomplete="email" id="email" placeholder="">
+            <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" required autocomplete="off" id="email" placeholder="">
             @error('email')
             <span class="invalid-feedback" role="alert">
                 <strong>{{$message}}</strong>

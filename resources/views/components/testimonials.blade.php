@@ -14,7 +14,7 @@
                 <div class="carousel-testimony owl-carousel">
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img mr-4" style="background-image: url(images/person_1.jpg)">
+                            <div class="user-img mr-4" style="background-image: url(storage/drcare/images/person_1.jpg)">
                             </div>
                             <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -29,7 +29,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img mr-4" style="background-image: url(images/person_2.jpg)">
+                            <div class="user-img mr-4" style="background-image: url(storage/drcare/images/person_2.jpg)">
                             </div>
                             <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -44,7 +44,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img mr-4" style="background-image: url(images/person_3.jpg)">
+                            <div class="user-img mr-4" style="background-image: url(storage/drcare/images/person_3.jpg)">
                             </div>
                             <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img mr-4" style="background-image: url(images/person_4.jpg)">
+                            <div class="user-img mr-4" style="background-image: url(storage/drcare/images/person_4.jpg)">
                             </div>
                             <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="item">
                         <div class="testimony-wrap d-flex">
-                            <div class="user-img mr-4" style="background-image: url(images/person_1.jpg)">
+                            <div class="user-img mr-4" style="background-image: url(storage/drcare/images/person_1.jpg)">
                             </div>
                             <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">

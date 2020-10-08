@@ -43,8 +43,6 @@
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}">
                     <a href="{{route('about')}}" class="nav-link pl-0">About Us</a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'services' ? "active" : ""}}">
-                    <a href="{{route('services')}}" class="nav-link">Services</a></li>
                 <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
@@ -60,6 +58,8 @@
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'research' || Illuminate\Support\Facades\Route::currentRouteName() === 'research-single' ? "active" : ""}}">
                     <a href="{{route('research')}}" class="nav-link">Research</a></li>
 
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'services' ? "active" : ""}}">
+                    <a href="{{route('services')}}" class="nav-link">Services</a></li>
                 <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'product' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
@@ -72,8 +72,6 @@
                         @endforeach
                     </div>
                 </li>
-
-
 
 
                 {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>--}}
