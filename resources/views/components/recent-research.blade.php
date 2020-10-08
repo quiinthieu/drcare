@@ -27,9 +27,8 @@
                             <div class="d-flex align-items-center mt-4">
                                 <p class="mb-0"><a href="{{route('research-single', ['id' => $article->id])}}" class="btn btn-primary">Read More <span
                                             class="ion-ios-arrow-round-forward"></span></a></p>
-                                <p class="ml-auto mb-0">
-                                    <a href="{{route('research-single', ['id' => $article->id])}}" class="mr-2">{{$article->author}}</a>
-                                    <a href="{{route('research-single', ['id' => $article->id])}}" class="meta-chat"><span class="icon-chat"></span> 3</a>
+                                <p class="ml-auto mb-0 font-italic">
+                                    {{$article->author}}
                                 </p>
                             </div>
                         </div>
