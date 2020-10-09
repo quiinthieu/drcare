@@ -20,44 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bccollapse.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bcextra.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bcmodal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bcprogress.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bcspinner.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bctabs.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bctoasts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bctooltippopover.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/bctypography.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/chartapex.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/formelements.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/mapgoogle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/samplepage.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/auth-signin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/auth-signup.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/tbl-bootstrap.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_collapse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_extra.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_modal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_progress.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_spinner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_tabs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_toasts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_tooltip-popover.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/bc_typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/chart-apex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/form_elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/map-google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/sample-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/auth-signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/auth-signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/tbl_bootstrap.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bccarousel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bccarousel.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bcalert.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bc-alert.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/drcare.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/drcare.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +227,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/admin/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -264,19 +242,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\storage\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare\scss" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -306,8 +284,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.watch" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.watch" />
         <item itemvalue="npm.dev" />
       </list>
@@ -344,7 +322,7 @@
       <workItem from="1602169731075" duration="42000" />
       <workItem from="1602169803099" duration="4989000" />
       <workItem from="1602207829290" duration="6386000" />
-      <workItem from="1602242776088" duration="5910000" />
+      <workItem from="1602242776088" duration="8338000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -612,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602240554167</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Version 1.4.8">
+      <created>1602248903742</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1602248903742</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,19 +608,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -643,7 +616,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.2.3" />
     <MESSAGE value="Version 1.2.4" />
     <MESSAGE value="Version 1.2.5" />
     <MESSAGE value="Version 1.2.6" />
@@ -668,7 +640,8 @@
     <MESSAGE value="Version 1.4.5" />
     <MESSAGE value="Version 1.4.6" />
     <MESSAGE value="Version 1.4.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.4.7" />
+    <MESSAGE value="Version 1.4.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.4.8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig" timestamp="1602170220542">
@@ -711,18 +684,18 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1600931808101" />
-    <state x="481" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602248680773">
+    <state x="481" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602249493517">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="481" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602248680773" />
+    <state x="481" y="226" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602249493517" />
     <state x="481" y="235" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601382383595">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="235" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1500.960@0.0.1500.960" timestamp="1601382383595" />
-    <state x="0" y="0" width="1425" height="960" key="CommitChangelistDialog2" timestamp="1602240553064">
+    <state x="0" y="0" width="1425" height="960" key="CommitChangelistDialog2" timestamp="1602248902388">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="0" y="0" width="1425" height="960" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1602240553064" />
+    <state x="0" y="0" width="1425" height="960" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1602248902388" />
     <state x="353" y="264" key="EditFileWatcherDialog" timestamp="1602247816273">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -731,30 +704,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1602169355455" />
-    <state width="1130" height="244" key="GridCell.Tab.0.bottom" timestamp="1602248134887">
+    <state width="1130" height="244" key="GridCell.Tab.0.bottom" timestamp="1602250954481">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1130" height="244" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602248134887" />
-    <state width="1130" height="244" key="GridCell.Tab.0.center" timestamp="1602248134887">
+    <state width="1130" height="244" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602250954481" />
+    <state width="1130" height="244" key="GridCell.Tab.0.center" timestamp="1602250954481">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1130" height="244" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602248134887" />
-    <state width="1130" height="244" key="GridCell.Tab.0.left" timestamp="1602248134887">
+    <state width="1130" height="244" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602250954481" />
+    <state width="1130" height="244" key="GridCell.Tab.0.left" timestamp="1602250954481">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1130" height="244" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602248134887" />
-    <state width="1130" height="244" key="GridCell.Tab.0.right" timestamp="1602248134887">
+    <state width="1130" height="244" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602250954481" />
+    <state width="1130" height="244" key="GridCell.Tab.0.right" timestamp="1602250954481">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1130" height="244" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602248134887" />
+    <state width="1130" height="244" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602250954481" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1600867856088">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="309" height="539" key="HiddenNamespacesPopup/0.0.1500.960@0.0.1500.960" timestamp="1600867856088" />
-    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602248631657">
+    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602249365894">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602248631657" />
+    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602249365894" />
     <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602158824983">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -763,10 +736,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="4" y="254" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1602247805814" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602240559124">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602248909094">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602240559124" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602248909094" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -783,6 +756,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="0" y="0" width="1068" height="920" maximized="true" key="dock-window-1/0.0.1500.960@0.0.1500.960" timestamp="1601208306396" />
+    <state x="360" y="110" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602251243202">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="360" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1500.960@0.0.1500.960" timestamp="1602251243202" />
     <state x="416" y="209" width="672" height="678" key="search.everywhere.popup" timestamp="1602067421237">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

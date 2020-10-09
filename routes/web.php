@@ -53,7 +53,7 @@ Route::get('/register', function() {
 
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
 
-Route::get('/bcalert', [AdminController::class, 'bcalert'])->name('bcalert');
+Route::get('/bc-alert', [AdminController::class, 'bcAlert'])->name('bc-alert');
 Route::get('/bcbadges', [AdminController::class, 'bcbadges'])->name('bcbadges');
 Route::get('/bcbreadcrumbpagination', [AdminController::class, 'bcbreadcrumbpagination'])->name('bcbreadcrumbpagination');
 Route::get('/bcbutton', [AdminController::class, 'bcbutton'])->name('bcbutton');
@@ -72,3 +72,6 @@ Route::get('/chartapex', [AdminController::class, 'chartapex'])->name('chartapex
 Route::get('/formelements', [AdminController::class, 'formelements'])->name('formelements');
 Route::get('/mapgoogle', [AdminController::class, 'mapgoogle'])->name('mapgoogle');
 Route::get('/samplepage', [AdminController::class, 'samplepage'])->name('samplepage');
+Route::get('/auth-signin', [AdminController::class, 'authSignin'])->name('auth-signin');
+Route::get('/auth-signup', [AdminController::class, 'authSignup'])->name('auth-signup');
+Route::get('/tbl-bootstrap', [AdminController::class, 'tblBootstrap'])->name('tbl-bootstrap');

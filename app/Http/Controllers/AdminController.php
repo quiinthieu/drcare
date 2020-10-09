@@ -13,8 +13,8 @@ class AdminController extends Controller
     {
         return view('admin.dashboard');
     }
-    public function bcalert() {
-        return view('admin.bcalert');
+    public function bcAlert() {
+        return view('admin.bc-alert');
     }
     public function bcbadges() {
         return view('admin.bcbadges');
@@ -70,5 +70,14 @@ class AdminController extends Controller
     }
     public function samplepage() {
         return view('admin.samplepage');
+    }
+    public function authSignin() {
+        return view('admin.auth-signin');
+    }
+    public function authSignup() {
+        return view('admin.auth-signup');
+    }
+    public function tblBootstrap() {
+        return view('admin.tbl-bootstrap');
     }
 }

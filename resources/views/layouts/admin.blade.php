@@ -54,7 +54,7 @@
                 <li class="nav-item pcoded-hasmenu">
                     <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-box"></i></span><span class="pcoded-mtext">Basic</span></a>
                     <ul class="pcoded-submenu">
-                        <li><a href="{{route('bcalert')}}">Alert</a></li>
+                        <li><a href="{{route('bc-alert')}}">Alert</a></li>
                         <li><a href="{{route('bcbutton')}}">Button</a></li>
                         <li><a href="{{route('bcbadges')}}">Badges</a></li>
                         <li><a href="{{route('bcbreadcrumbpagination')}}">Breadcrumb & paggination</a></li>
@@ -79,7 +79,7 @@
                     <a href="{{route('formelements')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Forms</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="tbl_bootstrap.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Bootstrap table</span></a>
+                    <a href="{{route('tbl-bootstrap')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Bootstrap table</span></a>
                 </li>
                 <li class="nav-item pcoded-menu-caption">
                     <label>Chart & Maps</label>
@@ -96,8 +96,8 @@
                 <li class="nav-item pcoded-hasmenu">
                     <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-lock"></i></span><span class="pcoded-mtext">Authentication</span></a>
                     <ul class="pcoded-submenu">
-                        <li><a href="auth-signup.html" target="_blank">Sign up</a></li>
-                        <li><a href="auth-signin.html" target="_blank">Sign in</a></li>
+                        <li><a href="{{route('auth-signup')}}" target="_blank">Sign up</a></li>
+                        <li><a href="{{route('auth-signin')}}" target="_blank">Sign in</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a href="{{route('samplepage')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>

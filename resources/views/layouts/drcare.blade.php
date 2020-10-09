@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{asset('drcare/css/icomoon.css')}}">
     <link rel="stylesheet" href="{{asset('drcare/css/style.css')}}">
 
-    <link rel="stylesheet" href="{{asset('drcare/css/app.css')}}">
+{{--    <link rel="stylesheet" href="{{asset('drcare/css/app.css')}}">--}}
     <script src="{{asset('js/app.js')}}"></script>
     <script src="{{asset('drcare/js/map.js')}}"></script>
 </head>
