@@ -4,25 +4,10 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DrCareController;
 use App\Http\Controllers\AdminController;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+use App\Http\Controllers\DoctorController;
+use App\Http\Controllers\AppointmentController;
 
 Auth::routes();
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/', [DrCareController::class, 'index'])->name('index');
 Route::get('/about', [DrCareController::class, 'about'])->name('about');
@@ -57,6 +42,8 @@ Route::get('/department', function() {
     return view('drcare.department');
 })->name('department');
 
+Route::resource('appointments', AppointmentController::class);
+
 Route::get('/login', function() {
     return view('auth.login');
 })->name('login');
@@ -64,8 +51,14 @@ Route::get('/register', function() {
     return view('auth.register');
 })->name('register');
 
-
 Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
 
-Route::resource('appointments', \App\Http\Controllers\AppointmentController::class);
-Route::resource('testings', \App\Http\Controllers\TestingController::class);
+Route::get('/bcalert', [AdminController::class, 'bcalert'])->name('bcalert');
+Route::get('/bcbadges', [AdminController::class, 'bcbadges'])->name('bcbadges');
+Route::get('/bcbreadcrumbpagination', [AdminController::class, 'bcbreadcrumbpagination'])->name('bcbreadcrumbpagination');
+Route::get('/bcbutton', [AdminController::class, 'bcbutton'])->name('bcbutton');
+Route::get('/bccard', [AdminController::class, 'bccard'])->name('bccard');
+Route::get('/bscarousel', [AdminController::class, 'bccarousel'])->name('bccarousel');
+
+
+

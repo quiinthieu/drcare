@@ -1,6 +1,6 @@
 @extends('layouts.auth')
 @section('content')
-    <form method="POST" action="{{route('login')}}">
+    <form method="POST" action="{{route('login')}}" autocomplete="off">
         @csrf
         <img src="{{asset('storage/admin/images/logo-dark.png')}}" alt="" class="img-fluid mb-4">
         <h4 class="mb-3 f-w-400">
@@ -10,7 +10,7 @@
             <label class="floating-label" for="email">
                 {{__('E-Mail Address')}}
             </label>
-            <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{old('email')}}" required autocomplete="email" autofocus placeholder="">
+            <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{old('password')}}"  required autocomplete="off" autofocus placeholder="">
             @error('email')
             <span class="invalid-feedback" role="alert">
                                 <strong>{{$message}}</strong>

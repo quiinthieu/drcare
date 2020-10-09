@@ -54,13 +54,13 @@
                 <li class="nav-item pcoded-hasmenu">
                     <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-box"></i></span><span class="pcoded-mtext">Basic</span></a>
                     <ul class="pcoded-submenu">
-                        <li><a href="bc_alert.html">Alert</a></li>
-                        <li><a href="bc_button.html">Button</a></li>
-                        <li><a href="bc_badges.html">Badges</a></li>
-                        <li><a href="bc_breadcrumb-pagination.html">Breadcrumb & paggination</a></li>
-                        <li><a href="bc_card.html">Cards</a></li>
+                        <li><a href="{{route('bcalert')}}">Alert</a></li>
+                        <li><a href="{{route('bcbutton')}}">Button</a></li>
+                        <li><a href="{{route('bcbadges')}}">Badges</a></li>
+                        <li><a href="{{route('bcbreadcrumbpagination')}}">Breadcrumb & paggination</a></li>
+                        <li><a href="{{route('bccard')}}">Cards</a></li>
                         <li><a href="bc_collapse.html">Collapse</a></li>
-                        <li><a href="bc_carousel.html">Carousel</a></li>
+                        <li><a href="{{route('bccarousel')}}">Carousel</a></li>
                         <li><a href="bc_grid.html">Grid system</a></li>
                         <li><a href="bc_progress.html">Progress</a></li>
                         <li><a href="bc_modal.html">Modal</a></li>
