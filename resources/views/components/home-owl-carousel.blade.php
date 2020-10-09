@@ -1,6 +1,6 @@
 <!-- Let all your things have their places; let each part of your business have its time. - Benjamin Franklin -->
 <section class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image:url(storage/drcare/banners/banner_1.png);"
+    <div class="slider-item" style="background-image:url({{asset('storage/drcare/banners/banner_1.png')}});"
          data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div class="slider-item" style="background-image:url(storage/drcare/banners/banner_2.png);">
+    <div class="slider-item" style="background-image:url({{asset('storage/drcare/banners/banner_2.png')}});">
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-start"

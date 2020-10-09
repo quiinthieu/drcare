@@ -9,6 +9,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -20,22 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/auth-signin.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/auth-signup.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/tbl-bootstrap.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_9_2020_8_47_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_9_2020_8_47_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/auth-signin.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/auth-signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/admin/tbl_bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bcalert.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/bc-alert.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/free-consultation-banner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/free-consultation-banner.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/home-owl-carousel.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/home-owl-carousel.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/drcare.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/drcare.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,19 +240,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\storage\drcare" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare\scss" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\storage\drcare" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\drcare\scss" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -728,10 +726,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602249365894" />
-    <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602158824983">
+    <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602251617059">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="331" y="98" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602158824983" />
+    <state x="331" y="98" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602251617059" />
     <state x="4" y="254" width="1472" height="706" key="SettingsEditor" timestamp="1602247805814">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

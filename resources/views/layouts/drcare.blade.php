@@ -29,7 +29,7 @@
 
 {{--    <link rel="stylesheet" href="{{asset('drcare/css/app.css')}}">--}}
     <script src="{{asset('js/app.js')}}"></script>
-    <script src="{{asset('drcare/js/map.js')}}"></script>
+{{--    <script src="{{asset('drcare/js/map.js')}}"></script>--}}
 </head>
 <body>
 <x-header/>
@@ -56,7 +56,7 @@
 <script src="{{asset('drcare/js/jquery.timepicker.min.js')}}"></script>
 <script src="{{asset('drcare/js/scrollax.min.js')}}"></script>
 {{--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>--}}
-<script src="{{asset('drcare/js/google-map.js')}}"></script>
+{{--<script src="{{asset('drcare/js/google-map.js')}}"></script>--}}
 <script src="{{asset('drcare/js/main.js')}}"></script>
 
 </body>
