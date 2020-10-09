@@ -32,4 +32,43 @@ class AdminController extends Controller
     public function bccarousel() {
         return view('admin.bccarousel');
     }
+    public function bccollapse() {
+        return view('admin.bccollapse');
+    }
+    public function bcextra() {
+        return view('admin.bcextra');
+    }
+    public function bcmodal() {
+        return view('admin.bcmodal');
+    }
+    public function bcprogress() {
+        return view('admin.bcprogress');
+    }
+    public function bcspinner() {
+        return view('admin.bcspinner');
+    }
+    public function bctabs() {
+        return view('admin.bctabs');
+    }
+    public function bctoasts() {
+        return view('admin.bctoasts');
+    }
+    public function bctooltippopover() {
+        return view('admin.bctooltippopover');
+    }
+    public function bctypography() {
+        return view('admin.bctypography');
+    }
+    public function chartapex() {
+        return view('admin.chartapex');
+    }
+    public function formelements() {
+        return view('admin.formelements');
+    }
+    public function mapgoogle() {
+        return view('admin.mapgoogle');
+    }
+    public function samplepage() {
+        return view('admin.samplepage');
+    }
 }

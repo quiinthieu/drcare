@@ -11,13 +11,13 @@
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-1.jpg" alt="First slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-1.jpg')}}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-2.jpg" alt="Second slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-2.jpg')}}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-3.jpg" alt="Third slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}" alt="Third slide">
                             </div>
                         </div>
                     </div>
@@ -35,10 +35,10 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-4.jpg" alt="First slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-4.jpg')}}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-3.jpg" alt="Second slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
@@ -63,10 +63,10 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-7.jpg" alt="First slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-7.jpg')}}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-3.jpg" alt="Second slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}" alt="Second slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
@@ -86,13 +86,13 @@
                     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-1.jpg" alt="First slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-1.jpg')}}" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-2.jpg" alt="Second slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-2.jpg')}}" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-3.jpg" alt="Third slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}" alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
@@ -117,21 +117,21 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-2.jpg" alt="First slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-2.jpg')}}" alt="First slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="text-white">First slide label</h5>
                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-1.jpg" alt="Second slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-1.jpg')}}" alt="Second slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="text-white">Second slide label</h5>
                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img class="img-fluid d-block w-100" src="../../storage/app/public/admin/images/slider/img-slide-3.jpg" alt="Third slide">
+                                <img class="img-fluid d-block w-100" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}" alt="Third slide">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5 class="text-white">Third slide label</h5>
                                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

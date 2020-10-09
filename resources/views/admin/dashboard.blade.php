@@ -625,4 +625,10 @@
         </div>
         <!-- Latest Customers end -->
     </div>
+    <!-- Apex Chart -->
+    <script src="{{asset('admin/js/plugins/apexcharts.min.js')}}"></script>
+
+
+    <!-- custom-chart js -->
+    <script src="{{asset('admin/js/pages/dashboard-main.js')}}"></script>
 @endsection

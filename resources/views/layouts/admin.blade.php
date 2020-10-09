@@ -19,7 +19,7 @@
     <!-- vendor css -->
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
 
-
+    <script src="{{asset('js/app.js')}}"></script>
 
 </head>
 <body class="">
@@ -59,24 +59,24 @@
                         <li><a href="{{route('bcbadges')}}">Badges</a></li>
                         <li><a href="{{route('bcbreadcrumbpagination')}}">Breadcrumb & paggination</a></li>
                         <li><a href="{{route('bccard')}}">Cards</a></li>
-                        <li><a href="bc_collapse.html">Collapse</a></li>
+                        <li><a href="{{route('bccollapse')}}">Collapse</a></li>
                         <li><a href="{{route('bccarousel')}}">Carousel</a></li>
-                        <li><a href="bc_grid.html">Grid system</a></li>
-                        <li><a href="bc_progress.html">Progress</a></li>
-                        <li><a href="bc_modal.html">Modal</a></li>
-                        <li><a href="bc_spinner.html">Spinner</a></li>
-                        <li><a href="bc_tabs.html">Tabs & pills</a></li>
-                        <li><a href="bc_typography.html">Typography</a></li>
-                        <li><a href="bc_tooltip-popover.html">Tooltip & popovers</a></li>
-                        <li><a href="bc_toasts.html">Toasts</a></li>
-                        <li><a href="bc_extra.html">Other</a></li>
+                        <li><a href="#">Grid system</a></li>
+                        <li><a href="{{route('bcprogress')}}">Progress</a></li>
+                        <li><a href="{{route('bcmodal')}}">Modal</a></li>
+                        <li><a href="{{route('bcspinner')}}">Spinner</a></li>
+                        <li><a href="{{route('bctabs')}}">Tabs & pills</a></li>
+                        <li><a href="{{route('bctypography')}}">Typography</a></li>
+                        <li><a href="{{route('bctooltippopover')}}">Tooltip & popovers</a></li>
+                        <li><a href="{{route('bctoasts')}}">Toasts</a></li>
+                        <li><a href="{{route('bcextra')}}">Other</a></li>
                     </ul>
                 </li>
                 <li class="nav-item pcoded-menu-caption">
                     <label>Forms &amp; table</label>
                 </li>
                 <li class="nav-item">
-                    <a href="form_elements.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Forms</span></a>
+                    <a href="{{route('formelements')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-file-text"></i></span><span class="pcoded-mtext">Forms</span></a>
                 </li>
                 <li class="nav-item">
                     <a href="tbl_bootstrap.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-align-justify"></i></span><span class="pcoded-mtext">Bootstrap table</span></a>
@@ -85,10 +85,10 @@
                     <label>Chart & Maps</label>
                 </li>
                 <li class="nav-item">
-                    <a href="chart-apex.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a>
+                    <a href="{{route('chartapex')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Chart</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="map-google.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Maps</span></a>
+                    <a href="{{route('mapgoogle')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Maps</span></a>
                 </li>
                 <li class="nav-item pcoded-menu-caption">
                     <label>Pages</label>
@@ -100,7 +100,7 @@
                         <li><a href="auth-signin.html" target="_blank">Sign in</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="sample-page.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>
+                <li class="nav-item"><a href="{{route('samplepage')}}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-sidebar"></i></span><span class="pcoded-mtext">Sample page</span></a></li>
 
             </ul>
         </div>
@@ -308,12 +308,6 @@
 <script src="{{asset('admin/js/ripple.js')}}"></script>
 <script src="{{asset('admin/js/pcoded.min.js')}}"></script>
 
-<!-- Apex Chart -->
-<script src="{{asset('admin/js/plugins/apexcharts.min.js')}}"></script>
-
-
-<!-- custom-chart js -->
-<script src="{{asset('admin/js/pages/dashboard-main.js')}}"></script>
 </body>
 
 </html>

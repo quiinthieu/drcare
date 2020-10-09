@@ -59,6 +59,16 @@ Route::get('/bcbreadcrumbpagination', [AdminController::class, 'bcbreadcrumbpagi
 Route::get('/bcbutton', [AdminController::class, 'bcbutton'])->name('bcbutton');
 Route::get('/bccard', [AdminController::class, 'bccard'])->name('bccard');
 Route::get('/bscarousel', [AdminController::class, 'bccarousel'])->name('bccarousel');
-
-
-
+Route::get('/bccollapse', [AdminController::class, 'bccollapse'])->name('bccollapse');
+Route::get('/bcextra', [AdminController::class, 'bcextra'])->name('bcextra');
+Route::get('/bcmodal', [AdminController::class, 'bcmodal'])->name('bcmodal');
+Route::get('/bcprogress', [AdminController::class, 'bcprogress'])->name('bcprogress');
+Route::get('/bcspinner', [AdminController::class, 'bcspinner'])->name('bcspinner');
+Route::get('/bctabs', [AdminController::class, 'bctabs'])->name('bctabs');
+Route::get('/bctoasts', [AdminController::class, 'bctoasts'])->name('bctoasts');
+Route::get('/bctooltippopover', [AdminController::class, 'bctooltippopover'])->name('bctooltippopover');
+Route::get('/bctypography', [AdminController::class, 'bctypography'])->name('bctypography');
+Route::get('/chartapex', [AdminController::class, 'chartapex'])->name('chartapex');
+Route::get('/formelements', [AdminController::class, 'formelements'])->name('formelements');
+Route::get('/mapgoogle', [AdminController::class, 'mapgoogle'])->name('mapgoogle');
+Route::get('/samplepage', [AdminController::class, 'samplepage'])->name('samplepage');
