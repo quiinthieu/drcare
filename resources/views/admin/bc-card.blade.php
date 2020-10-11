@@ -101,7 +101,8 @@
             <h5>Image Overlays</h5>
             <hr>
             <div class="card bg-dark">
-                <img class="img-fluid card-img" src="{{asset('storage/admin/images/slider/img-slide-7.jpg')}}." alt="Card image">
+
+                <img class="img-fluid card-img" src="{{asset('storage/admin/images/slider/img-slide-7.jpg')}}" alt="Card image">
                 <div class="card-img-overlay">
                     <h5 class="card-title text-white">Card title</h5>
                     <p class="card-text text-white">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -281,7 +282,7 @@
                     </blockquote>
                 </div>
                 <div class="card">
-                    <img class="img-fluid card-img-top" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}g" alt="Card image cap">
+                    <img class="img-fluid card-img-top" src="{{asset('storage/admin/images/slider/img-slide-3.jpg')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>

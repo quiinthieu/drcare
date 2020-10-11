@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Admin</title>
+    <title>Ablepro v8.0 bootstrap admin template by Phoenixcoded</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -13,9 +12,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="author" content="Phoenixcoded" />
     <!-- Favicon icon -->
-    <link rel="icon" href="{{asset('storage/admin/images/favicon.png')}}" type="image/png">
+    <link rel="icon" href="{{asset('storage/drcare/favicons/favicon.png')}}" type="image/png">
 
+    <!-- prism css -->
+    <link rel="stylesheet" href="{{asset('admin/css/plugins/prism-coy.css')}}">
     <!-- vendor css -->
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
 
@@ -23,6 +27,12 @@
 
 </head>
 <body class="">
+<!-- [ Pre-loader ] start -->
+<div class="loader-bg">
+    <div class="loader-track">
+        <div class="loader-fill"></div>
+    </div>
+</div>
 <!-- [ Pre-loader ] End -->
 <!-- [ navigation menu ] start -->
 <nav class="pcoded-navbar menu-light ">
@@ -244,8 +254,8 @@
         </div>
         <!-- [ breadcrumb ] end -->
         <!-- [ Main Content ] start -->
-        @yield('content')
-        <!-- [ Main Content ] end -->
+    @yield('content')
+    <!-- [ Main Content ] end -->
     </div>
 </div>
 <!-- [ Main Content ] end -->
@@ -302,6 +312,9 @@
 <script src="{{asset('admin/js/ripple.js')}}"></script>
 <script src="{{asset('admin/js/pcoded.min.js')}}"></script>
 
-</body>
+<!-- prism Js -->
+<script src="{{asset('admin/js/plugins/prism.js')}}"></script>
 
+
+</body>
 </html>

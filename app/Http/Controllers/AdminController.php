@@ -16,60 +16,60 @@ class AdminController extends Controller
     public function bcAlert() {
         return view('admin.bc-alert');
     }
-    public function bcbadges() {
-        return view('admin.bcbadges');
+    public function bcBadges() {
+        return view('admin.bc-badges');
     }
-    public function bcbreadcrumbpagination() {
-        return view('admin.bcbreadcrumbpagination');
+    public function bcBreadcrumbPagination() {
+        return view('admin.bc-breadcrumb-pagination');
     }
 
-    public function bcbutton() {
-        return view('admin.bcbutton');
+    public function bcButton() {
+        return view('admin.bc-button');
     }
-    public function bccard() {
-        return view('admin.bccard');
+    public function bcCard() {
+        return view('admin.bc-card');
     }
-    public function bccarousel() {
-        return view('admin.bccarousel');
+    public function bcCarousel() {
+        return view('admin.bc-carousel');
     }
-    public function bccollapse() {
-        return view('admin.bccollapse');
+    public function bcCollapse() {
+        return view('admin.bc-collapse');
     }
-    public function bcextra() {
-        return view('admin.bcextra');
+    public function bcExtra() {
+        return view('admin.bc-extra');
     }
-    public function bcmodal() {
-        return view('admin.bcmodal');
+    public function bcModal() {
+        return view('admin.bc-modal');
     }
-    public function bcprogress() {
-        return view('admin.bcprogress');
+    public function bcProgress() {
+        return view('admin.bc-progress');
     }
-    public function bcspinner() {
-        return view('admin.bcspinner');
+    public function bcSpinner() {
+        return view('admin.bc-spinner');
     }
-    public function bctabs() {
-        return view('admin.bctabs');
+    public function bcTabs() {
+        return view('admin.bc-tabs');
     }
-    public function bctoasts() {
-        return view('admin.bctoasts');
+    public function bcToasts() {
+        return view('admin.bc-toasts');
     }
-    public function bctooltippopover() {
-        return view('admin.bctooltippopover');
+    public function bcTooltipPopover() {
+        return view('admin.bc-tooltip-popover');
     }
-    public function bctypography() {
-        return view('admin.bctypography');
+    public function bcTypography() {
+        return view('admin.bc-typography');
     }
-    public function chartapex() {
-        return view('admin.chartapex');
+    public function chartApex() {
+        return view('admin.chart-apex');
     }
-    public function formelements() {
-        return view('admin.formelements');
+    public function formElements() {
+        return view('admin.form-elements');
     }
-    public function mapgoogle() {
-        return view('admin.mapgoogle');
+    public function mapGoogle() {
+        return view('admin.map-google');
     }
-    public function samplepage() {
-        return view('admin.samplepage');
+    public function samplePage() {
+        return view('admin.sample-page');
     }
     public function authSignin() {
         return view('admin.auth-signin');
@@ -79,5 +79,14 @@ class AdminController extends Controller
     }
     public function tblBootstrap() {
         return view('admin.tbl-bootstrap');
+    }
+    public function bcGrid() {
+        return view('admin.bc-grid');
+    }
+    public function layoutVertical() {
+        return view('admin.layout-vertical');
+    }
+    public function layoutHorizontal() {
+        return view('admin.layout-horizontal');
     }
 }

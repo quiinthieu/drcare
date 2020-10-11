@@ -20,6 +20,7 @@
     <!-- vendor css -->
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
 
+    <script src="{{asset('js/app.js')}}"></script>
 
 
 
