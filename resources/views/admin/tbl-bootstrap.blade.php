@@ -226,7 +226,8 @@
             <div class="card">
                 <div class="card-header">
                     <h5>Contextual Classes</h5>
-                    <span class="d-block m-t-5">For Make row Contextual add Contextual class like <code>.table-success</code> in <code> tr tag</code> and For cell add Contextual class in <code> td or th tag</code> .</span>
+                    <span
+                        class="d-block m-t-5">For Make row Contextual add Contextual class like <code>.table-success</code> in <code> tr tag</code> and For cell add Contextual class in <code> td or th tag</code> .</span>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="table-responsive">

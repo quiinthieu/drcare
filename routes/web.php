@@ -78,3 +78,6 @@ Route::get('/tbl-bootstrap', [AdminController::class, 'tblBootstrap'])->name('tb
 Route::get('/bc-grid', [AdminController::class, 'bcGrid'])->name('bc-grid');
 Route::get('/layout-vertical', [AdminController::class, 'layoutVertical'])->name('layout-vertical');
 Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->name('layout-horizontal');
+
+Route::get('/oral-diseases', [AdminController::class, 'oralDiseases'])->name('oral-diseases');
+Route::get('/dental-diseases', [AdminController::class, 'dentalDiseases'])->name('dental-diseases');

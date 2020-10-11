@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.admin', ['pageHeader' => 'Dashboard'])
 @section('content')
     <div class="row">
         <div class="col-lg-7 col-md-12">

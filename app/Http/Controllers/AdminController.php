@@ -89,4 +89,10 @@ class AdminController extends Controller
     public function layoutHorizontal() {
         return view('admin.layout-horizontal');
     }
+    public function oralDiseases() {
+        return view('admin.oral-diseases');
+    }
+    public function dentalDiseases() {
+        return view('admin.dental-diseases');
+    }
 }

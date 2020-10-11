@@ -31,8 +31,6 @@
 
 <!-- [ Header ] start -->
 <header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
-
-
     <div class="m-header">
         <a class="mobile-menu" id="mobile-collapse" href="#!"><span></span></a>
         <a href="#!" class="b-brand">
@@ -146,32 +144,14 @@
             </li>
         </ul>
     </div>
-
-
 </header>
 <!-- [ Header ] end -->
-
-
 
 <!-- [ Main Content ] start -->
 <div class="pcoded-main-container">
     <div class="pcoded-content">
         <!-- [ breadcrumb ] start -->
-        <div class="page-header">
-            <div class="page-block">
-                <div class="row align-items-center">
-                    <div class="col-md-12">
-                        <div class="page-header-title">
-                            <h5 class="m-b-10">Dashboard Analytics</h5>
-                        </div>
-                        <ul class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="{{route('dashboard')}}"><i class="feather icon-home"></i></a></li>
-                            <li class="breadcrumb-item"><a href="#">Dashboard Analytics</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <x-admin-breadcrumb :pageHeader="$pageHeader"/>
         <!-- [ breadcrumb ] end -->
         <!-- [ Main Content ] start -->
         @yield('content')
