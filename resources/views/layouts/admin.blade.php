@@ -23,7 +23,8 @@
 
 </head>
 <body class="">
-<!-- [ Pre-loader ] End -->
+<x-admin-loader />
+
 <!-- [ navigation menu ] start -->
 <nav class="pcoded-navbar menu-light ">
     <div class="navbar-wrapper  ">
@@ -101,6 +102,8 @@
     </div>
 </nav>
 <!-- [ navigation menu ] end -->
+
+
 <!-- [ Header ] start -->
 <header class="navbar pcoded-header navbar-expand-lg navbar-light header-blue">
 
