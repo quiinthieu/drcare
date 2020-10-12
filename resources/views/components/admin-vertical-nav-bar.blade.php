@@ -38,6 +38,22 @@
                         <span class="pcoded-mtext">Doctors</span>
                     </a>
                 </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-products' ? "active" : ""}}">
+                    <a href="{{route('admin-products')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-layout"></i>
+                        </span>
+                        <span class="pcoded-mtext">Products</span>
+                    </a>
+                </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-research' ? "active" : ""}}">
+                    <a href="{{route('admin-research')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-layout"></i>
+                        </span>
+                        <span class="pcoded-mtext">Research</span>
+                    </a>
+                </li>
                 {{--                                <li class="nav-item pcoded-hasmenu">--}}
                 {{--                                    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Page layouts</span></a>--}}
                 {{--                                    <ul class="pcoded-submenu">--}}

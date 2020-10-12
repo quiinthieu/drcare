@@ -4,29 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand />
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/disease-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/diseases.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/products.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/research.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/oral-diseases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/oral-diseases.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ResearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -57,13 +57,37 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="sitemap" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1602501118" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1602501094" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/public/admin/css/style.css" root0="SKIP_INSPECTION" />
@@ -234,7 +258,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ts.external.directory.path" value="C:\Users\Billie\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.7319.77\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -332,7 +356,7 @@
       <workItem from="1602403265203" duration="11443000" />
       <workItem from="1602420771462" duration="821000" />
       <workItem from="1602423709478" duration="11048000" />
-      <workItem from="1602488258197" duration="7183000" />
+      <workItem from="1602488258197" duration="11374000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -649,7 +673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602428143921</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Version 1.5.8">
+      <created>1602500202348</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1602500202348</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,6 +697,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -674,8 +716,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.3.0" />
-    <MESSAGE value="Version 1.3.1" />
     <MESSAGE value="Version 1.3.2" />
     <MESSAGE value="Version 1.3.3" />
     <MESSAGE value="Version 1.3.4" />
@@ -698,8 +738,10 @@
     <MESSAGE value="Version 1.5.4" />
     <MESSAGE value="Version 1.5.5" />
     <MESSAGE value="Version 1.5.6" />
-    <MESSAGE value="1.5.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5.7" />
+    <MESSAGE value="Version 1.5.7" />
+    <MESSAGE value="Version 1.5.8" />
+    <MESSAGE value="Version 1.5.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.5.8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig" timestamp="1602170220542">
@@ -742,6 +784,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="406" y="275" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1601005254583" />
+    <state x="589" y="90" width="803" height="779" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1602503389219">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="589" y="90" width="803" height="779" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1500.960@0.0.1500.960" timestamp="1602503389219" />
     <state x="442" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600931808101">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -766,6 +812,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1602420856658" />
+    <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1602500521442">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1602500521442" />
     <state width="1458" height="240" key="GridCell.Tab.0.bottom" timestamp="1602489045558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -786,26 +836,26 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="309" height="539" key="HiddenNamespacesPopup/0.0.1500.960@0.0.1500.960" timestamp="1602427295805" />
-    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602496588014">
+    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602503184082">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602496588014" />
+    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602503184082" />
     <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602251617059">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="331" y="98" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602251617059" />
-    <state x="13" y="102" width="1472" height="706" key="SettingsEditor" timestamp="1602423691438">
+    <state x="13" y="102" width="1472" height="706" key="SettingsEditor" timestamp="1602500466157">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="13" y="102" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1602423691438" />
+    <state x="13" y="102" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1602500466157" />
     <state width="498" height="436" key="SwitcherDM" timestamp="1602399028489">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="436" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1602399028489" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602428151054">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602500531815">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602428151054" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602500531815" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -818,10 +868,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="645" y="353" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1500.960@0.0.1500.960" timestamp="1600926788631" />
-    <state x="532" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602424658625">
+    <state x="532" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602500846201">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="532" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1602424658625" />
+    <state x="532" y="390" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1602500846201" />
     <state x="0" y="0" width="1068" height="920" maximized="true" key="dock-window-1" timestamp="1601208306396">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -830,10 +880,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="360" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1500.960@0.0.1500.960" timestamp="1602251243202" />
-    <state x="416" y="209" width="672" height="678" key="search.everywhere.popup" timestamp="1602067421237">
+    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602500984573">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="416" y="209" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1602067421237" />
+    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602500984573" />
+    <state x="422" y="215" width="672" height="678" key="search.everywhere.popup" timestamp="1602503592967">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="422" y="215" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1602503592967" />
     <state x="473" y="389" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602170174212">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

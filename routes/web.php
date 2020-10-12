@@ -7,6 +7,8 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DoctorController;
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\DiseaseController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ResearchController;
 
 Auth::routes();
 
@@ -84,7 +86,10 @@ Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->
 //Route::get('/dental-diseases', [AdminController::class, 'dentalDiseases'])->name('dental-diseases');
 //Route::get('/oral-diseases/edit/{id}', [AdminController::class, 'oralDiseasesEdit'])->name('oral-diseases-edit');
 //Route::post('/oral-disease/edit/{id}', [DiseaseController::class, 'store'])->name('oral-disease-store');
+
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
 Route::get('/admin/diseases', [DiseaseController::class, 'index'])->name('admin-diseases')->middleware('auth');
 Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name('admin-appointments')->middleware('auth');
 Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-doctors')->middleware('auth');
+Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
+Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
