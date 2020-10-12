@@ -6,6 +6,7 @@ use App\Http\Controllers\DrCareController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DoctorController;
 use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\DiseaseController;
 
 Auth::routes();
 
@@ -79,5 +80,11 @@ Route::get('/bc-grid', [AdminController::class, 'bcGrid'])->name('bc-grid');
 Route::get('/layout-vertical', [AdminController::class, 'layoutVertical'])->name('layout-vertical');
 Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->name('layout-horizontal');
 
-Route::get('/oral-diseases', [AdminController::class, 'oralDiseases'])->name('oral-diseases');
-Route::get('/dental-diseases', [AdminController::class, 'dentalDiseases'])->name('dental-diseases');
+//Route::get('/oral-diseases', [AdminController::class, 'oralDiseases'])->name('oral-diseases');
+//Route::get('/dental-diseases', [AdminController::class, 'dentalDiseases'])->name('dental-diseases');
+//Route::get('/oral-diseases/edit/{id}', [AdminController::class, 'oralDiseasesEdit'])->name('oral-diseases-edit');
+//Route::post('/oral-disease/edit/{id}', [DiseaseController::class, 'store'])->name('oral-disease-store');
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
+Route::get('/admin/diseases', [DiseaseController::class, 'index'])->name('admin-diseases')->middleware('auth');
+Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name('admin-appointments')->middleware('auth');
+Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-doctors')->middleware('auth');

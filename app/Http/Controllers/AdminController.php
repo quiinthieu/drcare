@@ -95,4 +95,7 @@ class AdminController extends Controller
     public function dentalDiseases() {
         return view('admin.dental-diseases');
     }
+    public function oralDiseasesEdit($id) {
+        return view('admin.disease-edit', ['id' => $id]);
+    }
 }

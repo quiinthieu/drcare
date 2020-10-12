@@ -6,23 +6,37 @@
                 <li class="nav-item pcoded-menu-caption">
                     <label>Navigation</label>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'dashboard' ? "active" : ""}}">
-                    <a href="{{route('dashboard')}}" class="nav-link ">
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-dashboard' ? "active" : ""}}">
+                    <a href="{{route('admin-dashboard')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-home"></i>
                         </span>
                         <span class="pcoded-mtext">Dashboard</span>
                     </a>
                 </li>
-                <li class="nav-item pcoded-hasmenu {{\Illuminate\Support\Facades\Route::currentRouteName() === 'oral-diseases' || \Illuminate\Support\Facades\Route::currentRouteName() === 'dental-diseases' ? "active" : ""}}">
-                    <a href="#" class="nav-link">
-                        <span class="pcoded-micon"><i class="feather icon-layout"></i></span>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-appointments' ? "active" : ""}}">
+                    <a href="{{route('admin-appointments')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-home"></i>
+                        </span>
+                        <span class="pcoded-mtext">Appointments</span>
+                    </a>
+                </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-diseases' ? "active" : ""}}">
+                    <a href="{{route('admin-diseases')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-layout"></i>
+                        </span>
                         <span class="pcoded-mtext">Diseases</span>
                     </a>
-                    <ul class="pcoded-submenu">
-                        <li><a href="{{route('oral-diseases')}}">Oral Diseases</a></li>
-                        <li><a href="{{route('dental-diseases')}}">Dental Diseases</a></li>
-                    </ul>
+                </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-doctors' ? "active" : ""}}">
+                    <a href="{{route('admin-doctors')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-layout"></i>
+                        </span>
+                        <span class="pcoded-mtext">Doctors</span>
+                    </a>
                 </li>
                 {{--                                <li class="nav-item pcoded-hasmenu">--}}
                 {{--                                    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Page layouts</span></a>--}}

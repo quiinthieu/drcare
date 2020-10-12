@@ -27,11 +27,11 @@ class DiseaseFactory extends Factory
                 return DiseaseType::factory()->create()->id;
             },
             'name' => ucwords($this->faker->word),
-            'description' => $this->faker->paragraph,
-            'statistics' => $this->faker->sentence,
-            'causes' => $this->faker->sentence,
-            'symptoms' => $this->faker->sentence,
-            'preventions' => $this->faker->sentence
+            'description' => $this->faker->realText(100),
+            'statistics' => $this->faker->realText(100),
+            'causes' => $this->faker->realText(100),
+            'symptoms' => $this->faker->realText(100),
+            'preventions' => $this->faker->realText(100),
         ];
     }
 }

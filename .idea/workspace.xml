@@ -14,16 +14,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dental-diseases.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/oral-diseases.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/disease-edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/diseases.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf04d23c-b082-4742-8570-e7de8970b558/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tbl-bootstrap.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tbl-bootstrap.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DiseaseFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/oral-diseases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/oral-diseases.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -327,7 +331,8 @@
       <workItem from="1602403107704" duration="139000" />
       <workItem from="1602403265203" duration="11443000" />
       <workItem from="1602420771462" duration="821000" />
-      <workItem from="1602423709478" duration="4142000" />
+      <workItem from="1602423709478" duration="11048000" />
+      <workItem from="1602488258197" duration="7183000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.1.0">
       <created>1600847245011</created>
@@ -637,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602414968628</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="1.5.7">
+      <created>1602428143921</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1602428143921</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +674,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.2.9" />
     <MESSAGE value="Version 1.3.0" />
     <MESSAGE value="Version 1.3.1" />
     <MESSAGE value="Version 1.3.2" />
@@ -687,7 +698,8 @@
     <MESSAGE value="Version 1.5.4" />
     <MESSAGE value="Version 1.5.5" />
     <MESSAGE value="Version 1.5.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.5.6" />
+    <MESSAGE value="1.5.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5.7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig" timestamp="1602170220542">
@@ -754,30 +766,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="528" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1602420856658" />
-    <state width="1458" height="240" key="GridCell.Tab.0.bottom" timestamp="1602424508774">
+    <state width="1458" height="240" key="GridCell.Tab.0.bottom" timestamp="1602489045558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602424508774" />
-    <state width="1458" height="240" key="GridCell.Tab.0.center" timestamp="1602424508774">
+    <state width="1458" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602489045558" />
+    <state width="1458" height="240" key="GridCell.Tab.0.center" timestamp="1602489045558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602424508774" />
-    <state width="1458" height="240" key="GridCell.Tab.0.left" timestamp="1602424508774">
+    <state width="1458" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602489045558" />
+    <state width="1458" height="240" key="GridCell.Tab.0.left" timestamp="1602489045558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602424508774" />
-    <state width="1458" height="240" key="GridCell.Tab.0.right" timestamp="1602424508774">
+    <state width="1458" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602489045558" />
+    <state width="1458" height="240" key="GridCell.Tab.0.right" timestamp="1602489045558">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602424508774" />
+    <state width="1458" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602489045558" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="309" height="539" key="HiddenNamespacesPopup/0.0.1500.960@0.0.1500.960" timestamp="1602427295805" />
-    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602427653011">
+    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602496588014">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602427653011" />
+    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602496588014" />
     <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602251617059">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -790,10 +802,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="436" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1602399028489" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602414975711">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602428151054">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602414975711" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602428151054" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
