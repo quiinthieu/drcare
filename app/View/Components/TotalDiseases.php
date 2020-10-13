@@ -3,6 +3,7 @@
 namespace App\View\Components;
 
 use App\Models\Disease;
+use App\Models\DiseaseType;
 use Illuminate\View\Component;
 
 class TotalDiseases extends Component
@@ -13,8 +14,10 @@ class TotalDiseases extends Component
      * @return void
      */
     public $totalDiseases;
+    public $diseaseTypes;
     public function __construct()
     {
+        $this->diseaseTypes = DiseaseType::all();
         $this->totalDiseases = Disease::count();
 
     }

@@ -8,18 +8,12 @@
         </div>
         <div class="card-footer bg-primary text-white">
             <div class="row text-center">
-                <div class="col">
-                    <h4 class="m-0 text-white">10</h4>
-                    <span>Open</span>
-                </div>
-                <div class="col">
-                    <h4 class="m-0 text-white">5</h4>
-                    <span>Running</span>
-                </div>
-                <div class="col">
-                    <h4 class="m-0 text-white">3</h4>
-                    <span>Solved</span>
-                </div>
+                @foreach($diseaseTypes as $diseaseType)
+                    <div class="col">
+                        <h4 class="m-0 text-white">{{\App\Models\Disease::all()->where('disease_type_id', $diseaseType->id)->count()}}</h4>
+                        <span>{{$diseaseType->name}}</span>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
