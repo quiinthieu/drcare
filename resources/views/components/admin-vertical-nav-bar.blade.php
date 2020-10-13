@@ -54,6 +54,14 @@
                         <span class="pcoded-mtext">Research</span>
                     </a>
                 </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-services' ? "active" : ""}}">
+                    <a href="{{route('admin-services')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-layout"></i>
+                        </span>
+                        <span class="pcoded-mtext">Services</span>
+                    </a>
+                </li>
                 {{--                                <li class="nav-item pcoded-hasmenu">--}}
                 {{--                                    <a href="#!" class="nav-link "><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext">Page layouts</span></a>--}}
                 {{--                                    <ul class="pcoded-submenu">--}}

@@ -9,6 +9,7 @@ use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\DiseaseController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ResearchController;
+use App\Http\Controllers\ServiceController;
 
 Auth::routes();
 
@@ -54,7 +55,7 @@ Route::get('/register', function() {
     return view('auth.register');
 })->name('register');
 
-Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+
 
 Route::get('/bc-alert', [AdminController::class, 'bcAlert'])->name('bc-alert');
 Route::get('/bc-badges', [AdminController::class, 'bcBadges'])->name('bc-badges');
@@ -93,3 +94,4 @@ Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name
 Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-doctors')->middleware('auth');
 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
+Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
