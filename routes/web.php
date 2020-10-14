@@ -95,3 +95,4 @@ Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-do
 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
 Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
+Route::get('/admin/appointments/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');

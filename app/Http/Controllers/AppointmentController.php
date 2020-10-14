@@ -10,11 +10,6 @@ use Illuminate\Support\Facades\Redirect;
 
 class AppointmentController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
-     */
     public function index()
     {
         $appointments = Appointment::all();
@@ -40,7 +35,6 @@ class AppointmentController extends Controller
 
     public function store(Request $request)
     {
-//        dd($request->get('date'));
         $appointment = new Appointment();
         $appointment->first_name = $request->get('first_name');
         $appointment->last_name = $request->get('last_name');
@@ -49,18 +43,10 @@ class AppointmentController extends Controller
         $appointment->setDate($request->get('date'));
         $appointment->setTime($request->get('time'));
         $appointment->message = $request->get('message');
-//        dd($appointment);
         $appointment->save();
-//        return Redirect::back();
         return view('drcare.booking-result', ['appointment' => $appointment]);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Appointment  $appointment
-     * @return \Illuminate\Http\Response
-     */
     public function show(Appointment $appointment)
     {
         //
@@ -95,8 +81,9 @@ class AppointmentController extends Controller
      * @param  \App\Models\Appointment  $appointment
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Appointment $appointment)
+    public function destroy($id)
     {
-        //
+        Appointment::destroy($id);
+        Redirect::back();
     }
 }

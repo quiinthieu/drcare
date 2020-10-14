@@ -27,7 +27,7 @@
                                     <td class="text-center">
                                         <a href="#" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
                                         &nbsp;
-                                        <a href="#" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
+                                        <a href="{{route('admin-appointments-delete', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
                                     </td>
                                     <td>{{$appointment->id}}</td>
                                     <td>{{$appointment->first_name . ' ' . $appointment->last_name}}</td>

@@ -4,37 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/TotalDiseases.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/TotalDiseases.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/TotalServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/TotalServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-appointments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-diseases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-diseases.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-doctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-doctors.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-services.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,14 +349,7 @@
       <workItem from="1602515189877" duration="172000" />
       <workItem from="1602515408807" duration="2375000" />
       <workItem from="1602599729657" duration="188000" />
-      <workItem from="1602649963708" duration="5784000" />
-    </task>
-    <task id="LOCAL-00004" summary="Version 1.1.3">
-      <created>1600881666628</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1600881666628</updated>
+      <workItem from="1602649963708" duration="9494000" />
     </task>
     <task id="LOCAL-00005" summary="Version 1.1.4">
       <created>1600932001433</created>
@@ -710,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602651744974</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Version 1.6.6">
+      <created>1602659199738</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602659199739</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,17 +711,6 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
             </State>
           </value>
         </entry>
@@ -746,7 +719,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.3.8" />
     <MESSAGE value="Version 1.3.9" />
     <MESSAGE value="Version 1.4.0" />
     <MESSAGE value="Version 1.4.1" />
@@ -771,7 +743,8 @@
     <MESSAGE value="Version 1.6.3" />
     <MESSAGE value="Version 1.6.4" />
     <MESSAGE value="Version 1.6.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.5" />
+    <MESSAGE value="Version 1.6.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig" timestamp="1602170220542">
