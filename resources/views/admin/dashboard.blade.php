@@ -5,32 +5,7 @@
             <!-- support-section start -->
             <div class="row">
                 <x-total-diseases />
-                <div class="col-sm-6">
-                    <div class="card support-bar overflow-hidden">
-                        <div class="card-body pb-0">
-                            <h2 class="m-0">350</h2>
-                            <span class="text-c-green">Support Requests</span>
-                            <p class="mb-3 mt-3">Total number of support requests that come in.</p>
-                        </div>
-                        <div id="support-chart1"></div>
-                        <div class="card-footer bg-success text-white">
-                            <div class="row text-center">
-                                <div class="col">
-                                    <h4 class="m-0 text-white">10</h4>
-                                    <span>Open</span>
-                                </div>
-                                <div class="col">
-                                    <h4 class="m-0 text-white">5</h4>
-                                    <span>Running</span>
-                                </div>
-                                <div class="col">
-                                    <h4 class="m-0 text-white">3</h4>
-                                    <span>Solved</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <x-total-services />
             </div>
             <!-- support-section end -->
         </div>

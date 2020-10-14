@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/TotalDiseases.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/TotalDiseases.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-diseases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-diseases.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -353,13 +351,8 @@
       <workItem from="1602514999954" duration="151000" />
       <workItem from="1602515189877" duration="172000" />
       <workItem from="1602515408807" duration="2375000" />
-    </task>
-    <task id="LOCAL-00002" summary="Version 1.1.1">
-      <created>1600867699694</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1600867699694</updated>
+      <workItem from="1602599729657" duration="188000" />
+      <workItem from="1602649963708" duration="1440000" />
     </task>
     <task id="LOCAL-00003" summary="Version 1.1.2">
       <created>1600871910031</created>
@@ -697,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602586446508</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Version 1.6.4">
+      <created>1602597768466</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1602597768466</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -733,7 +733,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.3.6" />
     <MESSAGE value="Version 1.3.7" />
     <MESSAGE value="Version 1.3.8" />
     <MESSAGE value="Version 1.3.9" />
@@ -758,7 +757,8 @@
     <MESSAGE value="Version 1.6.1" />
     <MESSAGE value="Version 1.6.2" />
     <MESSAGE value="Version 1.6.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.3" />
+    <MESSAGE value="Version 1.6.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig" timestamp="1602170220542">
@@ -833,22 +833,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1602500521442" />
-    <state width="1460" height="240" key="GridCell.Tab.0.bottom" timestamp="1602582120863">
+    <state width="1460" height="240" key="GridCell.Tab.0.bottom" timestamp="1602650144870">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602582120863" />
-    <state width="1460" height="240" key="GridCell.Tab.0.center" timestamp="1602582120863">
+    <state width="1460" height="240" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602650144870" />
+    <state width="1460" height="240" key="GridCell.Tab.0.center" timestamp="1602650144870">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602582120863" />
-    <state width="1460" height="240" key="GridCell.Tab.0.left" timestamp="1602582120863">
+    <state width="1460" height="240" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602650144870" />
+    <state width="1460" height="240" key="GridCell.Tab.0.left" timestamp="1602650144869">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602582120863" />
-    <state width="1460" height="240" key="GridCell.Tab.0.right" timestamp="1602582120863">
+    <state width="1460" height="240" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602650144869" />
+    <state width="1460" height="240" key="GridCell.Tab.0.right" timestamp="1602650144870">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602582120863" />
+    <state width="1460" height="240" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602650144870" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -897,10 +897,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="360" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1500.960@0.0.1500.960" timestamp="1602586397642" />
-    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602597527746">
+    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602597627794">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602597527746" />
+    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602597627794" />
     <state x="422" y="215" width="672" height="678" key="search.everywhere.popup" timestamp="1602503592967">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
