@@ -25,10 +25,10 @@ class ProductFactory extends Factory
     {
         static $id = 1;
         return [
-            'category_id' => function() {
+            'category_id' => function () {
                 return Category::factory()->create()->id;
             },
-            'name' => $this->faker->realText(30),
+            'name' => $this->faker->realText(25),
             'description' => $this->faker->realText(60),
             'price' => $this->faker->randomFloat(2, 0, 100),
             'photos' => json_encode([
