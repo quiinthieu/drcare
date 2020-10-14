@@ -15,10 +15,6 @@
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,14 +345,7 @@
       <workItem from="1602515189877" duration="172000" />
       <workItem from="1602515408807" duration="2375000" />
       <workItem from="1602599729657" duration="188000" />
-      <workItem from="1602649963708" duration="9494000" />
-    </task>
-    <task id="LOCAL-00005" summary="Version 1.1.4">
-      <created>1600932001433</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1600932001433</updated>
+      <workItem from="1602649963708" duration="10462000" />
     </task>
     <task id="LOCAL-00006" summary="Version 1.1.5">
       <created>1600965297096</created>
@@ -694,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602659199739</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Version 1.6.7">
+      <created>1602663246227</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1602663246227</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,7 +715,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.3.9" />
     <MESSAGE value="Version 1.4.0" />
     <MESSAGE value="Version 1.4.1" />
     <MESSAGE value="Version 1.4.2" />
@@ -744,7 +739,8 @@
     <MESSAGE value="Version 1.6.4" />
     <MESSAGE value="Version 1.6.5" />
     <MESSAGE value="Version 1.6.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.6" />
+    <MESSAGE value="Version 1.6.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.6.7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig" timestamp="1602170220542">
@@ -883,10 +879,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="360" y="110" key="git4idea.branch.GitSmartOperationDialog/0.0.1500.960@0.0.1500.960" timestamp="1602586397642" />
-    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602597627794">
+    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602668195527">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602597627794" />
+    <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602668195527" />
     <state x="422" y="215" width="672" height="678" key="search.everywhere.popup" timestamp="1602503592967">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
