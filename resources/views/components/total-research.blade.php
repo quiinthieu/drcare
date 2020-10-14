@@ -1,5 +1,5 @@
 <!-- Well begun is half done. - Aristotle -->
-<div class="col-sm-6">
+<div class="col-sm-4">
     <div class="card">
         <div class="card-body">
             <div class="row align-items-center">

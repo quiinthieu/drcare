@@ -14,10 +14,8 @@ class TotalDiseases extends Component
      * @return void
      */
     public $totalDiseases;
-    public $diseaseTypes;
     public function __construct()
     {
-        $this->diseaseTypes = DiseaseType::all();
         $this->totalDiseases = Disease::count();
 
     }

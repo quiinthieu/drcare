@@ -14,11 +14,9 @@ class TotalServices extends Component
      * @return void
      */
     public $totalServices;
-    public $serviceTypes;
     public function __construct()
     {
         $this->totalServices = Service::count();
-        $this->serviceTypes = ServiceType::all();
     }
 
     /**

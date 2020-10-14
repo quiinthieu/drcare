@@ -10,7 +10,7 @@
                              alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">{{$doctor->name}}</h5>
-                            <p class="card-text">{{\Illuminate\Support\Facades\DB::table('doctor_types')->find($doctor->doctor_type_id)->name}}</p>
+                            <p class="card-text"><span class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('doctor_types')->find($doctor->doctor_type_id)->name}}</span></p>
                             <a class="btn btn-outline-primary btn-sm" role="button" href="#">Edit</a>
                             &nbsp;
                             <a class="btn  btn-outline-danger btn-sm" role="button" href="#">Delete</a>

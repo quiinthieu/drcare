@@ -11,7 +11,7 @@
                         <div class="card-body">
                             <h5 class="card-title">{{$product->name}}</h5>
                             <p class="card-text">{{$product->description}}</p>
-                            <span class="badge badge-pill badge-secondary">{{\Illuminate\Support\Facades\DB::table('categories')->find($product->category_id)->name}}</span>
+                            <span class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('categories')->find($product->category_id)->name}}</span>
                         </div>
                         <div class="card-footer">
                             <a class="btn btn-outline-primary btn-sm" role="button" href="#">Edit</a>

@@ -13,7 +13,7 @@
                             <p class="card-text">{{$article->subtitle}}</p>
                             <div class="d-flex align-items-between justify-content-between">
                                 <span class="card-text"><small class="text-muted">{{\Carbon\Carbon::parse(strtotime($article->published_at))->diffForHumans()}}</small></span>
-                                <span class="badge badge-pill badge-secondary">{{\Illuminate\Support\Facades\DB::table('disease_types')->find($article->disease_type_id)->name}}</span>
+                                <span class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('disease_types')->find($article->disease_type_id)->name}}</span>
                             </div>
 
                         </div>

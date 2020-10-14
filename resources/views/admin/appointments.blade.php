@@ -14,8 +14,7 @@
                             <tr>
                                 <th class="text-center">Actions</th>
                                 <th>ID</th>
-                                <th>First Name</th>
-                                <th>Last Name</th>
+                                <th>Name</th>
                                 <th>Service Type</th>
                                 <th>Date</th>
                                 <th>Time</th>
@@ -31,8 +30,7 @@
                                         <a href="#" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
                                     </td>
                                     <td>{{$appointment->id}}</td>
-                                    <td>{{$appointment->first_name}}</td>
-                                    <td>{{$appointment->last_name}}</td>
+                                    <td>{{$appointment->first_name . ' ' . $appointment->last_name}}</td>
                                     <td>{{\Illuminate\Support\Facades\DB::table('service_types')->find($appointment->service_type_id)->name}}</td>
                                     <td>{{$appointment->date}}</td>
                                     <td>{{$appointment->time}}</td>
