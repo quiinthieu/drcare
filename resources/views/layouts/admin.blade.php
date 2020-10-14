@@ -53,7 +53,7 @@
                         <div class="pro-head">
                             <img src="{{asset('storage/admin/images/user/avatar-1.jpg')}}" class="img-radius"
                                  alt="User-Profile-Image">
-                            <span>John Doe</span>
+                            <span>{{\Illuminate\Support\Facades\Auth::user()->name}}</span>
                             <a href="{{asset('logout')}}" class="dud-logout" title="Logout"
                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 <i class="feather icon-log-out"></i>
@@ -67,7 +67,7 @@
                                     Profile</a></li>
                             <li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> My
                                     Messages</a></li>
-                            <li><a href="auth-signin.html" class="dropdown-item"><i class="feather icon-lock"></i> Lock
+                            <li><a href="{{route('index')}}" class="dropdown-item"><i class="feather icon-lock"></i> Lock
                                     Screen</a></li>
                         </ul>
                     </div>

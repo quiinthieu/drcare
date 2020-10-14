@@ -3,8 +3,9 @@
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Diseases</h5>
+                    <a role="button" class="btn btn-primary text-white">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="col-12 d-flex flex-wrap">
