@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Appointments</h5>
-                    <a role="button" class="btn btn-primary text-white">Create</a>
+                    <a role="button" class="btn btn-primary text-white" href="{{route('admin-appointments-create')}}">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     @if(count($appointments))
@@ -27,6 +27,8 @@
                                 @foreach($appointments as $appointment)
                                     <tr>
                                         <td class="text-center">
+                                            <a href="{{route('admin-appointments-show', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-primary btn-sm">Show</a>
+                                            &nbsp;
                                             <a href="#" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
                                             &nbsp;
                                             <a href="{{route('admin-appointments-delete', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-danger btn-sm">Delete</a>

@@ -14,8 +14,8 @@
                         <span class="pcoded-mtext">Dashboard</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-appointments' ? "active" : ""}}">
-                    <a href="{{route('admin-appointments')}}" class="nav-link ">
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-appointments-index' ? "active" : ""}}">
+                    <a href="{{route('admin-appointments-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-home"></i>
                         </span>

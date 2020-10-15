@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Appointment;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DrCareController;
@@ -90,9 +91,39 @@ Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->
 
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
 Route::get('/admin/diseases', [DiseaseController::class, 'index'])->name('admin-diseases')->middleware('auth');
-Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name('admin-appointments')->middleware('auth');
 Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-doctors')->middleware('auth');
 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
 Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
-Route::get('/admin/appointments/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
+
+// START APPOINTMENTS ROUTES
+
+// C - for Create
+Route::get('/admin/appointments/create', function() {
+    return view('admin.appointments-create');
+})->name('admin-appointments-create')->middleware('auth');
+Route::post('/admin/appointments/store', function(\Illuminate\Http\Request $request) {
+    $appointment = new Appointment();
+    $appointment->first_name = $request->get('first_name');
+    $appointment->last_name = $request->get('last_name');
+    $appointment->setServiceTypeId($request->get('service_type_id'));
+    $appointment->phone = $request->get('phone');
+    $appointment->setDate($request->get('date'));
+    $appointment->setTime($request->get('time'));
+    $appointment->message = $request->get('message');
+    $appointment->save();
+    return \Illuminate\Support\Facades\Redirect::route('admin-appointments-index');
+})->name('admin-appointments-store')->middleware('auth');
+
+// R - for Read
+Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name('admin-appointments-index')->middleware('auth');
+Route::get('/admin/appointments/{id}', function ($id) {
+
+})->name('admin-appointments-show')->middleware('auth');
+
+// U - for Update
+
+// D - for Delete
+Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
+
+// END APPOINTMENTS ROUTES
