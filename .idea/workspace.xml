@@ -29,12 +29,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments-create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments-edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments-show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth-signin.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth-signup.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-alert.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-badges.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-breadcrumb-pagination.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-button.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-card.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-carousel.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-collapse.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-extra.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-grid.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-modal.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-progress.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-spinner.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-tabs.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-toasts.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-tooltip-popover.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-typography.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/chart-apex.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/form-elements.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout-horizontal.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout-vertical.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sample-page.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tbl-bootstrap.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/total-appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-appointments.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +300,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
     <property name="ts.external.directory.path" value="C:\Users\Billie\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.7319.77\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -403,14 +428,7 @@
       <workItem from="1602677725051" duration="4938000" />
       <workItem from="1602732466400" duration="229000" />
       <workItem from="1602733237979" duration="403000" />
-      <workItem from="1602734701924" duration="7348000" />
-    </task>
-    <task id="LOCAL-00013" summary="Version 1.2.2">
-      <created>1601370484829</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1601370484829</updated>
+      <workItem from="1602734701924" duration="16593000" />
     </task>
     <task id="LOCAL-00014" summary="Version 1.2.3">
       <created>1601383775846</created>
@@ -748,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602688928388</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Version 1.7.5">
+      <created>1602742218901</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1602742218902</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +809,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.4.7" />
     <MESSAGE value="Version 1.4.8" />
     <MESSAGE value="Version 1.5.2" />
     <MESSAGE value="Version 1.5.3" />
@@ -809,7 +833,8 @@
     <MESSAGE value="Version 1.7.2" />
     <MESSAGE value="Version 1.7.3" />
     <MESSAGE value="Version 1.7.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.4" />
+    <MESSAGE value="Version 1.7.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -908,18 +933,18 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="309" height="539" key="HiddenNamespacesPopup/0.0.1500.960@0.0.1500.960" timestamp="1602427295805" />
-    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602738766435">
+    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602748849800">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602738766435" />
+    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602748849800" />
     <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602251617059">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="331" y="98" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602251617059" />
-    <state x="11" y="179" width="1472" height="706" key="SettingsEditor" timestamp="1602736040079">
+    <state x="11" y="179" width="1472" height="706" key="SettingsEditor" timestamp="1602752837552">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="11" y="179" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1602736040079" />
+    <state x="11" y="179" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1602752837552" />
     <state x="93" y="93" width="1313" height="773" key="ShowDiffWithBranchDialog" timestamp="1602687142858">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -928,10 +953,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="436" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1602399028489" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602688949349">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602742242841">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602688949349" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602742242841" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

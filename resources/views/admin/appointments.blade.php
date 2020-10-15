@@ -27,9 +27,9 @@
                                 @foreach($appointments as $appointment)
                                     <tr>
                                         <td class="text-center">
-                                            <a href="{{route('admin-appointments-show', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-primary btn-sm">Show</a>
+                                            <a href="{{route('admin-appointments-show', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
                                             &nbsp;
-                                            <a href="#" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
+                                            <a href="{{route('admin-appointments-edit', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
                                             &nbsp;
                                             <a href="{{route('admin-appointments-delete', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
                                         </td>

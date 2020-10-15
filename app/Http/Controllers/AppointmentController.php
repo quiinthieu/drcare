@@ -46,25 +46,36 @@ class AppointmentController extends Controller
 
     public function show($id)
     {
-
+        $appointment = Appointment::find($id);
+        return view('admin.appointments-show', ['appointment' => $appointment]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
      */
-    public function edit(Appointment $appointment)
+    public function edit($id)
     {
-        //
+        $appointment = Appointment::find($id);
+        return view('admin.appointments-edit', ['appointment' => $appointment]);
     }
 
     /**
      * Update the specified resource in storage.
      *
      */
-    public function update(Request $request, Appointment $appointment)
+    public function update(Request $request, $id)
     {
-        //
+        $appointment = Appointment::find($id);
+        $appointment->first_name = $request->get('first_name');
+        $appointment->last_name = $request->get('last_name');
+        $appointment->setServiceTypeId($request->get('service_type_id'));
+        $appointment->phone = $request->get('phone');
+        $appointment->setDate($request->get('date'));
+        $appointment->setTime($request->get('time'));
+        $appointment->message = $request->get('message');
+        $appointment->save();
+        return Redirect::route('admin-appointments-index');
     }
 
     /**
@@ -74,6 +85,7 @@ class AppointmentController extends Controller
     public function destroy($id)
     {
         Appointment::destroy($id);
-        Redirect::back();
+        return Redirect::route('admin-appointments-index');
     }
+
 }

@@ -96,8 +96,7 @@ Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
 Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
 
-// START APPOINTMENTS ROUTES
-
+// APPOINTMENTS - START
 // C - for Create
 Route::get('/admin/appointments/create', function() {
     return view('admin.appointments-create');
@@ -117,13 +116,13 @@ Route::post('/admin/appointments/store', function(\Illuminate\Http\Request $requ
 
 // R - for Read
 Route::get('/admin/appointments', [AppointmentController::class, 'index'])->name('admin-appointments-index')->middleware('auth');
-Route::get('/admin/appointments/{id}', function ($id) {
-
-})->name('admin-appointments-show')->middleware('auth');
+Route::get('/admin/appointments/{id}', [AppointmentController::class, 'show'])->name('admin-appointments-show')->middleware('auth');
 
 // U - for Update
+Route::get('/admin/appointments/edit/{id}', [AppointmentController::class, 'edit'])->name('admin-appointments-edit')->middleware('auth');
+Route::post('/admin/appointments/update/{id}', [AppointmentController::class, 'update'])->name('admin-appointments-update')->middleware('auth');
 
 // D - for Delete
 Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
 
-// END APPOINTMENTS ROUTES
+// APPOINTMENTS - END
