@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Disease;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class DiseaseController extends Controller
 {
@@ -23,7 +24,7 @@ class DiseaseController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.diseases-create');
     }
 
     /**
@@ -32,42 +33,49 @@ class DiseaseController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $disease = Disease::create($request->except('_token'));
+        $disease->save();
+        return Redirect::route('admin-diseases-index');
     }
 
     /**
      * Display the specified resource.
      *
      */
-    public function show(Disease $disease)
+    public function show($id)
     {
-        //
+        $disease = Disease::find($id);
+        return view('admin.diseases-show', ['disease' => $disease]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
      */
-    public function edit(Disease $disease)
+    public function edit($id)
     {
-        //
+        $disease = Disease::find($id);
+        return view('admin.diseases-edit', ['disease' => $disease]);
     }
 
     /**
      * Update the specified resource in storage.
      *
      */
-    public function update(Request $request, Disease $disease)
+    public function update(Request $request, $id)
     {
-        //
+        $disease = Disease::find($id);
+        $disease->update($request->except('_token'));
+        return Redirect::route('admin-diseases-index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
      */
-    public function destroy(Disease $disease)
+    public function destroy($id)
     {
-        //
+        Disease::destroy($id);
+        return Redirect::route('admin-diseases-index');
     }
 }

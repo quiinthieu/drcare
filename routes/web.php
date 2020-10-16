@@ -141,6 +141,6 @@ Route::get('/admin/diseases/edit/{id}', [DiseaseController::class, 'edit'])->nam
 Route::post('/admin/diseases/update/{id}', [DiseaseController::class, 'update'])->name('admin-diseases-update')->middleware('auth');
 
 // D - for Delete
-Route::get('/admin/diseases/delete', [DiseaseController::class, 'delete'])->name('admin-diseases-delete')->middleware('auth');
+Route::get('/admin/diseases/delete/{id}', [DiseaseController::class, 'destroy'])->name('admin-diseases-delete')->middleware('auth');
 
 // DISEASES - END

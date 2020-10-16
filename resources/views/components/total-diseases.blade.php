@@ -15,7 +15,7 @@
         <div class="card-footer bg-c-blue">
             <div class="row align-items-center">
                 <div class="col-9">
-                    <a class="text-white m-b-0" href="{{route('admin-diseases')}}">View</a>
+                    <a class="text-white m-b-0" href="{{route('admin-diseases-index')}}">View</a>
                 </div>
                 <div class="col-3 text-right">
                     <i class="feather icon-trending-up text-white f-16"></i>

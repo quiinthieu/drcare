@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Diseases</h5>
-                    <a role="button" class="btn btn-primary text-white">Create</a>
+                    <a role="button" href="{{route('admin-diseases-create')}}" class="btn btn-primary text-white">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     @if(count($diseases))
@@ -28,9 +28,11 @@
                                 @foreach($diseases as $disease)
                                     <tr>
                                         <td class="text-center">
-                                            <a href="#" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
+                                            <a href="{{route('admin-diseases-show', ['id' => $disease->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
                                             &nbsp;
-                                            <a href="#" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
+                                            <a href="{{route('admin-diseases-edit', ['id' => $disease->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
+                                            &nbsp;
+                                            <a href="{{route('admin-diseases-delete', ['id' => $disease->id])}}" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
                                         </td>
                                         <td>{{$disease->id}}</td>
                                         <td>{{$disease->name}}</td>
