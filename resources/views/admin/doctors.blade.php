@@ -5,7 +5,7 @@
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Diseases</h5>
-                    <a role="button" class="btn btn-primary text-white">Create</a>
+                    <a role="button" href="{{route('admin-doctors-create')}}" class="btn btn-primary text-white">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="col-12 d-flex flex-wrap">
@@ -18,9 +18,9 @@
                                     <div class="card-body">
                                         <h5 class="card-title">{{$doctor->name}}</h5>
                                         <p class="card-text"><span class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('doctor_types')->find($doctor->doctor_type_id)->name}}</span></p>
-                                        <a class="btn btn-outline-primary btn-sm" role="button" href="#">Edit</a>
+                                        <a class="btn btn-outline-primary btn-sm" role="button" href="{{route('admin-doctors-edit', ['id' => $doctor->id])}}">Edit</a>
                                         &nbsp;
-                                        <a class="btn  btn-outline-danger btn-sm" role="button" href="#">Delete</a>
+                                        <a class="btn  btn-outline-danger btn-sm" role="button" href="{{route('admin-doctors-delete', ['id' => $doctor->id])}}">Delete</a>
                                     </div>
                                 </div>
                             </div>

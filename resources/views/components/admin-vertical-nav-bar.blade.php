@@ -30,8 +30,8 @@
                         <span class="pcoded-mtext">Diseases</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-doctors' ? "active" : ""}}">
-                    <a href="{{route('admin-doctors')}}" class="nav-link ">
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-doctors-index' ? "active" : ""}}">
+                    <a href="{{route('admin-doctors-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
                         </span>

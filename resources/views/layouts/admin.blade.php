@@ -19,7 +19,7 @@
     <!-- vendor css -->
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
 
-    {{--    <script src="{{asset('js/app.js')}}"></script>--}}
+    <script src="{{asset('js/app.js')}}"></script>
 
 </head>
 <body class="">
@@ -139,16 +139,10 @@
 
 <!-- Required Js -->
 <script src="{{asset('admin/js/vendor-all.min.js')}}"></script>
-<script src="{{asset('admin/js/plugins/bootstrap.min.js')}}"></script>
+{{--<script src="{{asset('admin/js/plugins/bootstrap.min.js')}}"></script>--}}
+<script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('admin/js/ripple.js')}}"></script>
 <script src="{{asset('admin/js/pcoded.min.js')}}"></script>
-
-<!-- Apex Chart -->
-<script src="{{asset('admin/js/plugins/apexcharts.min.js')}}"></script>
-
-
-<!-- custom-chart js -->
-<script src="{{asset('admin/js/pages/dashboard-main.js')}}"></script>
 
 </body>
 

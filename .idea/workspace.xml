@@ -29,17 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/diseases-create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/diseases-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/diseases-show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d9176d1-0ef5-45c9-984e-0ba471899a26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d9176d1-0ef5-45c9-984e-0ba471899a26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/doctors-create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/doctors-edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Disease.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Disease.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/diseases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/diseases.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-diseases.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-diseases.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Doctor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Doctor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/js/plugins/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/js/plugins/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/doctors.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/total-doctors.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-doctors.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,8 +267,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../xampp/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/admin/js/plugins" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -285,19 +285,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin\js\plugins" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\resources\views\components" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\app\View\Components\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\resources\views\components\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\doctors" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -409,13 +409,6 @@
       <workItem from="1602732466400" duration="229000" />
       <workItem from="1602733237979" duration="403000" />
       <workItem from="1602734701924" duration="19226000" />
-    </task>
-    <task id="LOCAL-00015" summary="Version 1.2.4">
-      <created>1601384683285</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1601384683285</updated>
     </task>
     <task id="LOCAL-00016" summary="Version 1.2.5">
       <created>1601386316937</created>
@@ -753,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602752856259</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Version 1.7.8">
+      <created>1602826523406</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1602826523406</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,7 +789,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.5.2" />
     <MESSAGE value="Version 1.5.3" />
     <MESSAGE value="Version 1.5.4" />
     <MESSAGE value="Version 1.5.5" />
@@ -814,7 +813,8 @@
     <MESSAGE value="Version 1.7.4" />
     <MESSAGE value="Version 1.7.5" />
     <MESSAGE value="Version 1.7.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.6" />
+    <MESSAGE value="Version 1.7.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -893,30 +893,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1602500521442" />
-    <state width="1460" height="310" key="GridCell.Tab.0.bottom" timestamp="1602755489649">
+    <state width="1460" height="177" key="GridCell.Tab.0.bottom" timestamp="1602856143897">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
-    <state width="1460" height="310" key="GridCell.Tab.0.center" timestamp="1602755489649">
+    <state width="1460" height="177" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602856143897" />
+    <state width="1460" height="177" key="GridCell.Tab.0.center" timestamp="1602856143897">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
-    <state width="1460" height="310" key="GridCell.Tab.0.left" timestamp="1602755489649">
+    <state width="1460" height="177" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602856143897" />
+    <state width="1460" height="177" key="GridCell.Tab.0.left" timestamp="1602856143897">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
-    <state width="1460" height="310" key="GridCell.Tab.0.right" timestamp="1602755489649">
+    <state width="1460" height="177" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602856143897" />
+    <state width="1460" height="177" key="GridCell.Tab.0.right" timestamp="1602856143897">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
+    <state width="1460" height="177" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602856143897" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="309" height="539" key="HiddenNamespacesPopup/0.0.1500.960@0.0.1500.960" timestamp="1602427295805" />
-    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602826114134">
+    <state x="533" y="404" key="NewPhpFileDialog" timestamp="1602857866619">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602826114134" />
+    <state x="533" y="404" key="NewPhpFileDialog/0.0.1500.960@0.0.1500.960" timestamp="1602857866619" />
     <state x="331" y="98" key="RollbackChangesDialog" timestamp="1602251617059">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -933,10 +933,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="436" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1602399028489" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602819931781">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602826554998">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602819931781" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602826554998" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

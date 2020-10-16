@@ -10,6 +10,7 @@ class Doctor extends Model
     use HasFactory;
     protected $fillable = [
         'name',
+        'doctor_type_id',
         'photo'
     ];
 

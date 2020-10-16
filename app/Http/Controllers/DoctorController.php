@@ -4,83 +4,56 @@ namespace App\Http\Controllers;
 
 use App\Models\Doctor;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class DoctorController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
-     */
     public function index()
     {
         $doctors = Doctor::paginate(8);
-        return view('admin/doctors', ['doctors' => $doctors]);
+        return view('admin.doctors', ['doctors' => $doctors]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
+        return view('admin.doctors-create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        $fileName = $request->photo->getClientOriginalName();
+        $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
+        $request->photo = 'storage/' . $path;
+        Doctor::create($request->except('_token'));
+        return Redirect::route('admin-doctors-index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Doctor  $doctor
-     * @return \Illuminate\Http\Response
-     */
     public function show(Doctor $doctor)
     {
-        //
+
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Doctor  $doctor
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Doctor $doctor)
+    public function edit($id)
     {
-        //
+        $doctor = Doctor::find($id);
+        return view('admin.doctors-edit', ['doctor' => $doctor]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Doctor  $doctor
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Doctor $doctor)
+    public function update(Request $request, $id)
     {
-        //
+        $doctor = Doctor::find($id);
+        if ($request->hasFile('photo')) {
+            $fileName = $request->photo->getClientOriginalName();
+            $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
+            $doctor->update(['photo' => 'storage/' . $path]);
+        }
+        $doctor->update($request->except('_token', 'photo'));
+        return Redirect::route('admin-doctors-index');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Doctor  $doctor
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Doctor $doctor)
+    public function destroy($id)
     {
-        //
+        Doctor::destroy($id);
+        return Redirect::route('admin-doctors-index');
     }
 }

@@ -31,9 +31,6 @@ Route::get('/products', function() {
     return view('drcare.pricing');
 });
 Route::get('/products/{id}', [DrCareController::class, 'product'])->name('product');
-
-
-
 Route::get('/blog', function() {
     return view('drcare.blog');
 })->name('blog');
@@ -46,18 +43,13 @@ Route::get('/contact', function() {
 Route::get('/department', function() {
     return view('drcare.department');
 })->name('department');
-
 Route::resource('appointments', AppointmentController::class);
-
 Route::get('/login', function() {
     return view('auth.login');
 })->name('login');
 Route::get('/register', function() {
     return view('auth.register');
 })->name('register');
-
-
-
 Route::get('/bc-alert', [AdminController::class, 'bcAlert'])->name('bc-alert');
 Route::get('/bc-badges', [AdminController::class, 'bcBadges'])->name('bc-badges');
 Route::get('/bc-breadcrumb-pagination', [AdminController::class, 'bcBreadcrumbPagination'])->name('bc-breadcrumb-pagination');
@@ -83,17 +75,14 @@ Route::get('/tbl-bootstrap', [AdminController::class, 'tblBootstrap'])->name('tb
 Route::get('/bc-grid', [AdminController::class, 'bcGrid'])->name('bc-grid');
 Route::get('/layout-vertical', [AdminController::class, 'layoutVertical'])->name('layout-vertical');
 Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->name('layout-horizontal');
-
-//Route::get('/oral-diseases', [AdminController::class, 'oralDiseases'])->name('oral-diseases');
-//Route::get('/dental-diseases', [AdminController::class, 'dentalDiseases'])->name('dental-diseases');
-//Route::get('/oral-diseases/edit/{id}', [AdminController::class, 'oralDiseasesEdit'])->name('oral-diseases-edit');
-//Route::post('/oral-disease/edit/{id}', [DiseaseController::class, 'store'])->name('oral-disease-store');
-
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
-Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-doctors')->middleware('auth');
 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
 Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
+
+
+
+// ADMIN - START
 
 // APPOINTMENTS - START
 // C - for Create
@@ -123,7 +112,6 @@ Route::post('/admin/appointments/update/{id}', [AppointmentController::class, 'u
 
 // D - for Delete
 Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
-
 // APPOINTMENTS - END
 
 
@@ -142,5 +130,26 @@ Route::post('/admin/diseases/update/{id}', [DiseaseController::class, 'update'])
 
 // D - for Delete
 Route::get('/admin/diseases/delete/{id}', [DiseaseController::class, 'destroy'])->name('admin-diseases-delete')->middleware('auth');
-
 // DISEASES - END
+
+
+// DOCTORS - START
+// C - for Create
+Route::get('/admin/doctors/create', [DoctorController::class, 'create'])->name('admin-doctors-create')->middleware('auth');
+Route::post('/admin/doctors/store', [DoctorController::class, 'store'])->name('admin-doctors-store')->middleware('auth');
+
+// R - for Read
+Route::get('/admin/doctors/index', [DoctorController::class, 'index'])->name('admin-doctors-index')->middleware('auth');
+Route::get('/admin/doctors/show/{id}', [DoctorController::class, 'show'])->name('admin-doctors-show')->middleware('auth');
+
+// U - for Update
+Route::get('/admin/doctors/edit/{id}', [DoctorController::class, 'edit'])->name('admin-doctors-edit')->middleware('auth');
+Route::post('/admin/doctors/update/{id}', [DoctorController::class, 'update'])->name('admin-doctors-update')->middleware('auth');
+
+// D - for Delete
+Route::get('/admin/doctors/delete/{id}', [DoctorController::class, 'destroy'])->name('admin-doctors-delete')->middleware('auth');
+
+// DOCTORS - END
+
+
+// ADMIN - END
