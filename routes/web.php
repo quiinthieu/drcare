@@ -90,7 +90,6 @@ Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->
 //Route::post('/oral-disease/edit/{id}', [DiseaseController::class, 'store'])->name('oral-disease-store');
 
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
-Route::get('/admin/diseases', [DiseaseController::class, 'index'])->name('admin-diseases')->middleware('auth');
 Route::get('/admin/doctors', [DoctorController::class, 'index'])->name('admin-doctors')->middleware('auth');
 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
@@ -126,3 +125,22 @@ Route::post('/admin/appointments/update/{id}', [AppointmentController::class, 'u
 Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
 
 // APPOINTMENTS - END
+
+
+// DISEASES - START
+// C - for Create
+Route::get('/admin/diseases/create', [DiseaseController::class, 'create'])->name('admin-diseases-create')->middleware('auth');
+Route::post('/admin/diseases/store', [DiseaseController::class, 'store'])->name('admin-diseases-store')->middleware('auth');
+
+// R - for Read
+Route::get('/admin/diseases/index', [DiseaseController::class, 'index'])->name('admin-diseases-index')->middleware('auth');
+Route::get('/admin/diseases/show/{id}', [DiseaseController::class, 'show'])->name('admin-diseases-show')->middleware('auth');
+
+// U - for Update
+Route::get('/admin/diseases/edit/{id}', [DiseaseController::class, 'edit'])->name('admin-diseases-edit')->middleware('auth');
+Route::post('/admin/diseases/update/{id}', [DiseaseController::class, 'update'])->name('admin-diseases-update')->middleware('auth');
+
+// D - for Delete
+Route::get('/admin/diseases/delete', [DiseaseController::class, 'delete'])->name('admin-diseases-delete')->middleware('auth');
+
+// DISEASES - END

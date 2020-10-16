@@ -22,8 +22,8 @@
                         <span class="pcoded-mtext">Appointments</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-diseases' ? "active" : ""}}">
-                    <a href="{{route('admin-diseases')}}" class="nav-link ">
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-diseases-index' ? "active" : ""}}">
+                    <a href="{{route('admin-diseases-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
                         </span>

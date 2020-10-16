@@ -29,37 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/appointments-show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppointmentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth-signin.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/auth-signup.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-alert.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-badges.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-breadcrumb-pagination.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-button.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-card.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-carousel.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-collapse.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-extra.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-grid.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-modal.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-progress.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-spinner.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-tabs.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-toasts.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-tooltip-popover.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/bc-typography.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/chart-apex.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/form-elements.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout-horizontal.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout-vertical.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/sample-page.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/tbl-bootstrap.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-appointments.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DiseaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,12 +76,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1602669217" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1602753003" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1602668748" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1602669217" />
                   </RecentBranch>
                 </list>
               </option>
@@ -428,14 +400,7 @@
       <workItem from="1602677725051" duration="4938000" />
       <workItem from="1602732466400" duration="229000" />
       <workItem from="1602733237979" duration="403000" />
-      <workItem from="1602734701924" duration="16593000" />
-    </task>
-    <task id="LOCAL-00014" summary="Version 1.2.3">
-      <created>1601383775846</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1601383775846</updated>
+      <workItem from="1602734701924" duration="19226000" />
     </task>
     <task id="LOCAL-00015" summary="Version 1.2.4">
       <created>1601384683285</created>
@@ -773,7 +738,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602742218902</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Version 1.7.6">
+      <created>1602752856259</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1602752856259</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,7 +781,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.4.8" />
     <MESSAGE value="Version 1.5.2" />
     <MESSAGE value="Version 1.5.3" />
     <MESSAGE value="Version 1.5.4" />
@@ -834,7 +805,8 @@
     <MESSAGE value="Version 1.7.3" />
     <MESSAGE value="Version 1.7.4" />
     <MESSAGE value="Version 1.7.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.5" />
+    <MESSAGE value="Version 1.7.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.7.6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -913,22 +885,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1602500521442" />
-    <state width="1460" height="310" key="GridCell.Tab.0.bottom" timestamp="1602736643950">
+    <state width="1460" height="310" key="GridCell.Tab.0.bottom" timestamp="1602755489649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602736643950" />
-    <state width="1460" height="310" key="GridCell.Tab.0.center" timestamp="1602736643949">
+    <state width="1460" height="310" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
+    <state width="1460" height="310" key="GridCell.Tab.0.center" timestamp="1602755489649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602736643949" />
-    <state width="1460" height="310" key="GridCell.Tab.0.left" timestamp="1602736643949">
+    <state width="1460" height="310" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
+    <state width="1460" height="310" key="GridCell.Tab.0.left" timestamp="1602755489649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602736643949" />
-    <state width="1460" height="310" key="GridCell.Tab.0.right" timestamp="1602736643950">
+    <state width="1460" height="310" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
+    <state width="1460" height="310" key="GridCell.Tab.0.right" timestamp="1602755489649">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="310" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602736643950" />
+    <state width="1460" height="310" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1602755489649" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -953,10 +925,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="436" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1602399028489" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602742242841">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1602752891597">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602742242841" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1602752891597" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
