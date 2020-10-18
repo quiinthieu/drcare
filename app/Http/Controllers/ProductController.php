@@ -2,85 +2,74 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Doctor;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\Response|\Illuminate\View\View
-     */
     public function index()
     {
         $products = Product::paginate(8);
         return view('admin.products', ['products' => $products]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
+        return view('admin.products-create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        $product = new Product();
+        $photos = array();
+        if ($request->hasFile('photos')) {
+            foreach ($request->photos as $photo) {
+                $fileName = $photo->getClientOriginalName();
+                $path = $photo->storeAs('drcare/products', $fileName, 'public');
+                $photos[] = 'storage/' . $path;
+            }
+            $product->photos = json_encode($photos, JSON_THROW_ON_ERROR);
+        }
+        $product->name = $request->name;
+        $product->description = $request->description;
+        $product->category_id = $request->category_id;
+        $product->price = $request->price;
+        $product->save();
+        return Redirect::route('admin-products-index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Product  $product
-     * @return \Illuminate\Http\Response
-     */
     public function show(Product $product)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Product $product)
+    public function edit($id)
     {
-        //
+        $product = Product::find($id);
+        return view('admin.products-edit', ['product' => $product]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, $id)
     {
-        //
+        $product = Product::find($id);
+        $photos = array();
+        if ($request->hasFile('photos')) {
+            foreach ($request->photos as $photo) {
+                $fileName = $photo->getClientOriginalName();
+                $path = $photo->storeAs('drcare/products', $fileName, 'public');
+                $photos[] = 'storage/' . $path;
+            }
+            $product->update(['photos' => json_encode($photos, JSON_THROW_ON_ERROR)]);
+        }
+        $product->update($request->except('_token', 'photos'));
+        return Redirect::route('admin-products-index');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Product  $product
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Product $product)
+    public function destroy($id)
     {
-        //
+        Product::destroy($id);
+        return Redirect::route('admin-products-index');
     }
 }

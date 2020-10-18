@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
 
     <script src="{{asset('js/app.js')}}"></script>
-
 </head>
 <body class="">
 
@@ -67,7 +66,8 @@
                                     Profile</a></li>
                             <li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> My
                                     Messages</a></li>
-                            <li><a href="{{route('index')}}" class="dropdown-item"><i class="feather icon-lock"></i> Lock
+                            <li><a href="{{route('index')}}" class="dropdown-item"><i class="feather icon-lock"></i>
+                                    Lock
                                     Screen</a></li>
                         </ul>
                     </div>
@@ -140,10 +140,7 @@
 <!-- Required Js -->
 <script src="{{asset('admin/js/vendor-all.min.js')}}"></script>
 {{--<script src="{{asset('admin/js/plugins/bootstrap.min.js')}}"></script>--}}
-<script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('admin/js/ripple.js')}}"></script>
 <script src="{{asset('admin/js/pcoded.min.js')}}"></script>
-
 </body>
-
 </html>

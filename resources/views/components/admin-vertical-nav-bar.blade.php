@@ -39,7 +39,7 @@
                     </a>
                 </li>
                 <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-products' ? "active" : ""}}">
-                    <a href="{{route('admin-products')}}" class="nav-link ">
+                    <a href="{{route('admin-products-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
                         </span>

@@ -76,7 +76,6 @@ Route::get('/bc-grid', [AdminController::class, 'bcGrid'])->name('bc-grid');
 Route::get('/layout-vertical', [AdminController::class, 'layoutVertical'])->name('layout-vertical');
 Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->name('layout-horizontal');
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
-Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products')->middleware('auth');
 Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
 Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
 
@@ -114,7 +113,6 @@ Route::post('/admin/appointments/update/{id}', [AppointmentController::class, 'u
 Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
 // APPOINTMENTS - END
 
-
 // DISEASES - START
 // C - for Create
 Route::get('/admin/diseases/create', [DiseaseController::class, 'create'])->name('admin-diseases-create')->middleware('auth');
@@ -148,8 +146,23 @@ Route::post('/admin/doctors/update/{id}', [DoctorController::class, 'update'])->
 
 // D - for Delete
 Route::get('/admin/doctors/delete/{id}', [DoctorController::class, 'destroy'])->name('admin-doctors-delete')->middleware('auth');
-
 // DOCTORS - END
 
+// PRODUCTS - START
+// C - for Create
+Route::get('/admin/products/create', [ProductController::class, 'create'])->name('admin-products-create')->middleware('auth');
+Route::post('/admin/products/store', [ProductController::class, 'store'])->name('admin-products-store')->middleware('auth');
+
+// R - for Read
+Route::get('/admin/products/index', [ProductController::class, 'index'])->name('admin-products-index')->middleware('auth');
+Route::get('/admin/products/show/{id}', [ProductController::class, 'show'])->name('admin-products-show')->middleware('auth');
+
+// U - for Update
+Route::get('/admin/products/edit/{id}', [ProductController::class, 'edit'])->name('admin-products-edit')->middleware('auth');
+Route::post('/admin/products/update/{id}', [ProductController::class, 'update'])->name('admin-products-update')->middleware('auth');
+
+// D - for Delete
+Route::get('/admin/products/delete/{id}', [ProductController::class, 'destroy'])->name('admin-products-delete')->middleware('auth');
+// PRODUCTS - END
 
 // ADMIN - END

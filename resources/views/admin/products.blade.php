@@ -5,7 +5,7 @@
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Products</h5>
-                    <a role="button" class="btn btn-primary text-white">Create</a>
+                    <a role="button" class="btn btn-primary text-white" href="{{route('admin-products-create')}}">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="col-12 d-flex flex-wrap">
@@ -46,13 +46,19 @@
                                     <div class="card-body">
                                         <h5 class="card-title">{{$product->name}}</h5>
                                         <p class="card-text">{{$product->description}}</p>
-                                        <span
-                                            class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('categories')->find($product->category_id)->name}}</span>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span
+                                                class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('categories')->find($product->category_id)->name}}</span>
+                                            <span class="font-weight-bold lead">${{number_format($product->price, 2)}}</span>
+                                        </div>
+
                                     </div>
                                     <div class="card-footer">
-                                        <a class="btn btn-outline-primary btn-sm" role="button" href="#">Edit</a>
+                                        <a class="btn btn-outline-primary btn-sm" role="button"
+                                           href="{{route('admin-products-edit', ['id' => $product->id])}}">Edit</a>
                                         &nbsp;
-                                        <a class="btn  btn-outline-danger btn-sm" role="button" href="#">Delete</a>
+                                        <a class="btn btn-outline-danger btn-sm" role="button"
+                                           href="{{route('admin-products-delete', ['id' => $product->id])}}">Delete</a>
                                     </div>
                                 </div>
                             </div>
