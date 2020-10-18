@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Services</h5>
-                    <a role="button" class="btn btn-primary text-white">Create</a>
+                    <a role="button" href="{{route('admin-services-create')}}" class="btn btn-primary text-white">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="table-responsive">
@@ -23,9 +23,9 @@
                             @foreach($services as $service)
                                 <tr>
                                     <td class="text-center">
-                                        <a href="#" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
+                                        <a href="{{route('admin-services-edit', $service->id)}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
                                         &nbsp;
-                                        <a href="#" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
+                                        <a href="{{route('admin-services-delete', $service->id)}}" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
                                     </td>
                                     <td>{{$service->id}}</td>
                                     <td>{{$service->name}}</td>

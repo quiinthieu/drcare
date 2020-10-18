@@ -50,36 +50,7 @@ Route::get('/login', function() {
 Route::get('/register', function() {
     return view('auth.register');
 })->name('register');
-Route::get('/bc-alert', [AdminController::class, 'bcAlert'])->name('bc-alert');
-Route::get('/bc-badges', [AdminController::class, 'bcBadges'])->name('bc-badges');
-Route::get('/bc-breadcrumb-pagination', [AdminController::class, 'bcBreadcrumbPagination'])->name('bc-breadcrumb-pagination');
-Route::get('/bc-button', [AdminController::class, 'bcButton'])->name('bc-button');
-Route::get('/bc-card', [AdminController::class, 'bcCard'])->name('bc-card');
-Route::get('/bc-carousel', [AdminController::class, 'bcCarousel'])->name('bc-carousel');
-Route::get('/bc-collapse', [AdminController::class, 'bcCollapse'])->name('bc-collapse');
-Route::get('/bc-extra', [AdminController::class, 'bcExtra'])->name('bc-extra');
-Route::get('/bc-modal', [AdminController::class, 'bcModal'])->name('bc-modal');
-Route::get('/bc-progress', [AdminController::class, 'bcProgress'])->name('bc-progress');
-Route::get('/bc-spinner', [AdminController::class, 'bcSpinner'])->name('bc-spinner');
-Route::get('/bc-tabs', [AdminController::class, 'bcTabs'])->name('bc-tabs');
-Route::get('/bc-toasts', [AdminController::class, 'bcToasts'])->name('bc-toasts');
-Route::get('/bc-tooltip-popover', [AdminController::class, 'bcTooltipPopover'])->name('bc-tooltip-popover');
-Route::get('/bc-typography', [AdminController::class, 'bcTypography'])->name('bc-typography');
-Route::get('/chart-apex', [AdminController::class, 'chartApex'])->name('chart-apex');
-Route::get('/form-elements', [AdminController::class, 'formElements'])->name('form-elements');
-Route::get('/map-google', [AdminController::class, 'mapGoogle'])->name('map-google');
-Route::get('/sample-page', [AdminController::class, 'samplePage'])->name('sample-page');
-Route::get('/auth-signin', [AdminController::class, 'authSignin'])->name('auth-signin');
-Route::get('/auth-signup', [AdminController::class, 'authSignup'])->name('auth-signup');
-Route::get('/tbl-bootstrap', [AdminController::class, 'tblBootstrap'])->name('tbl-bootstrap');
-Route::get('/bc-grid', [AdminController::class, 'bcGrid'])->name('bc-grid');
-Route::get('/layout-vertical', [AdminController::class, 'layoutVertical'])->name('layout-vertical');
-Route::get('/layout-horizontal', [AdminController::class, 'layoutHorizontal'])->name('layout-horizontal');
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
-Route::get('/admin/research', [ResearchController::class, 'index'])->name('admin-research')->middleware('auth');
-Route::get('/admin/services', [ServiceController::class, 'index'])->name('admin-services')->middleware('auth');
-
-
 
 // ADMIN - START
 
@@ -164,5 +135,39 @@ Route::post('/admin/products/update/{id}', [ProductController::class, 'update'])
 // D - for Delete
 Route::get('/admin/products/delete/{id}', [ProductController::class, 'destroy'])->name('admin-products-delete')->middleware('auth');
 // PRODUCTS - END
+
+// RESEARCH - START
+// C - for Create
+Route::get('/admin/cresearch/create', [ResearchController::class, 'create'])->name('admin-research-create')->middleware('auth');
+Route::post('/admin/research/store', [ResearchController::class, 'store'])->name('admin-research-store')->middleware('auth');
+
+// R - for Read
+Route::get('/admin/research/index', [ResearchController::class, 'index'])->name('admin-research-index')->middleware('auth');
+Route::get('/admin/research/show/{id}', [ResearchController::class, 'show'])->name('admin-research-show')->middleware('auth');
+
+// U - for Update
+Route::get('/admin/research/edit/{id}', [ResearchController::class, 'edit'])->name('admin-research-edit')->middleware('auth');
+Route::post('/admin/research/update/{id}', [ResearchController::class, 'update'])->name('admin-research-update')->middleware('auth');
+
+// D - for Delete
+Route::get('/admin/research/delete/{id}', [ResearchController::class, 'destroy'])->name('admin-research-delete')->middleware('auth');
+// RESEARCH - END
+
+// SERVICES - START
+// C - for Create
+Route::get('/admin/services/create', [ServiceController::class, 'create'])->name('admin-services-create')->middleware('auth');
+Route::post('/admin/services/store', [ServiceController::class, 'store'])->name('admin-services-store')->middleware('auth');
+
+// R - for Read
+Route::get('/admin/services/index', [ServiceController::class, 'index'])->name('admin-services-index')->middleware('auth');
+Route::get('/admin/services/show/{id}', [ServiceController::class, 'show'])->name('admin-services-show')->middleware('auth');
+
+// U - for Update
+Route::get('/admin/services/edit/{id}', [ServiceController::class, 'edit'])->name('admin-services-edit')->middleware('auth');
+Route::post('/admin/services/update/{id}', [ServiceController::class, 'update'])->name('admin-services-update')->middleware('auth');
+
+// D - for Delete
+Route::get('/admin/services/delete/{id}', [ServiceController::class, 'destroy'])->name('admin-services-delete')->middleware('auth');
+// SERVICES - END
 
 // ADMIN - END

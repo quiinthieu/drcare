@@ -2,74 +2,50 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use App\Models\Service;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class ServiceController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     */
     public function index()
     {
         $services = Service::all();
         return view('admin.services', ['services' => $services]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     */
     public function create()
     {
-        //
+        return view('admin.services-create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     */
     public function store(Request $request)
     {
-        //
+        Service::create($request->except('_token'));
+        return Redirect::route('admin-services-index');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     */
     public function show(Service $service)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     */
-    public function edit(Service $service)
+    public function edit($id)
     {
-        //
+        $service = Service::find($id);
+        return view('admin.services-edit', ['service' => $service]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     */
-    public function update(Request $request, Service $service)
+    public function update(Request $request, $id)
     {
-        //
+        Service::find($id)->update($request->except('_token'));
+        return Redirect::route('admin-services-index');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Service  $service
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Service $service)
+    public function destroy($id)
     {
-        //
+        Service::destroy($id);
+        return Redirect::route('admin-services-index');
     }
 }

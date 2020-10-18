@@ -5,7 +5,8 @@
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Research</h5>
-                    <a role="button" class="btn btn-primary text-white">Create</a>
+                    <a role="button" href="{{route('admin-research-create')}}"
+                       class="btn btn-primary text-white">Create</a>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="col-12 d-flex flex-wrap">
@@ -19,15 +20,18 @@
                                         <h5 class="card-title">{{$article->title}}</h5>
                                         <p class="card-text">{{$article->subtitle}}</p>
                                         <div class="d-flex align-items-between justify-content-between">
-                                            <span class="card-text"><small class="text-muted">{{\Carbon\Carbon::parse(strtotime($article->published_at))->diffForHumans()}}</small></span>
-                                            <span class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('disease_types')->find($article->disease_type_id)->name}}</span>
+                                            <span class="card-text"><small
+                                                    class="text-muted">{{\Carbon\Carbon::parse(strtotime($article->published_at))->diffForHumans()}}</small></span>
+                                            <span
+                                                class="badge badge-secondary">{{\Illuminate\Support\Facades\DB::table('disease_types')->find($article->disease_type_id)->name}}</span>
                                         </div>
-
                                     </div>
                                     <div class="card-footer">
-                                        <a class="btn btn-outline-primary btn-sm" role="button" href="#">Edit</a>
+                                        <a class="btn btn-outline-primary btn-sm" role="button"
+                                           href="{{route('admin-research-edit', $article->id)}}">Edit</a>
                                         &nbsp;
-                                        <a class="btn  btn-outline-danger btn-sm" role="button" href="#">Delete</a>
+                                        <a class="btn  btn-outline-danger btn-sm" role="button"
+                                           href="{{route('admin-research-delete', $article->id)}}">Delete</a>
                                     </div>
                                 </div>
                             </div>
