@@ -29,19 +29,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/research-create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/research-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/services-create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/services-edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/plugins/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ResearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ServiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Research.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Research.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/total-research.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-research.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/total-services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/total-services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,19 +279,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin\js\plugins" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
-      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\resources\views\components" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\app\View\Components\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\resources\views\components\drcare" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin" />
       <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin\js\plugins" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\public\admin" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\admin\images" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\drcare\favicons" />
+      <recent name="C:\Users\Billie\Documents\Sher\Laravel\docker-compose-laravel-master\src\drcare\storage\app\public\products" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
@@ -414,14 +405,7 @@
       <workItem from="1602734701924" duration="19226000" />
       <workItem from="1602934345897" duration="11672000" />
       <workItem from="1603012296021" duration="112000" />
-      <workItem from="1603012456248" duration="9075000" />
-    </task>
-    <task id="LOCAL-00019" summary="Version 1.2.8">
-      <created>1601653655523</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1601653655523</updated>
+      <workItem from="1603012456248" duration="10677000" />
     </task>
     <task id="LOCAL-00020" summary="Version 1.2.9">
       <created>1601698711130</created>
@@ -759,7 +743,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603004528505</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Version 1.8.3">
+      <created>1603023374175</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1603023374176</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,7 +786,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.5.6" />
     <MESSAGE value="Version 1.5.7" />
     <MESSAGE value="Version 1.5.8" />
     <MESSAGE value="Version 1.5.7" />
@@ -820,7 +810,8 @@
     <MESSAGE value="Version 1.7.9" />
     <MESSAGE value="Version 1.8.0" />
     <MESSAGE value="Version 1.8.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.8.2" />
+    <MESSAGE value="Version 1.8.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.8.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -899,22 +890,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1602500521442" />
-    <state width="1460" height="432" key="GridCell.Tab.0.bottom" timestamp="1603013053768">
+    <state width="1460" height="432" key="GridCell.Tab.0.bottom" timestamp="1603029690636">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="432" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603013053768" />
-    <state width="1460" height="432" key="GridCell.Tab.0.center" timestamp="1603013053767">
+    <state width="1460" height="432" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603029690636" />
+    <state width="1460" height="432" key="GridCell.Tab.0.center" timestamp="1603029690636">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="432" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603013053767" />
-    <state width="1460" height="432" key="GridCell.Tab.0.left" timestamp="1603013053767">
+    <state width="1460" height="432" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603029690636" />
+    <state width="1460" height="432" key="GridCell.Tab.0.left" timestamp="1603029690636">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="432" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603013053767" />
-    <state width="1460" height="432" key="GridCell.Tab.0.right" timestamp="1603013053768">
+    <state width="1460" height="432" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603029690636" />
+    <state width="1460" height="432" key="GridCell.Tab.0.right" timestamp="1603029690636">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="432" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603013053768" />
+    <state width="1460" height="432" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603029690636" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -939,10 +930,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="476" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1603013753310" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1603004555809">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1603023390910">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1603004555809" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1603023390910" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -971,10 +962,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602668195527" />
-    <state x="475" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1603022965711">
+    <state x="476" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1603026757461">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="475" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1603022965711" />
+    <state x="476" y="269" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1603026757461" />
     <state x="473" y="389" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602170174212">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

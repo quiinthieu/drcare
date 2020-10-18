@@ -18,8 +18,6 @@
 
     <!-- vendor css -->
     <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
-
-    <script src="{{asset('js/app.js')}}"></script>
 </head>
 <body class="">
 
@@ -138,9 +136,10 @@
 <!-- Warning Section Ends -->
 
 <!-- Required Js -->
-<script src="{{asset('admin/js/vendor-all.min.js')}}"></script>
-{{--<script src="{{asset('admin/js/plugins/bootstrap.min.js')}}"></script>--}}
+<script src="{{asset('admin/js/vendor-all.js')}}"></script>
+{{--<script src="{{asset('admin/js/plugins/bootstrap.js')}}"></script>--}}
+<script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('admin/js/ripple.js')}}"></script>
-<script src="{{asset('admin/js/pcoded.min.js')}}"></script>
+<script src="{{asset('admin/js/pcoded.js')}}"></script>
 </body>
 </html>
