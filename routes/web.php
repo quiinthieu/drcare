@@ -14,46 +14,68 @@ use App\Http\Controllers\ServiceController;
 
 Auth::routes();
 
-Route::get('/', [DrCareController::class, 'index'])->name('index');
-Route::get('/about', [DrCareController::class, 'about'])->name('about');
-Route::get('pricing', function() {
-    return view('drcare.services');
-})->name('services');
-Route::get('/diseases/{id}', function($id) {
-    return view('drcare.diseases', ['id' => $id]);
-})->name('diseases');
-Route::get('/research', [DrCareController::class, 'research'])->name('research');
-Route::get('/research/{id}', function ($id) {
-    return view('drcare.research-single', ['id' => $id]);
-})->name('research-single');
-Route::get('/doctor',[DrCareController::class, 'doctor'])->name('doctor');
-Route::get('/products', function() {
-    return view('drcare.pricing');
-});
-Route::get('/products/{id}', [DrCareController::class, 'product'])->name('product');
-Route::get('/blog', function() {
-    return view('drcare.blog');
-})->name('blog');
-Route::get('/blog-single', function() {
-    return view('drcare.blog-single');
-})->name('blog-single');
-Route::get('/contact', function() {
-    return view('drcare.contact');
-})->name('contact');
-Route::get('/department', function() {
-    return view('drcare.department');
-})->name('department');
-Route::resource('appointments', AppointmentController::class);
+// DRCARE - START
+
+// HOME - START
+Route::get('/', [DrCareController::class, 'index'])->name('drcare-index');
+// HOME - END
+
+// ABOUT US - START
+Route::get('/about', [DrCareController::class, 'about'])->name('drcare-about');
+// ABOUT US - END
+
+// PATIENT EDUCATION - START
+Route::get('/patient-education/{id}', [DrCareController::class, 'patientEducation'])->name('drcare-patient-education');
+// PATIENT EDUCATION - END
+
+// PROFESSIONAL EDUCATION - START
+Route::get('/professional-education/related-courses', [DrCareController::class, 'relatedCourses'])->name('drcare-professional-education-related-courses');
+Route::get('/professional-education/help-documents', [DrCareController::class, 'helpDocuments'])->name('drcare-professional-education-help-documents');
+Route::get('/professional-education/faculty-resources', [DrCareController::class, 'facultyResources'])->name('drcare-professional-education-faculty-resources');
+Route::get('/professional-education/student-resources', [DrCareController::class, 'studentResources'])->name('drcare-professional-education-student-resources');
+Route::get('/professional-education/case-studies', [DrCareController::class, 'caseStudies'])->name('drcare-professional-education-case-studies');
+// PROFESSIONAL EDUCATION - END
+
+// RESEARCH - START
+Route::get('/research', [DrCareController::class, 'research'])->name('drcare-research');
+Route::get('/research/{id}', [DrCareController::class, 'researchArticle'])->name('drcare-research-article');
+// RESEARCH - END
+
+// PRODUCTS - START
+// R - for Read
+Route::get('/products/{id}', [DrCareController::class, 'products'])->name('drcare-products');
+// PRODUCTS - END
+
+// CONTACT US - START
+// C - for Create
+Route::get('/drcare/messages/create', [DrCareController::class, 'messagesCreate'])->name('drcare-messages-create');
+Route::post('/drcare/messages/store',[DrCareController::class, 'messagesStore'])->name('drcare-messages-store');
+// CONTACT US - END
+
+// APPOINTMENTS - START
+// C - for Create
+Route::get('/appointments/create', [DrCareController::class, 'appointmentsCreate'])->name('drcare-appointments-create');
+Route::post('/appointments/store', [DrCareController::class, 'appointmentsStore'])->name('drcare-appointments-store');
+// R - for Read
+// APPOINTMENTS - END
+
+// DOCTORS - START
+Route::get('/doctors', [DrcareController::class, 'doctors'])->name('drcare-doctors');
+// DOCTORS - END
+
+// DRCARE - END
+
 Route::get('/login', function() {
     return view('auth.login');
 })->name('login');
 Route::get('/register', function() {
     return view('auth.register');
 })->name('register');
-Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
 
 // ADMIN - START
-
+// DASHBOARD - START
+Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
+// DASHBOARD - END
 // APPOINTMENTS - START
 // C - for Create
 Route::get('/admin/appointments/create', function() {
@@ -169,5 +191,4 @@ Route::post('/admin/services/update/{id}', [ServiceController::class, 'update'])
 // D - for Delete
 Route::get('/admin/services/delete/{id}', [ServiceController::class, 'destroy'])->name('admin-services-delete')->middleware('auth');
 // SERVICES - END
-
 // ADMIN - END

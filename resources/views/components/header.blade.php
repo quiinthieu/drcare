@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
             <div class="col-lg-2 pr-4 align-items-center">
-                <a class="navbar-brand" href="{{route('index')}}">Dr. <span>Care</span></a>
+                <a class="navbar-brand" href="{{route('drcare-index')}}">Dr. <span>Care</span></a>
             </div>
             <div class="col-lg-10 d-none d-md-block">
                 <div class="row d-flex">
@@ -34,16 +34,16 @@
             <span class="oi oi-menu"></span> Menu
         </button>
         <p class="button-custom order-lg-last mb-0">
-            <a href="{{route('appointments.create')}}" class="btn btn-secondary py-2 px-3">Make An Appointment</a>
+            <a href="{{route('drcare-appointments-create')}}" class="btn btn-secondary py-2 px-3">Make An Appointment</a>
         </p>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'index' ? "active" : ""}}">
-                    <a href="{{route('index')}}" class="nav-link pl-0">Home</a></li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'about' ? "active" : ""}}">
-                    <a href="{{route('about')}}" class="nav-link pl-0">About Us</a>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'drcare-index' ? "active" : ""}}">
+                    <a href="{{route('drcare-index')}}" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'drcare-about' ? "active" : ""}}">
+                    <a href="{{route('drcare-about')}}" class="nav-link pl-0">About Us</a>
                 </li>
-                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'diseases' ? "active" : ""}}">
+                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'drcare-patient-education' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         Patient Education
@@ -51,16 +51,25 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         @foreach(App\Models\DiseaseType::all() as $diseaseType)
                             <a class="dropdown-item"
-                               href="{{route('diseases', ['id' => $diseaseType->id])}}">{{$diseaseType->name}}</a>
+                               href="{{route('drcare-patient-education', ['id' => $diseaseType->id])}}">{{$diseaseType->name}}</a>
                         @endforeach
                     </div>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'research' || Illuminate\Support\Facades\Route::currentRouteName() === 'research-single' ? "active" : ""}}">
-                    <a href="{{route('research')}}" class="nav-link">Research</a></li>
-
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'services' ? "active" : ""}}">
-                    <a href="{{route('services')}}" class="nav-link">Services</a></li>
-                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'product' ? "active" : ""}}">
+                <li class="nav-item dropdown {{preg_match('/drcare-professional-education-*/', \Illuminate\Support\Facades\Route::currentRouteName()) ? "active" : ""}}">
+                    <a class="nav-link dropdown-toggle" id="professionalEducation" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Professional Education
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="professionalEducation">
+                        <a class="dropdown-item" href="{{route('drcare-professional-education-related-courses')}}">Related Courses</a>
+                        <a class="dropdown-item" href="{{route('drcare-professional-education-help-documents')}}">Help Documents</a>
+                        <a class="dropdown-item" href="{{route('drcare-professional-education-faculty-resources')}}">Faculty Resources</a>
+                        <a class="dropdown-item" href="{{route('drcare-professional-education-student-resources')}}">Student Resources</a>
+                        <a class="dropdown-item" href="{{route('drcare-professional-education-case-studies')}}">Case Studies</a>
+                    </div>
+                </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'drcare-research' || Illuminate\Support\Facades\Route::currentRouteName() === 'research-single' ? "active" : ""}}">
+                    <a href="{{route('drcare-research')}}" class="nav-link">Research</a></li>
+                <li class="nav-item dropdown {{\Illuminate\Support\Facades\Route::currentRouteName() === 'drcare-products' ? "active" : ""}}">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
                         Products
@@ -68,16 +77,14 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         @foreach(App\Models\Category::all() as $category)
                             <a class="dropdown-item"
-                               href="{{route('product', ['id' => $category->id])}}">{{$category->name}}</a>
+                               href="{{route('drcare-products', ['id' => $category->id])}}">{{$category->name}}</a>
                         @endforeach
                     </div>
                 </li>
+                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'drcare-messages-create' ? "active" : ""}}">
+                    <a href="{{route('drcare-messages-create')}}" class="nav-link">Contact Us</a></li>
 
 
-                {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'department' ? "active" : ""}}"><a href="{{route('department')}}" class="nav-link">Departments</a></li>--}}
-
-                {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'blog' ? "active" : ""}}"><a href="{{route('blog')}}" class="nav-link">Blog</a></li>--}}
-                {{--                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'contact' ? "active" : ""}}"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>--}}
             </ul>
         </div>
     </div>

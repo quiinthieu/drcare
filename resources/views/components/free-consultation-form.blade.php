@@ -11,7 +11,7 @@
                         there
                         live the blind texts.</p>
                 </div>
-                <form method="POST" action="/appointments" class="appointment-form ftco-animate" autocomplete="off">
+                <form method="POST" action="{{route('drcare-appointments-store')}}" class="appointment-form ftco-animate" autocomplete="off">
                     @csrf
                     <div class="d-md-flex">
                         <div class="form-group">

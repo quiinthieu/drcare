@@ -1,5 +1,5 @@
 @extends('layouts.drcare')
 @section('content')
     <x-jumbotron title="Products" sub-title="Products" />
-    <x-product-listing :id="$id"/>
+    <x-products-listing :id="$id"/>
 @endsection

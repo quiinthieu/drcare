@@ -5,7 +5,7 @@ namespace App\View\Components;
 use App\Models\Product;
 use Illuminate\View\Component;
 
-class ProductListing extends Component
+class ProductsListing extends Component
 {
     /**
      * Create a new component instance.
@@ -25,6 +25,6 @@ class ProductListing extends Component
      */
     public function render()
     {
-        return view('components.product-listing');
+        return view('components.products-listing');
     }
 }

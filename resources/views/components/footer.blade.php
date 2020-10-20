@@ -31,9 +31,9 @@
                 <div class="ftco-footer-widget mb-5 ml-md-4">
                     <h2 class="ftco-heading-2">Links</h2>
                     <ul class="list-unstyled">
-                        <li><a href="{{route('index')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                        <li><a href="{{route('about')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                        <li><a href="{{route('research')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Research</a></li>
+                        <li><a href="{{route('drcare-index')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                        <li><a href="{{route('drcare-about')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                        <li><a href="{{route('drcare-research')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Research</a></li>
                         <li><a href="{{route('admin-dashboard')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Admin Dashboard</li>
 {{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>--}}
 {{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>--}}
@@ -45,7 +45,7 @@
                     <ul class="list-unstyled">
                         @foreach(\App\Models\DiseaseType::all() as $diseaseType)
                             <li>
-                                <a href="{{route('diseases', ['id' => $diseaseType->id])}}">
+                                <a href="{{route('drcare-patient-education', ['id' => $diseaseType->id])}}">
                                     <span class="ion-ios-arrow-round-forward mr-2"></span>{{$diseaseType->name}}
                                 </a>
                             </li>
@@ -74,7 +74,7 @@
                 <p>
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script>
                     All rights reserved | This website is made with <i class="icon-heart" aria-hidden="true"></i> by <a
-                        href="{{route('index')}}">Dr. Care</a>
+                        href="{{route('drcare-index')}}">Dr. Care</a>
                 </p>
             </div>
         </div>

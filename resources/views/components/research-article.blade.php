@@ -38,7 +38,7 @@
                     <h3>Related Research</h3>
                     @foreach(\App\Models\Research::all()->where('disease_type_id', $article->disease_type_id)->take(3) as $article)
                         <div class="block-21 mb-4 d-flex">
-                            <a href="{{route('research-single', ['id' => $article->id])}}" class="blog-img mr-4" style="background-image: url({{asset($article->thumbnail)}});"></a>
+                            <a href="{{route('drcare-research-article', ['id' => $article->id])}}" class="blog-img mr-4" style="background-image: url({{asset($article->thumbnail)}});"></a>
                             <div class="text">
                                 <h3 class="heading"><a href="#">{{$article->title}}</a></h3>
                                 <div class="meta">

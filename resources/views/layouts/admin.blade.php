@@ -48,8 +48,6 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right profile-notification">
                         <div class="pro-head">
-                            <img src="{{asset('storage/admin/images/user/avatar-1.jpg')}}" class="img-radius"
-                                 alt="User-Profile-Image">
                             <span>{{\Illuminate\Support\Facades\Auth::user()->name}}</span>
                             <a href="{{asset('logout')}}" class="dud-logout" title="Logout"
                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
@@ -62,9 +60,7 @@
                         <ul class="pro-body">
                             <li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i>
                                     Profile</a></li>
-                            <li><a href="email_inbox.html" class="dropdown-item"><i class="feather icon-mail"></i> My
-                                    Messages</a></li>
-                            <li><a href="{{route('index')}}" class="dropdown-item"><i class="feather icon-lock"></i>
+                            <li><a href="{{route('drcare-index')}}" class="dropdown-item"><i class="feather icon-lock"></i>
                                     Lock
                                     Screen</a></li>
                         </ul>

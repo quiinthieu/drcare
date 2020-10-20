@@ -8,7 +8,7 @@
                 <h1 class="mb-2 bread">{{$title}}</h1>
                 <p class="breadcrumbs">
                         <span class="mr-2">
-                            <a href="{{route('index')}}">Home <i class="ion-ios-arrow-forward"></i>
+                            <a href="{{route('drcare-index')}}">Home <i class="ion-ios-arrow-forward"></i>
                             </a>
                         </span>
                     <span>{{$subTitle}} <i class="ion-ios-arrow-forward"></i>

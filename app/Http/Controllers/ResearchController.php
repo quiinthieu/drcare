@@ -58,9 +58,11 @@ class ResearchController extends Controller
         $research->content = json_encode(array($request->get('content')), JSON_THROW_ON_ERROR);
         $research->published_at = Carbon::parse($request->published_at);
 
-        $fileName = $request->thumbnail->getClientOriginalName();
-        $path = $request->thumbnail->storeAs('drcare/research', $fileName, 'public');
-        $research->thumbnail = 'storage/' . $path;
+        if ($request->hasFile('thumbnail')) {
+            $fileName = $request->thumbnail->getClientOriginalName();
+            $path = $request->thumbnail->storeAs('drcare/research', $fileName, 'public');
+            $research->thumbnail = 'storage/' . $path;
+        }
         $research->save();
         return Redirect::route('admin-research-index');
     }
