@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Appointment;
+use App\Models\Course;
 use App\Models\Doctor;
+use App\Models\Document;
 use App\Models\Message;
 use App\Models\Product;
 use App\Models\Research;
@@ -26,11 +28,13 @@ class DrCareController extends Controller
     }
 
     public function relatedCourses() {
-        return view('drcare.related-courses');
+        $courses = Course::all();
+        return view('drcare.related-courses', ['courses' => $courses]);
     }
 
     public function helpDocuments() {
-        return view('drcare.help-documents');
+        $documents = Document::all();
+        return view('drcare.help-documents', ['documents' => $documents]);
     }
 
     public function facultyResources() {

@@ -22,6 +22,8 @@ class DatabaseSeeder extends Seeder
             CategorySeeder::class,
             ServiceTypeSeeder::class,
             MessageSeeder::class,
+            CourseSeeder::class,
+            DocumentSeeder::class,
         ]);
     }
 }
