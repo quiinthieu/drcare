@@ -35,7 +35,7 @@ class DiseaseController extends Controller
     {
         $disease = Disease::create($request->except('_token'));
         $disease->save();
-        return Redirect::route('admin-diseases-index');
+        return Redirect::route('admin-diseases-index')->with('message', 'Create Successfull !');
     }
 
     /**
@@ -66,7 +66,7 @@ class DiseaseController extends Controller
     {
         $disease = Disease::find($id);
         $disease->update($request->except('_token'));
-        return Redirect::route('admin-diseases-index');
+        return Redirect::route('admin-diseases-index')->with('message', 'Update Successfull !');
     }
 
     /**
@@ -76,6 +76,6 @@ class DiseaseController extends Controller
     public function destroy($id)
     {
         Disease::destroy($id);
-        return Redirect::route('admin-diseases-index');
+        return Redirect::route('admin-diseases-index')->with('message', 'Delete Successfull !');
     }
 }

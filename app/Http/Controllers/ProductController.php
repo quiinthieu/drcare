@@ -37,7 +37,7 @@ class ProductController extends Controller
         $product->category_id = $request->category_id;
         $product->price = $request->price;
         $product->save();
-        return Redirect::route('admin-products-index');
+        return Redirect::route('admin-products-index')->with('message', 'Create Successfull !');
     }
 
     public function show(Product $product)
@@ -64,12 +64,12 @@ class ProductController extends Controller
             $product->update(['photos' => json_encode($photos, JSON_THROW_ON_ERROR)]);
         }
         $product->update($request->except('_token', 'photos'));
-        return Redirect::route('admin-products-index');
+        return Redirect::route('admin-products-index')->with('message', 'Update Successfull !');
     }
 
     public function destroy($id)
     {
         Product::destroy($id);
-        return Redirect::route('admin-products-index');
+        return Redirect::route('admin-products-index')->with('message', 'Delete Successfull !');
     }
 }

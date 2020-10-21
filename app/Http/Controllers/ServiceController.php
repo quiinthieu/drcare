@@ -23,7 +23,7 @@ class ServiceController extends Controller
     public function store(Request $request)
     {
         Service::create($request->except('_token'));
-        return Redirect::route('admin-services-index');
+        return Redirect::route('admin-services-index')->with('message', 'Create Successfull !');
     }
 
     public function show(Service $service)
@@ -40,12 +40,12 @@ class ServiceController extends Controller
     public function update(Request $request, $id)
     {
         Service::find($id)->update($request->except('_token'));
-        return Redirect::route('admin-services-index');
+        return Redirect::route('admin-services-index')->with('message', 'Update Successfull !');
     }
 
     public function destroy($id)
     {
         Service::destroy($id);
-        return Redirect::route('admin-services-index');
+        return Redirect::route('admin-services-index')->with('message', 'Delete Successfull !');
     }
 }

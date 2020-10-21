@@ -25,7 +25,7 @@ class DoctorController extends Controller
         $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
         $request->photo = 'storage/' . $path;
         Doctor::create($request->except('_token'));
-        return Redirect::route('admin-doctors-index');
+        return Redirect::route('admin-doctors-index')->with('message', 'Create Successfull !');
     }
 
     public function show(Doctor $doctor)
@@ -48,12 +48,12 @@ class DoctorController extends Controller
             $doctor->update(['photo' => 'storage/' . $path]);
         }
         $doctor->update($request->except('_token', 'photo'));
-        return Redirect::route('admin-doctors-index');
+        return Redirect::route('admin-doctors-index')->with('message', 'Update Successfull !');
     }
 
     public function destroy($id)
     {
         Doctor::destroy($id);
-        return Redirect::route('admin-doctors-index');
+        return Redirect::route('admin-doctors-index')->with('message', 'Delete Successfull !');
     }
 }

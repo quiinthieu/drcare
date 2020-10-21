@@ -1,4 +1,4 @@
-@extends('layouts.admin', ['pageHeader' => 'Products'])
+@extends('layouts.admin', ['pageHeader' => 'Products / Create'])
 @section('content')
     <div class="row">
         <div class="col-xl-12">
@@ -55,6 +55,7 @@
                             </div>
                         </div>
                         <button class="btn btn-primary mt-3" type="submit">Create</button>
+                        <a class="btn btn-secondary mt-3" href=" {{ route('admin-products-index')}}">Back</a>   
                     </form>
                 </div>
             </div>

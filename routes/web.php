@@ -91,7 +91,7 @@ Route::post('/admin/appointments/store', function(\Illuminate\Http\Request $requ
     $appointment->setTime($request->get('time'));
     $appointment->message = $request->get('message');
     $appointment->save();
-    return \Illuminate\Support\Facades\Redirect::route('admin-appointments-index');
+    return \Illuminate\Support\Facades\Redirect::route('admin-appointments-index')->with('message', 'Create Successfull !');
 })->name('admin-appointments-store')->middleware('auth');
 
 // R - for Read

@@ -1,4 +1,4 @@
-@extends('layouts.admin', ['pageHeader' => 'Appointments'])
+@extends('layouts.admin', ['pageHeader' => 'Appointments / Edit'])
 @section('content')
     <div class="row">
         <div class="col-xl-12">
@@ -50,8 +50,10 @@
                                 <textarea id="message" name="message" required class="form-control">{{$appointment->message}}</textarea>
                             </div>
                         </div>
-                        <button class="btn btn-primary mt-3" type="submit">Update</button>
+                        <button class="btn btn-primary mt-3" type="submit">Update</button>       
+                        <a class="btn btn-secondary mt-3" href=" {{ route('admin-appointments-index')}}">Back</a>   
                     </form>
+                
                 </div>
             </div>
         </div>

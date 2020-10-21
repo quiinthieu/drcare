@@ -34,7 +34,7 @@ class ResearchController extends Controller
         $path = $request->thumbnail->storeAs('drcare/research', $fileName, 'public');
         $research->thumbnail = 'storage/' . $path;
         $research->save();
-        return Redirect::route('admin-research-index');
+        return Redirect::route('admin-research-index')->with('message', 'Create Successfull !');
     }
 
     public function show(Research $research)
@@ -64,12 +64,12 @@ class ResearchController extends Controller
             $research->thumbnail = 'storage/' . $path;
         }
         $research->save();
-        return Redirect::route('admin-research-index');
+        return Redirect::route('admin-research-index')->with('message', 'Update Successfull !');
     }
 
     public function destroy($id)
     {
         Research::destroy($id);
-        return Redirect::route('admin-research-index');
+        return Redirect::route('admin-research-index')->with('message', 'Delete Successfull !');
     }
 }
