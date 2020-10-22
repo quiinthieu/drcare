@@ -76,6 +76,15 @@ class DrCareController extends Controller
     }
 
     public function appointmentsStore(Request $request) {
+
+
+        $request->validate([
+            'phone'=>'required|numeric',     
+           ],[
+            'phone.required'=>'Phone must be a valid phone number.'      
+           ]); 
+
+
         $appointment = new Appointment();
         $appointment->first_name = $request->get('first_name');
         $appointment->last_name = $request->get('last_name');
@@ -85,7 +94,7 @@ class DrCareController extends Controller
         $appointment->setTime($request->get('time'));
         $appointment->message = $request->get('message');
         $appointment->save();
-        return Redirect::route('drcare-appointments-create');
+        return Redirect::route('drcare-appointments-create')->with('message', 'Make Appointment Successfull !');
     }
 
     public function doctors() {

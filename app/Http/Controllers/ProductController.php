@@ -57,6 +57,16 @@ class ProductController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'price'=>'required|numeric',
+            'description'=>'required|max:200',
+            'photos'=>'required',
+            'photos.*'=>'required|image|mimes:jpeg,jpg,png'
+        ],[
+            'photos.*.image'=>'The photo must be image.',
+            'photos.*.mimes'=>'The photo must be a file of type: jpeg, jpg, png.'
+           ]); 
         $product = new Product();
         $photos = array();
         if ($request->hasFile('photos')) {
@@ -88,6 +98,16 @@ class ProductController extends Controller
 
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'price'=>'required|numeric',
+            'description'=>'required|max:200',
+            'photos.*'=>'image|mimes:jpeg,jpg,png'
+        ],[
+            'photos.*.image'=>'The photo must be image.',
+            'photos.*.mimes'=>'The photo must be a file of type: jpeg, jpg, png.'
+           ]); 
+
         $product = Product::find($id);
         $photos = array();
         if ($request->hasFile('photos')) {

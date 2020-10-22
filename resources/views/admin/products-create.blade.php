@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Products / Create'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -20,7 +21,7 @@
                                 <label for="category_id">Select a Category</label>
                                 <div class="input-group">
                                     <select class="custom-select" name="category_id" id="category_id" required>
-                                        <option selected disabled>Select a Category...</option>
+                                        <option selected disabled value="">Select a Category...</option>
                                         @foreach(\App\Models\Category::all() as $category)
                                             <option
                                                 value="{{$category->id}}">{{$category->name}}</option>
@@ -37,14 +38,18 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="photos">Photo(s)</label>
-                                <div class="input-group">
+                                <div class="form-control">
+                                    <input type="file" name="photos[]" id="photos"
+                                    multiple>
+                                </div>
+                              {{--   <div class="input-group">
                                     <div class="custom-file">
                                         <input type="file" class="custom-file-input" name="photos[]" id="photos"
                                                multiple>
                                         <label class="custom-file-label" for="photos" aria-describedby="photos">Choose
                                             file</label>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="form-row">

@@ -33,6 +33,15 @@ class DiseaseController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'description'=>'required|max:100',
+            'statistics'=>'required|max:100',
+            'causes'=>'required|max:100',
+            'symptoms'=>'required|max:100',
+            'preventions'=>'required|max:200',
+            'disease_type_id'=>'required'
+           ]); 
         $disease = Disease::create($request->except('_token'));
         $disease->save();
         return Redirect::route('admin-diseases-index')->with('message', 'Create Successfull !');
@@ -64,6 +73,16 @@ class DiseaseController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'description'=>'required|max:100',
+            'statistics'=>'required|max:100',
+            'causes'=>'required|max:100',
+            'symptoms'=>'required|max:100',
+            'preventions'=>'required|max:200',
+            'disease_type_id'=>'required'
+           ]); 
+
         $disease = Disease::find($id);
         $disease->update($request->except('_token'));
         return Redirect::route('admin-diseases-index')->with('message', 'Update Successfull !');

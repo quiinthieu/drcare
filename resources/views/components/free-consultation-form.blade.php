@@ -1,4 +1,6 @@
 <!-- Waste no more time arguing what a good man should be, be one. - Marcus Aurelius -->
+
+
 <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter"
          style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
     <div class="container">
@@ -53,7 +55,8 @@
                         <div class="form-group ml-md-4">
                             <div class="input-wrap">
                                 <div class="icon"><span class="ion-ios-clock"></span></div>
-                                <input name="time" required type="text" class="form-control appointment_time" placeholder="Time" autocomplete="off">
+                                <input type="time" class="form-control" name="time" id="validationCustom05" placeholder="Time" required="">
+                    
                             </div>
                         </div>
                     </div>

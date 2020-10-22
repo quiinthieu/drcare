@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Appointments / Edit'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -30,10 +31,13 @@
                             <div class="col-md-6 mb-3">
                                 <label for="photo">Photo</label>
                                 <div class="input-group">
-                                    <div class="custom-file">
+                                    <div class="form-control">
+                                        <input type="file" name="photo" id="photo">
+                                    </div>
+                                    {{-- <div class="custom-file">
                                         <input type="file" class="custom-file-input" name="photo" id="photo">
                                         <label class="custom-file-label" for="photo" aria-describedby="photo">Choose file</label>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>

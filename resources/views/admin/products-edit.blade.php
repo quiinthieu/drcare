@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Products / Edit'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -36,12 +37,15 @@
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="photos">Photo(s)</label>
-                                <div class="input-group">
+                                <div class="form-control">
+                                    <input type="file" name="photos[]" id="photos" multiple>
+                                </div>
+                              {{--   <div class="input-group">
                                     <div class="custom-file">
                                         <input type="file" class="custom-file-input" name="photos[]" id="photos" multiple>
                                         <label class="custom-file-label" for="photos" aria-describedby="photos">Choose file</label>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="form-row">

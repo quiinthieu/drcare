@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Services / Edit'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">

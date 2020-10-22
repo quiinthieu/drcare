@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Appointments / Create'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -19,7 +20,7 @@
                                 <label for="doctor_type_id">Select the Doctor Type</label>
                                 <div class="input-group">
                                     <select class="custom-select" name="doctor_type_id" id="doctor_type_id" required>
-                                        <option selected disabled>Select the Doctor Type...</option>
+                                        <option selected disabled value="">Select the Doctor Type...</option>
                                         @foreach(\App\Models\DoctorType::all() as $doctorType)
                                             <option
                                                 value="{{$doctorType->id}}">{{$doctorType->name}}</option>
@@ -30,10 +31,13 @@
                             <div class="col-md-6 mb-3">
                                 <label for="photo">Photo</label>
                                 <div class="input-group">
-                                    <div class="custom-file">
+                                    <div class="form-control">
+                                        <input type="file" name="photo" id="photo">
+                                    </div>
+                               {{--      <div class="custom-file">
                                         <input type="file" class="custom-file-input" name="photo" id="photo">
                                         <label class="custom-file-label" for="photo" aria-describedby="photo" required>Choose file</label>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>

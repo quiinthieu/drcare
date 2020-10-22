@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Services / Create'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -18,7 +19,7 @@
                                 <label for="service_type_id">Select a Service Type</label>
                                 <div class="input-group">
                                     <select class="custom-select" name="service_type_id" id="service_type_id" required>
-                                        <option selected disabled>Select a Category...</option>
+                                        <option selected disabled value="">Select a Category...</option>
                                         @foreach(\App\Models\ServiceType::all() as $serviceType)
                                             <option
                                                 value="{{$serviceType->id}}">{{$serviceType->name}}</option>

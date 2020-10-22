@@ -55,16 +55,10 @@ class DoctorController extends Controller
     public function store(Request $request)
     {
 
-     /*    $request->validate([
-            'title'=>'required|max:255',
-            'description'=>'required',
-            'image'=>'required|mimes:jpeg,jpg,png',
-            'category'=>'required',
-            'tags'=>'required|array'
-           ],[
-            'category.required'=>'Please select a category.',
-            'tags.required'=>'Please select atlest one tag.'
-           ]); */
+        $request->validate([
+            'name'=>'required|max:50',
+            'photo'=>'required|mimes:jpeg,jpg,png'
+           ]);
 
         $fileName = $request->photo->getClientOriginalName();
         $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
@@ -86,6 +80,10 @@ class DoctorController extends Controller
 
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'photo'=>'mimes:jpeg,jpg,png'
+           ]);
         $doctor = Doctor::find($id);
         if ($request->hasFile('photo')) {
             $fileName = $request->photo->getClientOriginalName();

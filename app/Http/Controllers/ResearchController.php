@@ -56,6 +56,12 @@ class ResearchController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'title'=>'required|max:50',
+            'author'=>'required|max:50',
+            'subtitle'=>'required|max:50',
+            'thumbnail'=>'required|image|mimes:jpeg,jpg,png',
+           ]); 
         $research = new Research();
         $research->disease_type_id = $request->disease_type_id;
         $research->title = $request->title;
@@ -84,6 +90,12 @@ class ResearchController extends Controller
 
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'title'=>'required|max:50',
+            'author'=>'required|max:50',
+            'subtitle'=>'required|max:100',
+            'thumbnail'=>'image|mimes:jpeg,jpg,png',
+           ]); 
         $research = Research::find($id);
         $research->disease_type_id = $request->disease_type_id;
         $research->title = $request->title;

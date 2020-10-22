@@ -22,6 +22,11 @@ class ServiceController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'service_type_id'=>'required'
+           ]); 
+
         Service::create($request->except('_token'));
         return Redirect::route('admin-services-index')->with('message', 'Create Successfull !');
     }
@@ -33,12 +38,18 @@ class ServiceController extends Controller
 
     public function edit($id)
     {
+       
         $service = Service::find($id);
         return view('admin.services-edit', ['service' => $service]);
     }
 
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'name'=>'required|max:50',
+            'service_type_id'=>'required'
+           ]); 
+
         Service::find($id)->update($request->except('_token'));
         return Redirect::route('admin-services-index')->with('message', 'Update Successfull !');
     }

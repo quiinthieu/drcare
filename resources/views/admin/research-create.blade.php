@@ -1,5 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Research / Create'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -32,7 +33,7 @@
                                 <label for="disease_type_id">Select the Disease Type</label>
                                 <div class="input-group">
                                     <select class="custom-select" name="disease_type_id" id="disease_type_id" required>
-                                        <option selected disabled>Select the Disease Type...</option>
+                                        <option selected disabled value="">Select the Disease Type...</option>
                                         @foreach(\App\Models\DiseaseType::all() as $diseaseType)
                                             <option value="{{$diseaseType->id}}">{{$diseaseType->name}}</option>
                                         @endforeach
@@ -41,12 +42,15 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <label for="thumbnail">Thumbnail</label>
-                                <div class="input-group">
+                                <div class="form-control">
+                                    <input type="file" name="thumbnail" id="thumbnail">
+                                </div>
+                              {{--   <div class="input-group">
                                     <div class="custom-file">
                                         <input type="file" class="custom-file-input" name="thumbnail" id="thumbnail">
                                         <label class="custom-file-label" for="thumbnail" aria-describedby="thumbnail" required>Choose file</label>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="form-row">
