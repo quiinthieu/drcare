@@ -3,17 +3,51 @@
 namespace App\Http\Controllers;
 
 use App\Models\Research;
+use App\Models\DiseaseType;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\DB;
 
 class ResearchController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        $filter = $request->get('filter');
+        if(isset($filter)){
+            if($filter = $request->get('filter') =='Select All'){
+                $articles = Research::paginate(8);
+                $types = DiseaseType::all();
+                return view('admin.research', ['articles' => $articles,'types' => $types]);
+            }
+            else{
+                $filter = $request->get('filter');
+                $articles = DB::table('research')->where('disease_type_id', $filter)->paginate(8);    
+                $types = DiseaseType::all();
+                return view('admin.research', ['articles' => $articles,'types' => $types,'filter'=> $filter]);
+            }    
+        }
+      
         $articles = Research::paginate(8);
-        return view('admin.research', ['articles' => $articles]);
+        $types = DiseaseType::all();
+        return view('admin.research', ['articles' => $articles,'types' => $types]);
     }
+    
+
+  /*   public function filter(Request $request)
+    {
+        if($filter = $request->get('filter') =='Select All'){
+            $articles = Research::paginate(8);
+            $types = DiseaseType::all();
+            return view('admin.research', ['articles' => $articles,'types' => $types]);
+        }
+        else{
+            $filter = $request->get('filter');
+            $articles = DB::table('research')->where('disease_type_id', $filter)->paginate(8);    
+            $types = DiseaseType::all();
+            return view('admin.research', ['articles' => $articles,'types' => $types,'filter'=> $filter]);
+        }
+    } */
 
     public function create()
     {

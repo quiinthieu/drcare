@@ -4,16 +4,51 @@ namespace App\Http\Controllers;
 
 use App\Models\Doctor;
 use App\Models\Product;
+use App\Models\Category;
+
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
 class ProductController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        $filter = $request->get('filter');
+        if(isset($filter)){
+            if($filter = $request->get('filter') =='Select All'){
+                $categories = Category::all();
+                $products = Product::paginate(8);
+                return view('admin.products', ['products' => $products,'categories' => $categories]);
+            }
+            else{
+                $filter = $request->get('filter');
+                $products = DB::table('products')->where('category_id', $filter)->paginate(8);    
+                $categories = Category::all();
+                return view('admin.products', ['products' => $products,'categories' => $categories,'filter'=> $filter]);
+            }
+        }
+
+        $categories = Category::all();
         $products = Product::paginate(8);
-        return view('admin.products', ['products' => $products]);
+        return view('admin.products', ['products' => $products,'categories' => $categories]);
     }
+
+    
+   /*  public function filter(Request $request)
+    {
+        if($filter = $request->get('filter') =='Select All'){
+            $categories = Category::all();
+            $products = Product::paginate(8);
+            return view('admin.products', ['products' => $products,'categories' => $categories]);
+        }
+        else{
+            $filter = $request->get('filter');
+            $products = DB::table('products')->where('category_id', $filter)->paginate(8);    
+            $categories = Category::all();
+            return view('admin.products', ['products' => $products,'categories' => $categories,'filter'=> $filter]);
+        }
+    } */
 
     public function create()
     {

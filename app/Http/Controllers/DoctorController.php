@@ -5,14 +5,47 @@ namespace App\Http\Controllers;
 use App\Models\Doctor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
+use App\Models\DoctorType;
+use Illuminate\Support\Facades\DB;
 
 class DoctorController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        $filter = $request->get('filter');
+        if(isset($filter)){
+            if($filter = $request->get('filter') =='Select All'){
+                $doctors = Doctor::paginate(8);
+                $types = DoctorType::all();
+                return view('admin.doctors', ['doctors' => $doctors,'types' => $types]);
+            }
+            else{
+                $filter = $request->get('filter');
+                $doctors = DB::table('doctors')->where('doctor_type_id', $filter)->paginate(8);    
+                $types = DoctorType::all();
+                return view('admin.doctors', ['doctors' => $doctors,'types' => $types,'filter'=> $filter]);
+            }
+        }
         $doctors = Doctor::paginate(8);
-        return view('admin.doctors', ['doctors' => $doctors]);
+        $types = DoctorType::all();
+        return view('admin.doctors', ['doctors' => $doctors,'types' => $types]);
     }
+/* 
+    public function filter(Request $request)
+    {
+        if($filter = $request->get('filter') =='Select All'){
+            $doctors = Doctor::paginate(8);
+            $types = DoctorType::all();
+            return view('admin.doctors', ['doctors' => $doctors,'types' => $types]);
+        }
+        else{
+            $filter = $request->get('filter');
+            $doctors = DB::table('doctors')->where('doctor_type_id', $filter)->paginate(8);    
+            $types = DoctorType::all();
+            return view('admin.doctors', ['doctors' => $doctors,'types' => $types,'filter'=> $filter]);
+        }
+    }
+ */
 
     public function create()
     {
@@ -21,6 +54,18 @@ class DoctorController extends Controller
 
     public function store(Request $request)
     {
+
+     /*    $request->validate([
+            'title'=>'required|max:255',
+            'description'=>'required',
+            'image'=>'required|mimes:jpeg,jpg,png',
+            'category'=>'required',
+            'tags'=>'required|array'
+           ],[
+            'category.required'=>'Please select a category.',
+            'tags.required'=>'Please select atlest one tag.'
+           ]); */
+
         $fileName = $request->photo->getClientOriginalName();
         $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
         $request->photo = 'storage/' . $path;

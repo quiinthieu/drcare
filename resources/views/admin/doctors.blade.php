@@ -4,9 +4,38 @@
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
-                <div class="card-header d-flex align-items-center justify-content-between">
-                    <h5>Doctors</h5>
-                    <a role="button" href="{{route('admin-doctors-create')}}" class="btn btn-success btn-sm btn-round has-ripple"><i class="feather icon-plus"></i>Add New Doctor</a>
+                <div class="card-header ">
+                    <div class="row d-flex align-items-center justify-content-between">
+                        <div class="col-sm-4">
+                            <h5>Doctors</h5>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <form action="{{route('admin-doctors-index')}}" method="get">
+                                <div class="input-group">
+                                    <select class="custom-select" name="filter">
+                                        <option 
+                                        @isset($filter)  
+                                        {{($filter == 'Select All')? 'selected' : ''}}
+                                        @endisset                    
+                                        >Select All</option>
+                                        @foreach($types as $type)
+                                        <option value="{{$type->id}}" 
+                                                @isset($filter)  
+                                                {{($filter == $type->id)? 'selected' : ''}}
+                                                @endisset
+                                            >{{$type->name}}</option>                    
+                                        @endforeach
+                                    </select>
+                                    <div class="input-group-append">
+                                        <button class="btn  btn-info btn-sm btn-round has-ripple" type="submit" >Filter</button>
+                                    </div>
+                                </div>
+                            </form>        
+                        </div>
+                        <div class="col-sm-4 text-right">
+                            <a role="button" href="{{route('admin-doctors-create')}}" class="btn btn-success btn-sm btn-round has-ripple"><i class="feather icon-plus"></i>Add New Doctor</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body table-border-style">
                     <div class="col-12 d-flex flex-wrap">
@@ -38,9 +67,16 @@
                             </div>
                         @endforeach
                     </div>
+                    @if(isset($filter))         
+                    {{$doctors->appends(array('filter' => $filter))->links()}}
+                    @else
                     {{$doctors->links()}}
+                    @endif
+                   
                 </div>
             </div>
         </div>
     </div>
+
+   
 @endsection
