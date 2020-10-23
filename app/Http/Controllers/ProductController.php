@@ -68,6 +68,7 @@ class ProductController extends Controller
             'photos.*.mimes'=>'The photo must be a file of type: jpeg, jpg, png.'
            ]); 
         $product = new Product();
+        ($request->status)  ?  $product->status = 1 : $product->status = 0 ;
         $photos = array();
         if ($request->hasFile('photos')) {
             foreach ($request->photos as $photo) {
@@ -109,6 +110,7 @@ class ProductController extends Controller
            ]); 
 
         $product = Product::find($id);
+        ($request->status)  ?  $product->status = 1 : $product->status = 0 ;
         $photos = array();
         if ($request->hasFile('photos')) {
             foreach ($request->photos as $photo) {

@@ -14,17 +14,23 @@ class ResearchController extends Controller
     public function index(Request $request)
     {
         $filter = $request->get('filter');
-        if(isset($filter)){
-            if($filter = $request->get('filter') =='Select All'){
-                $articles = Research::paginate(8);
+        $status = $request->get('status');
+        if(isset($filter)&&isset($status)){
+            if($filter = $request->get('filter') =='all'){       
+                $status = $request->get('status');
+                $articles = DB::table('research')->where('status', $status )->paginate(8);    
                 $types = DiseaseType::all();
-                return view('admin.research', ['articles' => $articles,'types' => $types]);
+                return view('admin.research', ['articles' => $articles,'types' => $types,'status'=> $status]);
             }
             else{
                 $filter = $request->get('filter');
-                $articles = DB::table('research')->where('disease_type_id', $filter)->paginate(8);    
+                $status = $request->get('status');
+                $articles = DB::table('research')->where([
+                    ['disease_type_id', $filter],
+                    ['status', $status]
+                ])->paginate(8);    
                 $types = DiseaseType::all();
-                return view('admin.research', ['articles' => $articles,'types' => $types,'filter'=> $filter]);
+                return view('admin.research', ['articles' => $articles,'types' => $types,'filter'=> $filter,'status'=> $status]);
             }    
         }
       
@@ -33,21 +39,6 @@ class ResearchController extends Controller
         return view('admin.research', ['articles' => $articles,'types' => $types]);
     }
     
-
-  /*   public function filter(Request $request)
-    {
-        if($filter = $request->get('filter') =='Select All'){
-            $articles = Research::paginate(8);
-            $types = DiseaseType::all();
-            return view('admin.research', ['articles' => $articles,'types' => $types]);
-        }
-        else{
-            $filter = $request->get('filter');
-            $articles = DB::table('research')->where('disease_type_id', $filter)->paginate(8);    
-            $types = DiseaseType::all();
-            return view('admin.research', ['articles' => $articles,'types' => $types,'filter'=> $filter]);
-        }
-    } */
 
     public function create()
     {
@@ -63,6 +54,7 @@ class ResearchController extends Controller
             'thumbnail'=>'required|image|mimes:jpeg,jpg,png',
            ]); 
         $research = new Research();
+        ($request->status)  ?  $research->status = 1 : $research->status = 0 ;
         $research->disease_type_id = $request->disease_type_id;
         $research->title = $request->title;
         $research->subtitle = $request->subtitle;
@@ -96,7 +88,11 @@ class ResearchController extends Controller
             'subtitle'=>'required|max:100',
             'thumbnail'=>'image|mimes:jpeg,jpg,png',
            ]); 
+        
         $research = Research::find($id);
+
+        ($request->status)  ?  $research->status = 1 : $research->status = 0 ;
+ 
         $research->disease_type_id = $request->disease_type_id;
         $research->title = $request->title;
         $research->subtitle = $request->subtitle;

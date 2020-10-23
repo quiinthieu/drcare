@@ -59,11 +59,17 @@ class DoctorController extends Controller
             'name'=>'required|max:50',
             'photo'=>'required|mimes:jpeg,jpg,png'
            ]);
+           $doctor = new Doctor();
+           ($request->status)  ?  $doctor->status = 1 : $doctor->status = 0 ;
+           $doctor->doctor_type_id= $request->doctor_type_id ;
+           $doctor->name= $request->name ;
 
-        $fileName = $request->photo->getClientOriginalName();
-        $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
-        $request->photo = 'storage/' . $path;
-        Doctor::create($request->except('_token'));
+            $fileName = $request->photo->getClientOriginalName();
+            $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');
+            $request->photo = 'storage/' . $path;
+            $doctor->photo = $request->photo ;
+     /*     Doctor::create($request->except('_token')); */
+             $doctor->save();
         return Redirect::route('admin-doctors-index')->with('message', 'Create Successfull !');
     }
 
@@ -85,6 +91,7 @@ class DoctorController extends Controller
             'photo'=>'mimes:jpeg,jpg,png'
            ]);
         $doctor = Doctor::find($id);
+        ($request->status)  ?  $doctor->status = 1 : $doctor->status = 0 ;
         if ($request->hasFile('photo')) {
             $fileName = $request->photo->getClientOriginalName();
             $path = $request->photo->storeAs('drcare/doctors', $fileName, 'public');

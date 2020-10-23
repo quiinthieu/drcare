@@ -69,12 +69,25 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <div class="switch switch-primary d-inline m-r-8">
+                                                <input type="checkbox"  
+                                                {{($doctor->status) ? 'checked="" ':''}}
+                                                >
+                                                <label for="switch-p-1" class="cr"></label>
+                                            </div>
+                                            <label class="badge badge-pill 
+                                            {{($doctor->status) ? 'badge-primary':'badge-danger'}}
+                                            ">{{
+                                            ($doctor->status) ? 'Active':'Inactive'
+                                            }}</label>    
+                                        </div>
+                                       {{--  <div class="form-group">
                                             <div class="switch switch-primary d-inline m-r-10">
                                                 <input type="checkbox" checked="" >
                                                 <label for="switch-p-1" class="cr"></label>
                                             </div>
                                             <label class="badge badge-pill badge-primary">Active</label>    
-                                        </div>
+                                        </div> --}}
                                         
                                     </div>
 
