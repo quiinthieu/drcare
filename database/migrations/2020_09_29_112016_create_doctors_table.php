@@ -18,6 +18,7 @@ class CreateDoctorsTable extends Migration
             $table->foreignId('doctor_type_id')->constrained();
             $table->string('name', 255);
             $table->string('photo', 255);
+            $table->boolean('status');
             $table->timestamps();
         });
     }

@@ -23,7 +23,7 @@ class ProductFactory extends Factory
      */
     public function definition()
     {
-        static $id = 1;
+         $id = $this->faker->numberBetween(1,48);
         return [
             'category_id' => function () {
                 return Category::factory()->create()->id;
@@ -35,6 +35,7 @@ class ProductFactory extends Factory
                 'storage/drcare/products/' . $id++ . '.png',
                 'storage/drcare/products/' . $id++ . '.png'
             ]),
+            'status' => $this->faker->numberBetween(0,1)
         ];
     }
 }

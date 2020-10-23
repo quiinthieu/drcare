@@ -13,13 +13,14 @@ class DoctorFactory extends Factory
 
     public function definition()
     {
-        static $id = 1;
+         $id = $this->faker->numberBetween(1,28);
         return [
             'doctor_type_id' => function() {
                 return DoctorType::factory()->create()->id;
             },
             'name' => $this->faker->firstName . ' ' . $this->faker->lastName,
             'photo' => 'storage/drcare/doctors/' . $id++ .'.png',
+            'status' => $this->faker->numberBetween(0,1)
         ];
     }
 }

@@ -60,14 +60,35 @@
                                                 ">{{\Illuminate\Support\Facades\DB::table('disease_types')->find($article->disease_type_id)->name}}</span>
                                         </div>
                                     </div>
-                                    <div class="card-footer">
-                                        <a class="btn btn-outline-primary btn-sm" role="button"
-                                           href="{{route('admin-research-edit', $article->id)}}">Edit</a>
-                                        &nbsp;
-                                        <a class="btn  btn-outline-danger btn-sm" role="button"
-                                           href="{{route('admin-research-delete', $article->id)}}"
-                                           onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
-                                           >Delete</a>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <div class="form-group">
+                                            <a class="btn btn-outline-primary btn-sm" role="button"
+                                            href="{{route('admin-research-edit', $article->id)}}">Edit</a>
+                                         &nbsp;
+                                         <a class="btn  btn-outline-danger btn-sm" role="button"
+                                            href="{{route('admin-research-delete', $article->id)}}"
+                                            onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
+                                            >Delete</a>
+                                        </div>
+
+                                         {{--   <div class="form-group">                
+                                            <div class="switch switch-primary d-inline m-r-10">
+                                                <input type="checkbox"  disabled="" checked="" >
+                                                <label for="switch-p-4" class="cr" style="opacity:1;"></label>
+                                            </div>
+                                            <label class="badge badge-pill badge-primary">Active</label>                 
+                                        </div> --}}
+
+                                        <div class="form-group">
+                                            <div class="switch switch-primary d-inline m-r-10">
+                                                <input type="checkbox"  checked="" >
+                                                <label for="switch-p-1" class="cr"></label>
+                                            </div>
+                                            <label class="badge badge-pill badge-primary">Active</label>    
+                                        </div>
+                    
+
+
                                     </div>
                                 </div>
                             </div>

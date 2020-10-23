@@ -16,7 +16,7 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center">Actions</th>
-                                    <th>ID</th>
+                                    <th>No.</th>
                                     <th>Name</th>
                                     <th>Description</th>
                                     <th>Statistics</th>
@@ -28,16 +28,20 @@
                                 <tbody>
                                 @foreach($diseases as $disease)
                                     <tr>
-                                        <td class="text-center">
-                                            <a href="{{route('admin-diseases-show', ['id' => $disease->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
-                                            &nbsp;
-                                            <a href="{{route('admin-diseases-edit', ['id' => $disease->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
-                                            &nbsp;
-                                            <a href="{{route('admin-diseases-delete', ['id' => $disease->id])}}" role="button" class="btn btn-outline-danger btn-sm"
-                                                onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
-                                                >Delete</a>
+                                        
+                                        <td class="text-center 
+                                       ">
+                         
+                                                <a href="{{route('admin-diseases-show', ['id' => $disease->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
+                                                &nbsp;
+                                                <a href="{{route('admin-diseases-edit', ['id' => $disease->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
+                                                &nbsp;
+                                                <a href="{{route('admin-diseases-delete', ['id' => $disease->id])}}" role="button" class="btn btn-outline-danger btn-sm"
+                                                    onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
+                                                    >Delete</a>
+   
                                         </td>
-                                        <td>{{$disease->id}}</td>
+                                        <td>{{$loop->index+1}}</td>                                      
                                         <td>{{$disease->name}}</td>
                                         <td>{{$disease->description}}</td>
                                         <td>{{$disease->statistics}}</td>

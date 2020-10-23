@@ -4,8 +4,17 @@
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header 
+                d-flex align-items-center justify-content-between">
                     <h5>Edit a Doctor</h5>
+                    <div class="form-group">
+                        <div class="switch switch-primary d-inline m-r-10">
+                            <input type="checkbox" id="switch-p-1" checked="" >
+                            <label for="switch-p-1" class="cr"></label>
+                        </div>
+                        <label class="badge badge-pill badge-primary">Active</label>    
+                    </div>
+
                 </div>
                 <div class="card-body table-border-style">
                     <form method="POST" action="{{ route('admin-doctors-update', $doctor->id)}}" enctype="multipart/form-data">

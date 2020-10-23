@@ -22,6 +22,7 @@ class CreateDiseasesTable extends Migration
             $table->text('causes');
             $table->text('symptoms');
             $table->text('preventions');
+            $table->boolean('status');
             $table->timestamps();
         });
     }

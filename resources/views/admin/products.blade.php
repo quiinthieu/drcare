@@ -88,14 +88,25 @@
                                         </div>
 
                                     </div>
-                                    <div class="card-footer">
-                                        <a class="btn btn-outline-primary btn-sm" role="button"
-                                           href="{{route('admin-products-edit', ['id' => $product->id])}}">Edit</a>
-                                        &nbsp;
-                                        <a class="btn btn-outline-danger btn-sm" role="button"
-                                           href="{{route('admin-products-delete', ['id' => $product->id])}}"
-                                           onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
-                                           >Delete</a>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <div class="form-group">
+                                            <a class="btn btn-outline-primary btn-sm" role="button"
+                                            href="{{route('admin-products-edit', ['id' => $product->id])}}">Edit</a>
+                                         &nbsp;
+                                         <a class="btn btn-outline-danger btn-sm" role="button"
+                                            href="{{route('admin-products-delete', ['id' => $product->id])}}"
+                                            onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
+                                            >Delete</a>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="switch switch-primary d-inline m-r-10">
+                                                <input type="checkbox" checked="" >
+                                                <label for="switch-p-1" class="cr"></label>
+                                            </div>
+                                            <label class="badge badge-pill badge-primary">Active</label>    
+                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>

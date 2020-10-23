@@ -15,7 +15,7 @@
                             <thead>
                             <tr>
                                 <th class="text-center">Actions</th>
-                                <th>ID</th>
+                                <th>No.</th>
                                 <th>Name</th>
                                 <th>Type</th>
                             </tr>
@@ -30,7 +30,7 @@
                                             onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}" 
                                             >Delete</a>
                                     </td>
-                                    <td>{{$service->id}}</td>
+                                    <td>{{$loop->index+1}}</td>
                                     <td>{{$service->name}}</td>
                                     <td>
                                         <span

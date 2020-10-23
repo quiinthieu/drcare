@@ -32,6 +32,7 @@ class DiseaseFactory extends Factory
             'causes' => $this->faker->realText(100),
             'symptoms' => $this->faker->realText(100),
             'preventions' => $this->faker->realText(100),
+            'status' => $this->faker->numberBetween(0,1)
         ];
     }
 }

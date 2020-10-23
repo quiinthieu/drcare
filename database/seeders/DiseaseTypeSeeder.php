@@ -18,7 +18,7 @@ class DiseaseTypeSeeder extends Seeder
     {
         DiseaseType::factory(2)->create()->each(function ($diseaseType) {
             Disease::factory(4)->create(['disease_type_id' => $diseaseType->id]);
-            Research::factory(15)->create(['disease_type_id' => $diseaseType->id]);
+            Research::factory(25)->create(['disease_type_id' => $diseaseType->id]);
         });
     }
 }

@@ -26,7 +26,8 @@ class ServiceFactory extends Factory
             'service_type_id' => function () {
                 return ServiceType::factory()->create()->id;
             },
-            'name' => $this->faker->realText(20)
+            'name' => $this->faker->realText(20),
+            'status' => $this->faker->numberBetween(0,1)
         ];
     }
 }
