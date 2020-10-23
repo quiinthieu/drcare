@@ -4,23 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand />
-    <select>
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d9176d1-0ef5-45c9-984e-0ba471899a26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d9176d1-0ef5-45c9-984e-0ba471899a26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrCareController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrCareController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/blog-single.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/blog.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/related-courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/drcare/related-courses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/drcare/testing.blade.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,14 +409,10 @@
       <workItem from="1603092814241" duration="20070000" />
       <workItem from="1603198493479" duration="247000" />
       <workItem from="1603198760838" duration="8067000" />
-      <workItem from="1603260626553" duration="4819000" />
-    </task>
-    <task id="LOCAL-00023" summary="Version 1.3.2">
-      <created>1601703851520</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1601703851520</updated>
+      <workItem from="1603260626553" duration="5881000" />
+      <workItem from="1603332133242" duration="406000" />
+      <workItem from="1603332616306" duration="201000" />
+      <workItem from="1603332850967" duration="2752000" />
     </task>
     <task id="LOCAL-00024" summary="Version 1.3.3">
       <created>1601709186933</created>
@@ -743,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603205400478</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Version 1.8.7">
+      <created>1603267633377</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1603267633377</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,6 +774,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -768,7 +793,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.5.9" />
     <MESSAGE value="Version 1.6.1" />
     <MESSAGE value="Version 1.6.2" />
     <MESSAGE value="Version 1.6.3" />
@@ -793,7 +817,8 @@
     <MESSAGE value="Version 1.8.4" />
     <MESSAGE value="Version 1.8.5" />
     <MESSAGE value="Version 1.8.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.8.6" />
+    <MESSAGE value="Version 1.8.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.8.7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -876,22 +901,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1602500521442" />
-    <state width="1460" height="399" key="GridCell.Tab.0.bottom" timestamp="1603260777755">
+    <state width="1460" height="399" key="GridCell.Tab.0.bottom" timestamp="1603276146156">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="399" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603260777755" />
-    <state width="1460" height="399" key="GridCell.Tab.0.center" timestamp="1603260777755">
+    <state width="1460" height="399" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603276146156" />
+    <state width="1460" height="399" key="GridCell.Tab.0.center" timestamp="1603276146156">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="399" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603260777755" />
-    <state width="1460" height="399" key="GridCell.Tab.0.left" timestamp="1603260777754">
+    <state width="1460" height="399" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603276146156" />
+    <state width="1460" height="399" key="GridCell.Tab.0.left" timestamp="1603276146155">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="399" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603260777754" />
-    <state width="1460" height="399" key="GridCell.Tab.0.right" timestamp="1603260777755">
+    <state width="1460" height="399" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603276146155" />
+    <state width="1460" height="399" key="GridCell.Tab.0.right" timestamp="1603276146156">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="399" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603260777755" />
+    <state width="1460" height="399" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603276146156" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -904,10 +929,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="331" y="98" key="RollbackChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1603200648462" />
-    <state x="11" y="179" width="1472" height="706" key="SettingsEditor" timestamp="1603190208610">
+    <state x="11" y="179" width="1472" height="706" key="SettingsEditor" timestamp="1603332818727">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="11" y="179" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1603190208610" />
+    <state x="11" y="179" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1603332818727" />
     <state x="93" y="93" width="1313" height="773" key="ShowDiffWithBranchDialog" timestamp="1602687142858">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -916,10 +941,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="476" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1603013753310" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1603205426416">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1603267671825">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1603205426416" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1603267671825" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -948,10 +973,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="520" y="376" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1500.960@0.0.1500.960" timestamp="1602668195527" />
-    <state x="512" y="305" width="672" height="678" key="search.everywhere.popup" timestamp="1603207039966">
+    <state x="515" y="308" width="672" height="678" key="search.everywhere.popup" timestamp="1603267395888">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="512" y="305" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1603207039966" />
+    <state x="515" y="308" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1603267395888" />
     <state x="473" y="389" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602170174212">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
