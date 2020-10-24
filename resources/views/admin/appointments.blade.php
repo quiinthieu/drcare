@@ -28,7 +28,7 @@
                                 @foreach($appointments as $appointment)
                                     <tr>
                                         <td class="text-center">
-                                            <a href="{{route('admin-appointments-show', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
+                                            <a href="{{route('admin-appointments-show', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-info btn-sm">Show</a>
                                             &nbsp;
                                             <a href="{{route('admin-appointments-edit', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
                                             &nbsp;
@@ -36,10 +36,10 @@
                                             href="{{route('admin-appointments-delete', ['id' => $appointment->id])}}"
                                              role="button" 
                                              class="btn btn-outline-danger btn-sm"
-                                        onclick="if(confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}else{
-                                            event.preventDefault();
-                                        }"
+                                        onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
                                              >Delete</a>
+                                   
+
                                         </td>
                                         <td>{{$loop->index+1}}</td>
                                         <td>{{$appointment->first_name . ' ' . $appointment->last_name}}</td>

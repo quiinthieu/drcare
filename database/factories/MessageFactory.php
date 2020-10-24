@@ -25,7 +25,8 @@ class MessageFactory extends Factory
             'name' => $this->faker->name,
             'email' => $this->faker->email,
             'subject' => $this->faker->realText(50),
-            'message' => $this->faker->realText(200)
+            'message' => $this->faker->realText(200),
+            'status' => $this->faker->numberBetween(0,1)
         ];
     }
 }

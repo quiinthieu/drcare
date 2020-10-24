@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Message;
 use Illuminate\Http\Request;
+use App\Mail\contact;
+use Illuminate\Support\Facades\Mail;
 
 class MessageController extends Controller
 {
@@ -14,7 +16,25 @@ class MessageController extends Controller
      */
     public function index()
     {
-        //
+        $messages = Message::all();
+        return view('admin.messages', ['messages' => $messages]);
+    }
+
+    public function sendEmail($id)
+    {
+        $message = Message::find($id);
+        $message->status = 1;
+        $details = [
+           'title' => 'Contact Confirmation',
+           'name'=>$message->name,
+           'subject'=>$message->subject,
+           'message'=>$message->message
+    
+        ];
+        Mail::to($message->email)->send(new contact($details));
+       /*  return Redirect::route('admin-messages-index')->with('message', 'Send Email Successfull !'); */
+       $message->save();
+       return redirect()->back()->with('message', 'Send Email Successfull !');
     }
 
     /**
@@ -44,9 +64,10 @@ class MessageController extends Controller
      * @param  \App\Models\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function show(Message $message)
+    public function show($id)
     {
-        //
+        $message = Message::find($id);
+        return view('admin.messages-show', ['message' => $message]);
     }
 
     /**
@@ -78,8 +99,10 @@ class MessageController extends Controller
      * @param  \App\Models\Message  $message
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Message $message)
+    public function destroy($id)
     {
-        //
+        Message::destroy($id);
+        return redirect()->back()->with('message', 'Delete Successfull !');
+       
     }
 }

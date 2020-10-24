@@ -13,6 +13,7 @@ use App\Http\Controllers\ResearchController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\DocumentController;
 
+use App\Http\Controllers\MessageController;
 Auth::routes();
 
 // DRCARE - START
@@ -106,7 +107,7 @@ Route::get('/admin/appointments/edit/{id}', [AppointmentController::class, 'edit
 Route::post('/admin/appointments/update/{id}', [AppointmentController::class, 'update'])->name('admin-appointments-update')->middleware('auth');
 
 // D - for Delete
-Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
+Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete')->middleware('auth');
 // APPOINTMENTS - END
 
 // DISEASES - START
