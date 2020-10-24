@@ -1,12 +1,13 @@
 @extends('layouts.admin', ['pageHeader' => 'Diseases'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <!-- [ stiped-table ] start -->
         <div class="col-xl-12">
             <div class="card">
                 <div class="card-header d-flex align-items-center justify-content-between">
                     <h5>Diseases</h5>
-                    <a role="button" href="{{route('admin-diseases-create')}}" class="btn btn-primary text-white">Create</a>
+                    <a role="button" href="{{route('admin-diseases-create')}}" class="btn btn-success btn-sm btn-round has-ripple"><i class="feather icon-plus"></i>Add New Disease</a>
                 </div>
                 <div class="card-body table-border-style">
                     @if(count($diseases))
@@ -15,7 +16,7 @@
                                 <thead>
                                 <tr>
                                     <th class="text-center">Actions</th>
-                                    <th>ID</th>
+                                    <th>No.</th>
                                     <th>Name</th>
                                     <th>Description</th>
                                     <th>Statistics</th>
@@ -27,14 +28,20 @@
                                 <tbody>
                                 @foreach($diseases as $disease)
                                     <tr>
-                                        <td class="text-center">
-                                            <a href="{{route('admin-diseases-show', ['id' => $disease->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
-                                            &nbsp;
-                                            <a href="{{route('admin-diseases-edit', ['id' => $disease->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
-                                            &nbsp;
-                                            <a href="{{route('admin-diseases-delete', ['id' => $disease->id])}}" role="button" class="btn btn-outline-danger btn-sm">Delete</a>
+                                        
+                                        <td class="text-center 
+                                       ">
+                         
+                                                <a href="{{route('admin-diseases-show', ['id' => $disease->id])}}" role="button" class="btn btn-outline-secondary btn-sm">Show</a>
+                                                &nbsp;
+                                                <a href="{{route('admin-diseases-edit', ['id' => $disease->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
+                                                &nbsp;
+                                                <a href="{{route('admin-diseases-delete', ['id' => $disease->id])}}" role="button" class="btn btn-outline-danger btn-sm"
+                                                    onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
+                                                    >Delete</a>
+   
                                         </td>
-                                        <td>{{$disease->id}}</td>
+                                        <td>{{$loop->index+1}}</td>                                      
                                         <td>{{$disease->name}}</td>
                                         <td>{{$disease->description}}</td>
                                         <td>{{$disease->statistics}}</td>

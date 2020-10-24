@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->text('description');
             $table->unsignedDouble('price');
             $table->json('photos');
+            $table->boolean('status');
             $table->timestamps();
         });
     }

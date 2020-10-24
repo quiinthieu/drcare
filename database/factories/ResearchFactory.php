@@ -22,14 +22,16 @@ class ResearchFactory extends Factory
      */
     public function definition()
     {
-        static $id = 1;
+         $id =  $this->faker->numberBetween(1,30);
         return [
             'thumbnail' => 'storage/drcare/research/' . $id++ . '.png',
+      
             'title' => $this->faker->realText(15),
             'subtitle' => $this->faker->realText(60),
             'author' => $this->faker->firstName . ' ' . $this->faker->lastName ,
             'content' => json_encode($this->faker->paragraphs(20)),
-            'published_at' => $this->faker->dateTimeBetween('-5 years', 'now')
+            'published_at' => $this->faker->dateTimeBetween('-5 years', 'now'),
+            'status' => $this->faker->numberBetween(0,1)
         ];
     }
 }

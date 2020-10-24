@@ -6,7 +6,7 @@
                 <li class="nav-item pcoded-menu-caption">
                     <label>Navigation</label>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-dashboard' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/dashboard*')) ? "active" : ""}}">
                     <a href="{{route('admin-dashboard')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-home"></i>
@@ -14,7 +14,7 @@
                         <span class="pcoded-mtext">Dashboard</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-appointments-index' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/appointments*'))  ? "active" : ""}}">
                     <a href="{{route('admin-appointments-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-home"></i>
@@ -22,7 +22,7 @@
                         <span class="pcoded-mtext">Appointments</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-diseases-index' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/diseases*')) ? "active" : ""}}">
                     <a href="{{route('admin-diseases-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
@@ -30,7 +30,7 @@
                         <span class="pcoded-mtext">Diseases</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-doctors-index' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/doctors*')) ? "active" : ""}}">
                     <a href="{{route('admin-doctors-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
@@ -38,7 +38,7 @@
                         <span class="pcoded-mtext">Doctors</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-products' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/products*')) ? "active" : ""}}">
                     <a href="{{route('admin-products-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
@@ -46,7 +46,7 @@
                         <span class="pcoded-mtext">Products</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-research-index' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/research*')) ? "active" : ""}}">
                     <a href="{{route('admin-research-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>
@@ -54,7 +54,7 @@
                         <span class="pcoded-mtext">Research</span>
                     </a>
                 </li>
-                <li class="nav-item {{\Illuminate\Support\Facades\Route::currentRouteName() === 'admin-services-index' ? "active" : ""}}">
+                <li class="nav-item {{(request()->is('admin/services*')) ? "active" : ""}}">
                     <a href="{{route('admin-services-index')}}" class="nav-link ">
                         <span class="pcoded-micon">
                             <i class="feather icon-layout"></i>

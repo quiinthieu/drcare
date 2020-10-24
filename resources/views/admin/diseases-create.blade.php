@@ -1,5 +1,6 @@
-@extends('layouts.admin', ['pageHeader' => 'Appointments'])
+@extends('layouts.admin', ['pageHeader' => 'Appointments / Create'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -18,7 +19,7 @@
                                 <label for="disease_type_id">Select the Disease Type</label>
                                 <div class="input-group">
                                     <select class="custom-select" name="disease_type_id" id="disease_type_id" required>
-                                        <option selected disabled>Select the Disease Type...</option>
+                                        <option selected disabled value="">Select the Disease Type...</option>
                                         @foreach(\App\Models\DiseaseType::all() as $diseaseType)
                                             <option value="{{$diseaseType->id}}">{{$diseaseType->name}}</option>
                                         @endforeach
@@ -51,6 +52,7 @@
                             </div>
                         </div>
                         <button class="btn btn-primary mt-3" type="submit">Create</button>
+                        <a class="btn btn-secondary mt-3" href=" {{ route('admin-diseases-index')}}">Back</a>   
                     </form>
                 </div>
             </div>

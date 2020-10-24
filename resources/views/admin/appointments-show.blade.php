@@ -1,4 +1,4 @@
-@extends('layouts.admin', ['pageHeader' => 'Appointments'])
+@extends('layouts.admin', ['pageHeader' => 'Appointments / Details'])
 @section('content')
     <div class="row">
         <div class="col-xl-12">
@@ -48,9 +48,14 @@
                                         &nbsp;&nbsp;&nbsp;
                                         <a href="{{route('admin-appointments-edit', ['id' => $appointment->id])}}" role="button" class="btn btn-outline-primary btn-sm">Edit</a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;
-                                        <a href="{{route('admin-appointments-delete', ['id' => $appointment->id])}}"
+                                        <a 
+                                        href="{{route('admin-appointments-delete', ['id' => $appointment->id])}}"
+                       
                                            role="button"
-                                           class="btn btn-outline-danger btn-sm">Delete</a>
+                                           class="btn btn-outline-danger btn-sm"
+                                           onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
+                                           >Delete</a>
+                                           
                                     </div>
                                 </td>
                             </tr>

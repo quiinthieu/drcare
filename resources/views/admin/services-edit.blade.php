@@ -1,5 +1,6 @@
-@extends('layouts.admin', ['pageHeader' => 'Services'])
+@extends('layouts.admin', ['pageHeader' => 'Services / Edit'])
 @section('content')
+@include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -28,6 +29,7 @@
                             </div>
                         </div>
                         <button class="btn btn-primary mt-3" type="submit">Update</button>
+                        <a class="btn btn-secondary mt-3" href=" {{ route('admin-services-index')}}">Back</a>   
                     </form>
                 </div>
             </div>

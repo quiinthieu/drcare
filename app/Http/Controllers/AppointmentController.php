@@ -32,6 +32,14 @@ class AppointmentController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'first_name'=>'required|max:50',
+            'last_name'=>'required|max:50',
+            'phone'=>'required|numeric',     
+           ],[
+            'phone.required'=>'Phone must be a valid phone number.'
+           ]); 
+
         $appointment = new Appointment();
         $appointment->first_name = $request->get('first_name');
         $appointment->last_name = $request->get('last_name');
@@ -41,7 +49,7 @@ class AppointmentController extends Controller
         $appointment->setTime($request->get('time'));
         $appointment->message = $request->get('message');
         $appointment->save();
-        return view('drcare.booking-result', ['appointment' => $appointment]);
+        return view('drcare.booking-result', ['appointment' => $appointment])->with('message', 'Create Successfull !');
     }
 
     public function show($id)
@@ -66,6 +74,13 @@ class AppointmentController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $request->validate([
+            'first_name'=>'required|max:50',
+            'last_name'=>'required|max:50',
+            'phone'=>'required|numeric',     
+           ],[
+            'phone.required'=>'Phone must be a valid phone number.'
+           ]); 
         $appointment = Appointment::find($id);
         $appointment->first_name = $request->get('first_name');
         $appointment->last_name = $request->get('last_name');
@@ -75,7 +90,7 @@ class AppointmentController extends Controller
         $appointment->setTime($request->get('time'));
         $appointment->message = $request->get('message');
         $appointment->save();
-        return Redirect::route('admin-appointments-index');
+        return Redirect::route('admin-appointments-index')->with('message', 'Update Successfull !');
     }
 
     /**
@@ -85,7 +100,7 @@ class AppointmentController extends Controller
     public function destroy($id)
     {
         Appointment::destroy($id);
-        return Redirect::route('admin-appointments-index');
+        return Redirect::route('admin-appointments-index')->with('message', 'Delete Successfull !');
     }
 
 }

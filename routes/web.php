@@ -91,7 +91,9 @@ Route::post('/admin/appointments/store', function(\Illuminate\Http\Request $requ
     $appointment->setTime($request->get('time'));
     $appointment->message = $request->get('message');
     $appointment->save();
-    return \Illuminate\Support\Facades\Redirect::route('admin-appointments-index');
+   
+   /*  return view('admin.appointments-create')->with('message', 'Create Successfull !'); */
+    return \Illuminate\Support\Facades\Redirect::route('admin-appointments-index')->with('message', 'Create Successfull !');
 })->name('admin-appointments-store')->middleware('auth');
 
 // R - for Read
@@ -160,7 +162,7 @@ Route::get('/admin/products/delete/{id}', [ProductController::class, 'destroy'])
 
 // RESEARCH - START
 // C - for Create
-Route::get('/admin/cresearch/create', [ResearchController::class, 'create'])->name('admin-research-create')->middleware('auth');
+Route::get('/admin/research/create', [ResearchController::class, 'create'])->name('admin-research-create')->middleware('auth');
 Route::post('/admin/research/store', [ResearchController::class, 'store'])->name('admin-research-store')->middleware('auth');
 
 // R - for Read

@@ -16,7 +16,7 @@ class DoctorTypeSeeder extends Seeder
     public function run()
     {
         DoctorType::factory(7)->create()->each(function ($doctorType) {
-            Doctor::factory(4)->create(['doctor_type_id' => $doctorType->id]);
+            Doctor::factory(14)->create(['doctor_type_id' => $doctorType->id]);
         });
     }
 }
