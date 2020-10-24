@@ -30,18 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474a521e-22e2-49cc-bf52-ca5603e79b3e" name="Default Changelist" comment="Version 1.5.6">
-      <change afterPath="$PROJECT_DIR$/app/Mail/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/messages-show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/messages.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d9176d1-0ef5-45c9-984e-0ba471899a26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d9176d1-0ef5-45c9-984e-0ba471899a26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DrCareController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DrCareController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/MessageFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/MessageFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_19_035014_create_messages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_19_035014_create_messages_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/appointments.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/admin-vertical-nav-bar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/contact-us-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/contact-us-form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +61,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="send-email" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,11 +78,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1603534719" />
+                    <option name="lastUsedInstant" value="1603563591" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1603534605" />
+                    <option name="branchName" value="send-email" />
+                    <option name="lastUsedInstant" value="1603563539" />
                   </RecentBranch>
                 </list>
               </option>
@@ -426,14 +417,7 @@
       <workItem from="1603332850967" duration="2752000" />
       <workItem from="1603441580511" duration="140000" />
       <workItem from="1603532402984" duration="1215000" />
-      <workItem from="1603551642212" duration="8873000" />
-    </task>
-    <task id="LOCAL-00029" summary="Version 1.3.8">
-      <created>1602065368730</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1602065368730</updated>
+      <workItem from="1603551642212" duration="11167000" />
     </task>
     <task id="LOCAL-00030" summary="Version 1.3.9">
       <created>1602155321074</created>
@@ -771,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603561149851</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Version 1.9.4">
+      <created>1603562166105</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1603562166105</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +798,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.6.8" />
     <MESSAGE value="Version 1.6.9" />
     <MESSAGE value="Version 1.7.0" />
     <MESSAGE value="Version 1.7.1" />
@@ -832,7 +822,8 @@
     <MESSAGE value="Version 1.9.1" />
     <MESSAGE value="Version 1.9.2" />
     <MESSAGE value="Version 1.9.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.9.3" />
+    <MESSAGE value="Version 1.9.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.9.4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -903,10 +894,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="215" y="59" width="1101" height="841" key="Diagram.Print.Preview.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1603555568481" />
-    <state x="93" y="93" width="1313" height="773" key="DiffContextDialog" timestamp="1603534768165">
+    <state x="93" y="93" width="1313" height="773" key="DiffContextDialog" timestamp="1603563855274">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="93" y="93" width="1313" height="773" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1603534768165" />
+    <state x="93" y="93" width="1313" height="773" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1603563855274" />
     <state x="353" y="264" key="EditFileWatcherDialog" timestamp="1602247816273">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -919,22 +910,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="584" y="374" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1500.960@0.0.1500.960" timestamp="1603534700367" />
-    <state width="1460" height="384" key="GridCell.Tab.0.bottom" timestamp="1603552088715">
+    <state width="1460" height="384" key="GridCell.Tab.0.bottom" timestamp="1603562663243">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="384" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603552088715" />
-    <state width="1460" height="384" key="GridCell.Tab.0.center" timestamp="1603552088715">
+    <state width="1460" height="384" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1603562663243" />
+    <state width="1460" height="384" key="GridCell.Tab.0.center" timestamp="1603562663243">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="384" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603552088715" />
-    <state width="1460" height="384" key="GridCell.Tab.0.left" timestamp="1603552088715">
+    <state width="1460" height="384" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1603562663243" />
+    <state width="1460" height="384" key="GridCell.Tab.0.left" timestamp="1603562663243">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="384" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603552088715" />
-    <state width="1460" height="384" key="GridCell.Tab.0.right" timestamp="1603552088715">
+    <state width="1460" height="384" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1603562663243" />
+    <state width="1460" height="384" key="GridCell.Tab.0.right" timestamp="1603562663243">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1460" height="384" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603552088715" />
+    <state width="1460" height="384" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1603562663243" />
     <state width="309" height="539" key="HiddenNamespacesPopup" timestamp="1602427295805">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -959,18 +950,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="11" y="179" width="1472" height="706" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1603332818727" />
-    <state x="93" y="93" width="1313" height="773" key="ShowDiffWithBranchDialog" timestamp="1603534768165">
+    <state x="93" y="93" width="1313" height="773" key="ShowDiffWithBranchDialog" timestamp="1603563855274">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="93" y="93" width="1313" height="773" key="ShowDiffWithBranchDialog/0.0.1500.960@0.0.1500.960" timestamp="1603534768165" />
+    <state x="93" y="93" width="1313" height="773" key="ShowDiffWithBranchDialog/0.0.1500.960@0.0.1500.960" timestamp="1603563855274" />
     <state width="498" height="476" key="SwitcherDM" timestamp="1603013753310">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="498" height="476" key="SwitcherDM/0.0.1500.960@0.0.1500.960" timestamp="1603013753310" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1603561169650">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1603562245792">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1603561169650" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1603562245792" />
+    <state x="266" y="132" key="VcsDiffUtil.ChangesDialog" timestamp="1603563495003">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="266" y="132" key="VcsDiffUtil.ChangesDialog/0.0.1500.960@0.0.1500.960" timestamp="1603563495003" />
     <state x="435" y="324" key="cloudConfig.PluginsDialog" timestamp="1602038761973">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

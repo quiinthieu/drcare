@@ -78,6 +78,14 @@ Route::get('/register', function() {
 // DASHBOARD - START
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
 // DASHBOARD - END
+
+// MESSAGES - START
+Route::get('/admin/messages', [MessageController::class, 'index'])->name('admin-messages-index')->middleware('auth');
+Route::get('/admin/messages/email/{id}', [MessageController::class, 'sendEmail'])->name('admin-messages-email')->middleware('auth');
+Route::get('/admin/messages/{id}', [MessageController::class, 'show'])->name('admin-messages-show')->middleware('auth');
+Route::get('/admin/messages/delete/{id}', [MessageController::class, 'destroy'])->name('admin-messages-delete')->middleware('auth');
+// MESSAGES - END
+
 // APPOINTMENTS - START
 // C - for Create
 Route::get('/admin/appointments/create', function() {
