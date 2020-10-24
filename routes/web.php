@@ -11,7 +11,7 @@ use App\Http\Controllers\DiseaseController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ResearchController;
 use App\Http\Controllers\ServiceController;
-
+use App\Http\Controllers\MessageController;
 Auth::routes();
 
 // DRCARE - START
@@ -73,6 +73,19 @@ Route::get('/register', function() {
 })->name('register');
 
 // ADMIN - START
+
+//messages
+Route::get('/admin/messages', [MessageController::class, 'index'])->name('admin-messages-index')->middleware('auth');
+Route::get('/admin/messages/email/{id}', [MessageController::class, 'sendEmail'])->name('admin-messages-email')->middleware('auth');
+Route::get('/admin/messages/{id}', [MessageController::class, 'show'])->name('admin-messages-show')->middleware('auth');
+Route::get('/admin/messages/delete/{id}', [MessageController::class, 'destroy'])->name('admin-messages-delete')->middleware('auth');
+
+
+
+
+
+
+
 // DASHBOARD - START
 Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('admin-dashboard');
 // DASHBOARD - END
@@ -105,7 +118,7 @@ Route::get('/admin/appointments/edit/{id}', [AppointmentController::class, 'edit
 Route::post('/admin/appointments/update/{id}', [AppointmentController::class, 'update'])->name('admin-appointments-update')->middleware('auth');
 
 // D - for Delete
-Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete');
+Route::get('/admin/appointments/delete/{id}', [AppointmentController::class, 'destroy'])->name('admin-appointments-delete')->middleware('auth');
 // APPOINTMENTS - END
 
 // DISEASES - START

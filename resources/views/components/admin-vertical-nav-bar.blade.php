@@ -14,6 +14,14 @@
                         <span class="pcoded-mtext">Dashboard</span>
                     </a>
                 </li>
+                  <li class="nav-item {{(request()->is('admin/messages*'))  ? "active" : ""}}">
+                    <a href="{{route('admin-messages-index')}}" class="nav-link ">
+                        <span class="pcoded-micon">
+                            <i class="feather icon-home"></i>
+                        </span>
+                        <span class="pcoded-mtext">Contact</span>
+                    </a>
+                </li>
                 <li class="nav-item {{(request()->is('admin/appointments*'))  ? "active" : ""}}">
                     <a href="{{route('admin-appointments-index')}}" class="nav-link ">
                         <span class="pcoded-micon">

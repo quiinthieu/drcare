@@ -1,4 +1,5 @@
 <!-- It is quality rather than quantity that matters. - Lucius Annaeus Seneca -->
+@include('includes.messages')
 <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
     <div class="container">
         <div class="row d-flex align-items-stretch no-gutters">

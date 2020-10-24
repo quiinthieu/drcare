@@ -68,7 +68,7 @@ class DrCareController extends Controller
 
     public function messagesStore(Request $request) {
         Message::create($request->except('_token'));
-        return Redirect::route('drcare-messages-create', ['message' => 'Message Sent!']);
+        return Redirect::route('drcare-messages-create')->with('message', 'Message Sent!');
     }
 
     public function appointmentsCreate() {
