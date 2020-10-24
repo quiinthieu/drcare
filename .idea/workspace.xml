@@ -412,14 +412,7 @@
       <workItem from="1603332616306" duration="201000" />
       <workItem from="1603332850967" duration="2752000" />
       <workItem from="1603441580511" duration="140000" />
-      <workItem from="1603532402984" duration="758000" />
-    </task>
-    <task id="LOCAL-00025" summary="Version 1.3.4">
-      <created>1601709204731</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1601709204731</updated>
+      <workItem from="1603532402984" duration="1215000" />
     </task>
     <task id="LOCAL-00026" summary="Version 1.3.5">
       <created>1601709327786</created>
@@ -757,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603441621981</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Version 1.8.9">
+      <created>1603533341289</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1603533341289</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +793,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 1.6.2" />
     <MESSAGE value="Version 1.6.3" />
     <MESSAGE value="Version 1.6.4" />
     <MESSAGE value="Version 1.6.5" />
@@ -818,7 +817,8 @@
     <MESSAGE value="Version 1.8.6" />
     <MESSAGE value="Version 1.8.7" />
     <MESSAGE value="Version 1.8.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.8.8" />
+    <MESSAGE value="Version 1.8.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.8.9" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="195" key="#CLI_Interpreters" timestamp="1602736463189">
@@ -829,10 +829,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="151" y="93" width="1320" height="773" key="#EditorConfig/0.0.1500.960@0.0.1500.960" timestamp="1602170220542" />
-    <state x="242" y="82" key="#Illuminated_Cloud" timestamp="1602070723128">
+    <state x="242" y="82" key="#Illuminated_Cloud" timestamp="1603533167176">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="242" y="82" key="#Illuminated_Cloud/0.0.1500.960@0.0.1500.960" timestamp="1602070723128" />
+    <state x="242" y="82" key="#Illuminated_Cloud/0.0.1500.960@0.0.1500.960" timestamp="1603533167176" />
     <state x="369" y="313" key="#Illuminated_Cloud_(drcare)" timestamp="1602070716763">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
