@@ -14,7 +14,8 @@ class DocumentController extends Controller
      */
     public function index()
     {
-        //
+        $documents = Document::all();
+
     }
 
     /**

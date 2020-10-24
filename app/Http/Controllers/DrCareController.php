@@ -79,10 +79,10 @@ class DrCareController extends Controller
 
 
         $request->validate([
-            'phone'=>'required|numeric',     
+            'phone'=>'required|numeric',
            ],[
-            'phone.required'=>'Phone must be a valid phone number.'      
-           ]); 
+            'phone.required'=>'Phone must be a valid phone number.'
+           ]);
 
 
         $appointment = new Appointment();
@@ -98,7 +98,6 @@ class DrCareController extends Controller
     }
 
     public function doctors() {
-        $doctors = Doctor::all();
-        return view('drcare.doctors', ['doctors' => $doctors]);
+        return view('drcare.doctors');
     }
 }

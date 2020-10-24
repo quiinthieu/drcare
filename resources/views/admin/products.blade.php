@@ -1,6 +1,6 @@
 @extends('layouts.admin', ['pageHeader' => 'Products'])
 @section('content')
-@include('includes.messages')
+    @include('includes.messages')
     <div class="row">
         <div class="col-xl-12">
             <div class="card">
@@ -13,27 +13,31 @@
                             <form action="{{route('admin-products-index')}}" method="get">
                                 <div class="input-group">
                                     <select class="custom-select" name="filter">
-                                        <option 
-                                        @isset($filter)  
-                                        {{($filter == 'Select All')? 'selected' : ''}}
-                                        @endisset                    
-                                        >Select All</option>
+                                        <option
+                                        @isset($filter)
+                                            {{($filter == 'Select All')? 'selected' : ''}}
+                                            @endisset
+                                        >Select All
+                                        </option>
                                         @foreach($categories as $category)
-                                        <option value="{{$category->id}}" 
-                                                @isset($filter)  
+                                            <option value="{{$category->id}}"
+                                            @isset($filter)
                                                 {{($filter == $category->id)? 'selected' : ''}}
                                                 @endisset
-                                            >{{$category->name}}</option>                    
+                                            >{{$category->name}}</option>
                                         @endforeach
                                     </select>
                                     <div class="input-group-append">
-                                        <button class="btn  btn-info btn-sm btn-round has-ripple" type="submit" >Filter</button>
+                                        <button class="btn  btn-info btn-sm btn-round has-ripple" type="submit">Filter
+                                        </button>
                                     </div>
                                 </div>
-                            </form>        
+                            </form>
                         </div>
                         <div class="col-sm-4 text-right">
-                            <a role="button" class="btn btn-success btn-sm btn-round has-ripple" href="{{route('admin-products-create')}}"><i class="feather icon-plus"></i>Add New Product</a>
+                            <a role="button" class="btn btn-success btn-sm btn-round has-ripple"
+                               href="{{route('admin-products-create')}}"><i class="feather icon-plus"></i>Add New
+                                Product</a>
                         </div>
                     </div>
                 </div>
@@ -78,53 +82,49 @@
                                         <p class="card-text">{{$product->description}}</p>
                                         <div class="d-flex justify-content-between align-items-center">
                                             <span
-                                                class="badge       @if($product->category_id ==1)badge-danger 
+                                                class="badge       @if($product->category_id ==1)badge-danger
                                                 @elseif($product->category_id ==2)badge-primary
                                                 @elseif($product->category_id ==3)badge-info
                                                 @else badge-warning
                                                 @endif
-                                                ">{{\Illuminate\Support\Facades\DB::table('categories')->find($product->category_id)->name}}</span>
-                                            <span class="font-weight-bold lead">${{number_format($product->price, 2)}}</span>
+                                                    ">{{\Illuminate\Support\Facades\DB::table('categories')->find($product->category_id)->name}}</span>
+                                            <span
+                                                class="font-weight-bold lead">${{number_format($product->price, 2)}}</span>
                                         </div>
 
                                     </div>
-                                    <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <div class="form-group">
-                                            <a class="btn btn-outline-primary btn-sm" role="button"
-                                            href="{{route('admin-products-edit', ['id' => $product->id])}}">Edit</a>
-                                         &nbsp;
-                                         <a class="btn btn-outline-danger btn-sm" role="button"
-                                            href="{{route('admin-products-delete', ['id' => $product->id])}}"
-                                            onclick="if(!confirm('Are you sure, you want to delete this ?')){ event.preventDefault();}"
-                                            >Delete</a>
+                                    <div class="card-footer d-flex align-items-stretch justify-content-between">
+                                        <div class="d-flex align-items-center ">
+                                            <a href="{{route('admin-products-edit', ['id' => $product->id])}}"
+                                               class="nav-link ">
+                                                <span class="pcoded-micon">
+                                                    <i class="feather icon-edit"></i>
+                                                </span>
+                                            </a>
+                                            <a href="{{route('admin-products-delete', ['id' => $product->id])}}"
+                                               class="nav-link ">
+                                                <span class="pcoded-micon">
+                                                    <i class="feather icon-trash text-danger"></i>
+                                                </span>
+                                            </a>
                                         </div>
-
-                                        <div class="form-group">
-                                            <div class="switch switch-primary d-inline m-r-8">
-                                                <input type="checkbox"  
-                                                {{($product->status) ? 'checked="" ':''}}
-                                                >
-                                                <label for="switch-p-1" class="cr"></label>
-                                            </div>
-                                            <label class="badge badge-pill 
-                                            {{($product->status) ? 'badge-primary':'badge-danger'}}
-                                            ">{{
-                                            ($product->status) ? 'Active':'Inactive'
-                                            }}</label>    
+                                        <div class="d-flex align-items-end ">
+                                            <label
+                                                class="badge badge-pill {{($product->status) ? 'badge-primary':'badge-danger'}}">
+                                                {{($product->status) ? 'Active':'Inactive'}}
+                                            </label>
                                         </div>
-                                       
-                                        
                                     </div>
                                 </div>
                             </div>
                         @endforeach
                     </div>
-                    @if(isset($filter))         
-                    {{$products->appends(array('filter' => $filter))->links()}}
+                    @if(isset($filter))
+                        {{$products->appends(array('filter' => $filter))->links()}}
                     @else
-                    {{$products->links()}}
+                        {{$products->links()}}
                     @endif
-                    
+
                 </div>
             </div>
         </div>

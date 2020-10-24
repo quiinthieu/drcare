@@ -15,7 +15,7 @@ class DoctorListing extends Component
      */
     public function __construct()
     {
-        $this->doctors = Doctor::all();
+        $this->doctors = Doctor::where('status', true)->paginate(8);
     }
 
     /**

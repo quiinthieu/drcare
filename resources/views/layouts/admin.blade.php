@@ -137,5 +137,8 @@
 <script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('admin/js/ripple.js')}}"></script>
 <script src="{{asset('admin/js/pcoded.js')}}"></script>
+
+<script src="{{asset('admin/js/plugins/apexcharts.min.js')}}"></script>
+<script src="{{asset('admin/js/pages/chart-apex.js')}}"></script>
 </body>
 </html>

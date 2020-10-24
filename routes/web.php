@@ -11,6 +11,7 @@ use App\Http\Controllers\DiseaseController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ResearchController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\DocumentController;
 
 Auth::routes();
 
@@ -60,7 +61,7 @@ Route::post('/appointments/store', [DrCareController::class, 'appointmentsStore'
 // APPOINTMENTS - END
 
 // DOCTORS - START
-Route::get('/doctors', [DrcareController::class, 'doctors'])->name('drcare-doctors');
+Route::get('/doctors', [DrCareController::class, 'doctors'])->name('drcare-doctors');
 // DOCTORS - END
 
 // DRCARE - END
@@ -91,7 +92,7 @@ Route::post('/admin/appointments/store', function(\Illuminate\Http\Request $requ
     $appointment->setTime($request->get('time'));
     $appointment->message = $request->get('message');
     $appointment->save();
-   
+
    /*  return view('admin.appointments-create')->with('message', 'Create Successfull !'); */
     return \Illuminate\Support\Facades\Redirect::route('admin-appointments-index')->with('message', 'Create Successfull !');
 })->name('admin-appointments-store')->middleware('auth');
@@ -193,4 +194,22 @@ Route::post('/admin/services/update/{id}', [ServiceController::class, 'update'])
 // D - for Delete
 Route::get('/admin/services/delete/{id}', [ServiceController::class, 'destroy'])->name('admin-services-delete')->middleware('auth');
 // SERVICES - END
+
+// RELATED DOCUMENTS - START
+//// C - for Create
+//Route::get('/admin/documents/create', [DocumentController::class, 'create'])->name('admin-documents-create')->middleware('auth');
+//Route::post('/admin/documents/store', [DocumentController::class, 'store'])->name('admin-documents-store')->middleware('auth');
+//
+//// R - for Read
+//Route::get('/admin/documents/index', [DocumentController::class, 'index'])->name('admin-documents-index')->middleware('auth');
+//Route::get('/admin/documents/show/{id}', [DocumentController::class, 'show'])->name('admin-documents-show')->middleware('auth');
+//
+//// U - for Update
+//Route::get('/admin/documents/edit/{id}', [DocumentController::class, 'edit'])->name('admin-documents-edit')->middleware('auth');
+//Route::post('/admin/services/update/{id}', [ServiceController::class, 'update'])->name('admin-documents-update')->middleware('auth');
+//
+//// D - for Delete
+//Route::get('/admin/documents/delete/{id}', [DocumentController::class, 'destroy'])->name('admin-documents-delete')->middleware('auth');
+//// RELATED DOCUMENTS - END
+
 // ADMIN - END

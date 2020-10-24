@@ -1908,14 +1908,16 @@ $(document).ready(function() {
             chart.render();
         });
         $(function() {
+            var active = Number($('#pie-chart-1').attr("active"));
+            var inactive = Number($('#pie-chart-1').attr("inactive"));
             var options = {
                 chart: {
                     height: 320,
                     type: 'pie',
                 },
-                labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
-                series: [44, 55, 13, 43, 22],
-                colors: ["#4680ff", "#0e9e4a", "#00acc1", "#ffba57", "#ff5252"],
+                labels: ['Active', 'Inactive'],
+                series: [active, inactive],
+                colors: ["#0e9e4a", "#ff5252"],
                 legend: {
                     show: true,
                     position: 'bottom',
@@ -1942,13 +1944,16 @@ $(document).ready(function() {
             chart.render();
         });
         $(function() {
+            var active = Number($('#pie-chart-2').attr("active"));
+            var inactive = Number($('#pie-chart-2').attr("inactive"));
             var options = {
                 chart: {
                     height: 320,
                     type: 'donut',
                 },
-                series: [44, 55, 41, 17, 15],
-                colors: ["#4680ff", "#0e9e4a", "#00acc1", "#ffba57", "#ff5252"],
+                labels: ['Active', 'Inactive'],
+                series: [active, inactive],
+                colors: ["#0e9e4a", "#ff5252"],
                 legend: {
                     show: true,
                     position: 'bottom',
@@ -1976,7 +1981,7 @@ $(document).ready(function() {
                 },
                 responsive: [{
                     breakpoint: 480,
-                    options: {          
+                    options: {
                         legend: {
                             position: 'bottom'
                         }
