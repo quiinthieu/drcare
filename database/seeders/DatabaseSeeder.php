@@ -24,6 +24,7 @@ class DatabaseSeeder extends Seeder
             MessageSeeder::class,
             CourseSeeder::class,
             DocumentSeeder::class,
+            ResourceTypeSeeder::class,
         ]);
     }
 }

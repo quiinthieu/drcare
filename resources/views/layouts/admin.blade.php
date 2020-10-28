@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Admin</title>
+    <title>{{config('app.name', 'Laravel')}} | Admin</title>
     <!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 11]>
@@ -58,7 +58,7 @@
                             </form>
                         </div>
                         <ul class="pro-body">
-                            <li><a href="user-profile.html" class="dropdown-item"><i class="feather icon-user"></i>
+                            <li><a href="#" class="dropdown-item"><i class="feather icon-user"></i>
                                     Profile</a></li>
                             <li><a href="{{route('drcare-index')}}" class="dropdown-item"><i class="feather icon-lock"></i>
                                     Lock

@@ -23,7 +23,7 @@ class DiseaseTypeFactory extends Factory
     {
         return [
             'name' => $this->faker->unique()->randomElement(['Oral Diseases', 'Dental Diseases']),
-            'description' => $this->faker->paragraph
+            'description' => $this->faker->realText(200)
         ];
     }
 }

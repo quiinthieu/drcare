@@ -11,6 +11,10 @@ class Disease extends Model
 
     protected $fillable = ['name', 'disease_type_id', 'description', 'statistics', 'causes', 'symptoms', 'preventions'];
 
+    protected $attributes = [
+        'status' => true
+    ];
+
     public function diseaseType() {
         return $this->belongsTo(DiseaseType::class);
     }

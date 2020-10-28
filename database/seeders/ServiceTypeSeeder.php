@@ -16,7 +16,7 @@ class ServiceTypeSeeder extends Seeder
     public function run()
     {
         ServiceType::factory(4)->create()->each(function($serviceType) {
-            Service::factory(16)->create(['service_type_id' => $serviceType->id]);
+            Service::factory(6)->create(['service_type_id' => $serviceType->id]);
         });
     }
 }

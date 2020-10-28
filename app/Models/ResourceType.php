@@ -5,7 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class StudentResource extends Model
+class ResourceType extends Model
 {
     use HasFactory;
+
+    public function resources() {
+        $this->hasMany(Resource::class);
+    }
 }

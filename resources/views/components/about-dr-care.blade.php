@@ -7,7 +7,7 @@
             <div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
                 <div class="heading-section mb-5">
                     <div class="pl-md-5 ml-md-5">
-                        <span class="subheading">About Dr.care</span>
+                        <span class="subheading">About 32Smiles</span>
                         <h2 class="mb-4" style="font-size: 28px;">Medical specialty concerned with the care of
                             acutely
                             ill hospitalized patients</h2>

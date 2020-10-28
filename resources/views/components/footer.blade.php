@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md">
                 <div class="ftco-footer-widget mb-5">
-                    <h2 class="ftco-heading-2 logo">Dr. <span>Care</span></h2>
-                    <p>{{Faker\Factory::create()->realText(100)}}</p>
+                    <h2 class="ftco-heading-2 logo">32<span>Smiles</span></h2>
+                    <p>We care about your health & We love to see you happy</p>
                 </div>
                 <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -32,12 +32,10 @@
                     <h2 class="ftco-heading-2">Links</h2>
                     <ul class="list-unstyled">
                         <li><a href="{{route('drcare-index')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                        <li><a href="{{route('drcare-about')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                        <li><a href="{{route('drcare-about')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>About Us</a></li>
                         <li><a href="{{route('drcare-research')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Research</a></li>
-                        <li><a href="{{route('admin-dashboard')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Admin Dashboard</li>
-{{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>--}}
-{{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>--}}
-{{--                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>--}}
+                        <li><a href="{{route('drcare-messages-create')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact Us</a></li>
+                        <li><a href="{{route('admin-dashboard')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Admin Dashboard</a></li>
                     </ul>
                 </div>
                 <div class="ftco-footer-widget mb-5 ml-md-4">
@@ -54,18 +52,34 @@
                 </div>
             </div>
             <div class="col-md">
-                <div class="ftco-footer-widget mb-5">
+                <div class="ftco-footer-widget mb-5 ml-md-4">
                     <h2 class="ftco-heading-2">Opening Hours</h2>
                     <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are open 24/7</h3>
                 </div>
-                <div class="ftco-footer-widget mb-5">
-                    <h2 class="ftco-heading-2">Subscribe Us!</h2>
-                    <form action="#" class="subscribe-form">
-                        <div class="form-group">
-                            <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                            <input type="submit" value="Subscribe" class="form-control submit px-3">
-                        </div>
-                    </form>
+                <div class="ftco-footer-widget mb-5 ml-md-4">
+                    <h2 class="ftco-heading-2">Professional Education</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="{{route('drcare-professional-education-related-courses')}}">
+                                <span class="ion-ios-arrow-round-forward mr-2"></span>Related Courses
+                            </a>
+                        </li>
+                        <li><a href="{{route('drcare-professional-education-help-documents')}}">
+                                <span class="ion-ios-arrow-round-forward mr-2"></span>Help Documents
+                            </a>
+                        </li>
+                        <li><a href="{{route('drcare-professional-education-faculty-resources')}}">
+                                <span class="ion-ios-arrow-round-forward mr-2"></span>Faculty Resources
+                            </a>
+                        </li>
+                        <li><a href="{{route('drcare-professional-education-student-resources')}}">
+                                <span class="ion-ios-arrow-round-forward mr-2"></span>Student Courses
+                            </a>
+                        </li>
+                        <li><a href="{{route('drcare-professional-education-case-studies')}}">
+                                <span class="ion-ios-arrow-round-forward mr-2"></span>Case studies
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

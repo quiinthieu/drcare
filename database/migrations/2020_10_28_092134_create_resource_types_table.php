@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateStudentResourcesTable extends Migration
+class CreateResourceTypesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,9 @@ class CreateStudentResourcesTable extends Migration
      */
     public function up()
     {
-        Schema::create('student_resources', function (Blueprint $table) {
+        Schema::create('resource_types', function (Blueprint $table) {
             $table->id();
+            $table->string('name', 255);
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreateStudentResourcesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('student_resources');
+        Schema::dropIfExists('resource_types');
     }
 }

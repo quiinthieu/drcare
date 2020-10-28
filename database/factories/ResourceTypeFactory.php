@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\StudentResource;
+use App\Models\ResourceType;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class StudentResourceFactory extends Factory
+class ResourceTypeFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = StudentResource::class;
+    protected $model = ResourceType::class;
 
     /**
      * Define the model's default state.
@@ -22,7 +22,7 @@ class StudentResourceFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => $this->faker->unique()->randomElement(['Student', 'Faculty']),
         ];
     }
 }
