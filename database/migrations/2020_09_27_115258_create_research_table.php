@@ -22,7 +22,7 @@ class CreateResearchTable extends Migration
             $table->text('subtitle');
             $table->json('content');
             $table->dateTime('published_at');
-            $table->boolean('status');
+            $table->boolean('status')->default('0');
             $table->timestamps();
         });
     }

@@ -7,6 +7,7 @@
                 <p>
                     <img src="{{asset($article->thumbnail)}}" alt="" class="img-fluid">
                 </p>
+               
                 @foreach(json_decode($article->content) as $paragraph)
                     <p>{{$paragraph}}</p>
                 @endforeach

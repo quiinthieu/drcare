@@ -17,7 +17,7 @@ class CreateServicesTable extends Migration
             $table->id();
             $table->foreignId('service_type_id')->constrained();
             $table->string('name', 255);
-            $table->boolean('status');
+            $table->boolean('status')->default('0');
             $table->timestamps();
         });
     }

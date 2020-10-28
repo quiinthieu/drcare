@@ -16,6 +16,9 @@ class Doctor extends Model
         'photo',
         'status'
     ];
+    protected $attributes = [
+        'status' => false
+    ];
 
     public function doctorType() {
         return $this->belongsTo(DoctorType::class);

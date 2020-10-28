@@ -22,7 +22,7 @@ class DocumentFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->realText(10),
+            'title' => $this->faker->randomElement(['Implications of WHO Guideline on Sugars for dental health professionals', 'Sugars and dental caries', 'A guide for oral disease patients to quit tobacco use', 'Consultation on Public Health Intervention against Early Childhood Caries']),
             'subtitle' => $this->faker->realText(100),
             'author' => $this->faker->name,
             'type' => $this->faker->randomElement(['Hardcover', 'Paperback', 'Loose Leaf', 'eBook'])
